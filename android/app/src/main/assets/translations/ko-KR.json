@@ -1,0 +1,1192 @@
+{
+  "call_to_action": {
+    "ok": "확인",
+    "add": "추가",
+    "done": "완료",
+    "cancel": "취소",
+    "continue": "계속",
+    "delete": "삭제",
+    "remove": "제거",
+    "save": "저장",
+    "yes": "네",
+    "no": "아니오",
+    "open_menu": {
+      "accessibility_label": "메뉴"
+    },
+    "go_back": {
+      "accessibility_label": "뒤로가기"
+    },
+    "close": {
+      "accessibility_label": "닫기"
+    },
+    "close_dialog": {
+      "accessibility_label": "닫기"
+    },
+    "external_link_confirmation": {
+      "title": "Open link?",
+      "description": "Do you want to open {{link}} in your browser?"
+    }
+  },
+  "date": {
+    "relative": {
+      "past": {
+        "years": {
+          "one": "1 년 전",
+          "other": "{{count}} 년 전"
+        },
+        "months": {
+          "one": "한달 전",
+          "other": "{{count}} 달 전"
+        },
+        "weeks": {
+          "one": "1 주 전",
+          "other": "{{count}} 주 저"
+        },
+        "days": {
+          "one": "하루 전",
+          "other": "{{count}} 일 전"
+        },
+        "hours": {
+          "one": "한시간 전",
+          "other": "{{count}} 시간 전"
+        },
+        "minutes": {
+          "one": "1분전",
+          "other": "{{count}} 분 전"
+        },
+        "now": "방금전"
+      },
+      "future": {
+        "years": {
+          "one": "지금으로부터 1년 전",
+          "other": "지금으로부터 {{count}} 년 전"
+        },
+        "months": {
+          "one": "지금으로부터 한달 전",
+          "other": "지금으로부터 {{count}} 달 전"
+        },
+        "weeks": {
+          "one": "지금으로부터 일주일 전",
+          "other": "지금으로부터 {{count}} 주 전"
+        },
+        "days": {
+          "one": "지금으로부터 하루 전",
+          "other": "지금으로부터 {{count}} 일 전"
+        },
+        "hours": {
+          "one": "지금으로부터 한시간 전",
+          "other": "지금으로부터 {{count}} 시간 전"
+        },
+        "minutes": {
+          "one": "지금으로부터 1분 전",
+          "other": "지금으로부터 {{count}} 분 전"
+        },
+        "now": "잠시후"
+      }
+    }
+  },
+  "welcome": {
+    "learn_more": "더 보기",
+    "overview": {
+      "title": "Manyverse에 잘 오셨어요!",
+      "description": "심플하고, 중립적이며, 광고가 없는 SNS. 오롯이 친구들간의 신뢰를 바탕으로 만들어진 Manyverse는 디지털 세계에서 여러분의 안식처가 될 수 있기를 희망합니다. 새롭게 만들어진 SSB 프로토콜로 이 모든것이 실현 가능하게 되었습니다."
+    },
+    "off_the_grid": {
+      "title": "오프라인",
+      "description": {
+        "1_normal": "Manyverse는 인터넷을 이용하지만, 인터넷에서 ",
+        "2_bold": "동작하지는",
+        "3_normal": " 않습니다. 모든일은 여러분의 디바이스에서 일어납니다. 즉, 여러분이 오프라인일때도 사용이 가능하다는 뜻입니다. 여러분의 ",
+        "4_bold": "컨텐트는 여러분의 디바이스에 먼저 저장이 되며",
+        "5_normal": ", 친구들과 연결되었을 때 동기화를 할수 있게 됩니다."
+      }
+    },
+    "connections": {
+      "title": "다양한 연결 방법",
+      "description": {
+        "ios": {
+          "1_normal": "친구와 연결하고 컨텐트를 동기화 하려면, 동일한 ",
+          "2_bold": "Wi-Fi에 연결해야 합니다",
+          "3_normal": ". 인터넷을 통해 새로운 친구들과 연결하려면, ",
+          "4_bold": "pub server에서 초대코드를",
+          "5_normal": " 찾아보거나 ",
+          "6_bold": "룸 서버를 찾아보세요.",
+          "7_normal": "또는 본인만의 새로운 서버를 시작하셔도 좋습니다!"
+        },
+        "default": {
+          "1_normal": "친구와 연결하고 컨텐트를 동기화 하려면, 동일한 ",
+          "2_bold": "Wi-Fi에 연결하거나",
+          "3_normal": ", 또는 ",
+          "4_bold": "Bluetooth 동기화",
+          "5_normal": "를 사용하세요. 인터넷을 통해 새로운 친구들과 연결하려면, ",
+          "6_bold": "pub 서버",
+          "7_normal": " 찾아보거나 ",
+          "8_bold": "룸 서버를 찾아보거나",
+          "9_normal": ", 본인만의 새로운 서버를 시작하세요!"
+        }
+      }
+    },
+    "moderation": {
+      "title": "함께하는 분쟁 조정",
+      "description": {
+        "1_normal": "여러분의 디바이스에 Sns를 저장하기 때문에 당신을 제외하고는 당신을 추방하거나 계정을 삭제할 수 없습니다. 당신의 공간에 원하지 않는 게시자를 제외하려면, ",
+        "2_bold": "원하지 않는 계정을",
+        "3_normal": " 차단하신 후, 주변의 친구들에게 해당 계정을 차단할 수 있도록 알려주세요. 이렇게 자연적으로 광고 및 목적에 맞지 않는 게시자를 차단할 수 있습니다!"
+      }
+    },
+    "permanence": {
+      "title": "성능",
+      "description": {
+        "1_normal": "한번 친구들과 동기화 된 후에는 친구들은 컨텐츠를 자신의 디바이스에 온전한 복사본을 가지게 됩니다. 이후에 친구들이 오프라인이 될 수 있기 때문에, ",
+        "2_bold": "당신의 게시물을",
+        "3_normal": " 모든 디바이스에서 삭제하는것은 불가능합니다! 이것이 우리가 모든 컨텐트가 영구적으로 저장되기로 선택한 이유입니다. 영구 저장 게시물은 커뮤니티에 좀 더 존중하고 서로를 배려할 수 있게 만듭니다."
+      }
+    },
+    "in_construction": {
+      "title": "공사중!",
+      "description": {
+        "1_normal": "Manyverse는 ",
+        "2_bold": "베타 수준의 소프트웨어입니다",
+        "3_normal": ". 우리는 아직 모든 것을 파악하지 못했고 일부는 수정이 필요합니다. 동기화하는 동안 앱이 몇 분 동안 정지된 것처럼 보일 수 있습니다. 인내심을 가지고 기다려 주세요. 혹시라도 발견하신 버그가 있으면 알려주세요. 여러분의 충분한 기다림과 기부는 우리가 이 앱을 더욱더 훌륭한 앱으로 만들 수 있게 하는 원동력이 됩니다."
+      }
+    },
+    "setup_account": {
+      "title": "처음이신가요?",
+      "description": "새로운 계정을 생성하시겠습니까? 24단어 복구 단어로 기존 계정을 복원할 수도 있습니다.",
+      "call_to_action": {
+        "create": {
+          "label": "새로운 계정 생성하기",
+          "accessibility_label": "생성"
+        },
+        "restore": {
+          "label": "기존 계정 복원하기",
+          "accessibility_label": "복원"
+        }
+      }
+    }
+  },
+  "central": {
+    "app_name": "Manyverse",
+    "tab_headers": {
+      "public": "공개 게시물",
+      "private": "비공개 채팅",
+      "activity": "활동",
+      "connections": "Connected peers"
+    },
+    "tab_footers": {
+      "public": "공개",
+      "private": "비공개",
+      "activity": "활동",
+      "connections": "연결"
+    },
+    "loading": "로드중...",
+    "building_indexes": "데이터베이스 인덱스를 생성중입니다...\n몇분 정도 걸립니다",
+    "tabs": {
+      "public": {
+        "accessibility_label": "공개"
+      },
+      "private": {
+        "accessibility_label": "비공개"
+      },
+      "activity": {
+        "accessibility_label": "활동"
+      },
+      "connections": {
+        "accessibility_label": "연결"
+      }
+    }
+  },
+  "public": {
+    "floating_action_button": {
+      "compose": "공개 메세지 작성"
+    },
+    "empty": {
+      "title": "메세지가 없습니다",
+      "description": "나중에 친구들과 공유하려면\n다이어리를 쓰세요"
+    },
+    "search": {
+      "accessibility_label": "검색"
+    }
+  },
+  "private": {
+    "floating_action_button": {
+      "compose": "비공개 대화 시작"
+    },
+    "empty": {
+      "title": "대화 없음",
+      "description": "친구와 비공개 대화를 시작하세요."
+    },
+    "conversation": {
+      "accessibility_label": "대화로 이동"
+    }
+  },
+  "accounts": {
+    "reactions": {
+      "title": "반응"
+    },
+    "recipients": {
+      "title": "받는 사람"
+    },
+    "call_to_action": {
+      "open_account": {
+        "accessibility_label": "계정으로 가기"
+      }
+    }
+  },
+  "activity": {
+    "mention": {
+      "label": {
+        "1_normal": "",
+        "2_bold": "{{author}}",
+        "3_normal": " 님이 당신을 멘션 했습니다"
+      }
+    },
+    "follow": {
+      "label": {
+        "1_normal": "",
+        "2_bold": "{{author}}",
+        "3_normal": " 님이 당신을 팔로우 합니다"
+      }
+    },
+    "connection_attempt": {
+      "label": {
+        "1_normal": "",
+        "2_bold": "{{author}}",
+        "3_normal": " 님이 당신과 연결하고 싶어합니다"
+      }
+    },
+    "empty": {
+      "title": "활동 없음",
+      "description": "친구들이 당신을 팔로우 하거나 멘션하는 경우\n이곳에 보여집니다"
+    }
+  },
+  "connections": {
+    "title": "Connections Panel",
+    "floating_action_button": {
+      "create_invite": "초대 생성",
+      "paste_invite": "초대 붙여넣기",
+      "bluetooth_seek": "Bluetooth 찾기"
+    },
+    "open_connections_panel": "Open Connections Panel",
+    "empty": {
+      "offline": {
+        "title": "오프라인",
+        "description": "한가지 이상의 연결모드를 활성화 해야 합니다\n물론 켜지 않아도 저장된 컨텐트를 즐기실 수 있습니다"
+      },
+      "connecting": {
+        "title": "연결중",
+        "description": "주변에 연결할 수 있을 때까지 \n잠시 기다려 주세요"
+      },
+      "no_peers": {
+        "title": "연결 없음",
+        "description": "주변 사람들과 동기화를 하거나 서버 초대 코드를 사용하세요."
+      }
+    },
+    "scenarios": {
+      "offline": "오프라인",
+      "not_connected": "Not connected",
+      "few_connections": "Too few connections",
+      "many_connections": "Well connected"
+    },
+    "scenario_descriptions": {
+      "offline_with_content": "You cannot connect to peers at the moment, but you can enjoy some content that you already have.",
+      "offline_without_content": "You cannot connect to peers at the moment. Try to get some internet connectivity or turn on Wi-Fi to discover peers nearby.",
+      "knows_no_one": "Your Manyverse is at the moment isolated. You need to be invited by other peers to join room servers, or you can host a room server yourself.",
+      "nearby_strangers_available": "You are not yet connected to anyone, but there are some peers on the same Wi-Fi. Try to connect to them manually if you think they are willing to connect to you too.",
+      "empty_rooms": "You are a member of some rooms, but there is no one you know currently online. Try connecting manually to a stranger in the room, or get an invite code to other servers.",
+      "connected_poorly": "You are connected to one peer, that's good. But, to improve propagation of data, you should connect to more peers. Try waiting a bit longer, or getting an invite code to other servers.",
+      "connected_well": "You are connected to plenty of peers. All is good! They are propagating your data and you are propagating theirs."
+    },
+    "recommendations": {
+      "consume_invite": "How to get an invite",
+      "follow_staged_manually": "Follow someone new",
+      "host_ssb_room": "How to host a room server",
+      "others": "Other choices"
+    },
+    "recommendation_descriptions": {
+      "consume_invite": "This social network is based on invites, to keep it friendly and safe from spam. If you haven't yet received an invite from a friend, you can search the web for some server that gives invites to anyone.\n\nLook for the key words \"SSB room server\" or \"SSB pub server\". The hashtag #ssbroom may also be useful.",
+      "follow_staged_manually": {
+        "part1": {
+          "not_connected": "Your friends are not online right now, but if you want to get more content, there are some unknown peers currently online in the same room(s) as you are. You can try to become friends with them.",
+          "connected": "If you want to get more content beyond what you already have, you can follow more people. There are some unknown peers currently online in the same room(s) as you are. You can try to become friends with them."
+        },
+        "part2": "On the next screen, you will see unknown peers displayed like this. Press one of them and choose \"Open Profile\", then \"Follow\"."
+      }
+    },
+    "toasts": {
+      "invite_accepted": "초대가 수락되었습니다",
+      "invite_rejected": "초대가 거절되었습니다. 입력한 정보가 맞나요?",
+      "connecting_to_alias": "{{alias}} 님에게 연결중",
+      "connected_to_alias": "{{alias}} 님에게 연결 되었습니다",
+      "not_connected_to_alias": "{{alias}} 님은 현재 오프라인입니다"
+    },
+    "dialogs": {
+      "sign_in_with_ssb": {
+        "client_initiated": {
+          "title": "로그인을 허용하시겠습니까?",
+          "description": "{{room}} 의 웹사이트를 열어 초대 링크를 만들고 회원을 관리하세요. Manyverse를 사용하여 로그인하시겠습니까?\n\n이 룸의 ID는 {{roomid}} 입니다."
+        },
+        "server_initiated": {
+          "title": "로그인을 허용하시겠습니까?",
+          "description": "웹 브라우저에서 귀하를 식별할 수 있는 권한을 요청하고 있습니다. {{room}} 서버에 로그인하시겠습니까?\n\nID는 {{roomid}} 입니다."
+        }
+      }
+    },
+    "peers": {
+      "types": {
+        "bluetooth": "Bluetooth",
+        "lan": "Wi-Fi",
+        "dht": {
+          "connected": "인터넷 P2P"
+        },
+        "room": {
+          "server": "룸 서버",
+          "endpoint": "룸 피어",
+          "alone_online": "(당신만 온라인입니다)",
+          "others_online": {
+            "one": "(온라인 {{count}} 명)",
+            "other": "(온라인 {{count}} 명)"
+          }
+        },
+        "pub": "Pub 서버",
+        "server": "서버",
+        "unknown": "알 수 없음"
+      }
+    },
+    "modes": {
+      "generic": {
+        "enabled": "(활성)"
+      },
+      "bluetooth": {
+        "title": "Bluetooth",
+        "accessibility_label": "Bluetooth 모드",
+        "disabled": "(사용을 위해 Bluetooth를 켜세요)",
+        "description": "주변에 있는 사용자를 찾고 Bluetooth를 사용하여 연결합니다.",
+        "permission_request": {
+          "title": "Bluetooth로 위치 찾기를 허용하시겠습니까?",
+          "message": "Manyverse는 사용자의 위치(\"대략적 위치\") 와 주변에 있는 피어를 찾기 위해 Bluetooth를 사용합니다."
+        }
+      },
+      "wifi": {
+        "title": "Wi-Fi",
+        "accessibility_label": "Wi-Fi 모드",
+        "disabled": "(사용을 위해 Wi-Fi를 켜세요)",
+        "description": "같은 Local Area Network에 있는 친구, 즉 같은 Wi-Fi를 사용하는 친구와 연결합니다."
+      },
+      "servers": {
+        "title": "인터넷 서버",
+        "accessibility_label": "인터넷 서버 모드",
+        "disabled": "(이것을 사용하려면 온라인으로 전환)",
+        "description": "여러 계정의 최신 데이터가 포함된 다른 사람의 'Pub 서버'에 연결합니다."
+      }
+    },
+    "menu": {
+      "dialog_title": "연결",
+      "open_profile": {
+        "label": "프로필 열기",
+        "accessibility_label": {
+          "connected": "현재 연결된 피어의 프로필 화면 열기",
+          "staged": "현재 추천된 연결의 프로필 화면 열기"
+        }
+      },
+      "connect": {
+        "label": "연결",
+        "accessibility_label": {
+          "staged_peer": "추천한 이 피어에 연결",
+          "staged_room": "추천한 이 룸에 연결"
+        }
+      },
+      "follow_connect": {
+        "label": "연결 및 팔로우",
+        "accessibility_label": "추천된 이 피어에 연결 및 팔로우 하기"
+      },
+      "disconnect": {
+        "label": "연결 끊기",
+        "accessibility_label": {
+          "peer": "이 피어로부터 연결 끊기",
+          "room": "이 룸에서 연결 끊기"
+        }
+      },
+      "disconnect_forget": {
+        "label": "연결 끊고 흔적 지우기",
+        "accessibility_label": {
+          "peer": "이 피어로부터 연결을 끊고 데이터베이스에서 삭제하기",
+          "room": "이 룸으로부터 연결을 끊고 데이터베이스에서 삭제하기"
+        }
+      },
+      "forget": {
+        "label": "흔적 지우기",
+        "accessibility_label": {
+          "room": "데이테베이스에서 이 룸을 지우기"
+        }
+      },
+      "manage_aliases": {
+        "label": "나의 닉네임 관리",
+        "accessibility_label": "룸서버에서 내 닉네임을 관리하기"
+      },
+      "room_sign_in": {
+        "label": "웹사이트로 로그인",
+        "accessibility_label": "이 룸의 웹사이트를 열고 대시보드에 로그인하십시오, 버튼"
+      },
+      "room_share_invite": {
+        "label": "초대 코드 공유",
+        "accessibility_label": "이 방의 초대코드 공유하기"
+      },
+      "invite_info": {
+        "label": "About",
+        "accessibility_label": "이 초대 코드에 대하여"
+      },
+      "invite_note": {
+        "label": "메모 추가",
+        "accessibility_label": "나를 위한 알림 노트 추가"
+      },
+      "invite_share": {
+        "label": "공유하기",
+        "accessibility_label": "초대코드 공유"
+      },
+      "invite_delete": {
+        "label": "삭제",
+        "accessibility_label": "초대코드 삭제"
+      }
+    },
+    "notes": {
+      "add": {
+        "title": "메모 추가",
+        "description": "이 초대 코드에 대한 비공개(자신만을 위한) 메모를 작성하세요. 예: \"Alice와의 비공개 대화\""
+      }
+    },
+    "share_code": {
+      "room": {
+        "title": "SSB 룸의 초대코드",
+        "message": "SSB 룸 {{name}} 에 참가하려면 아래의 초대코드를 Manyverse에 붙여넣으세요:",
+        "dialog_note": "친구에게 이 초대코드를 보내세요"
+      }
+    }
+  },
+  "compose": {
+    "call_to_action": {
+      "publish_new_thread": {
+        "label": "공개하기",
+        "accessibility_label": "공개"
+      },
+      "reply_to_thread": {
+        "label": "답장하기",
+        "accessibility_label": "답장"
+      },
+      "preview": {
+        "label": "Preview",
+        "accessibility_label": "미리보기"
+      },
+      "close": {
+        "accessibility_label": "닫기"
+      },
+      "record_audio": {
+        "accessibility_label": "오디오 녹음",
+        "permission_request": {
+          "title": "Manyverse가 오디오 녹음을 허용하시겠습니까?",
+          "message": "Manyverse는 오디오 메세지를 작성하기 위해 마이크 접근이 필요합니다",
+          "neutral": "나중에",
+          "positive": "허용",
+          "negative": "취소"
+        }
+      },
+      "open_camera": {
+        "accessibility_label": "카메라"
+      },
+      "add_picture": {
+        "accessibility_label": "사진 추가"
+      }
+    },
+    "dialogs": {
+      "content_warning": {
+        "title": "컨텐트 경고",
+        "description": "게시물에 민감한 주제가 포함된 경우 사람들에게 알리기 위해 짧은 메모를 추가하세요."
+      },
+      "image_caption": {
+        "title": "캡션 설명",
+        "description": "시각 장애인을 위해 이 그림에 대한 설명을 추가합니다."
+      }
+    },
+    "content_warning_initials": {
+      "label": "CW",
+      "accessibility_label": "컨텐트 경고 버튼"
+    },
+    "mention_field": {
+      "accessibility_label": "계정 멘션 텍스트 입력"
+    },
+    "text_field": {
+      "placeholder": "공개할 메세지 작성",
+      "accessibility_label": "작성 텍스트 입력"
+    }
+  },
+  "compose_audio": {
+    "title": "오디오 메세지",
+    "call_to_action": {
+      "start_recording": {
+        "accessibility_label": "레코딩 시작"
+      },
+      "stop_recording": {
+        "accessibility_label": "레코징 종료"
+      },
+      "discard_recording": {
+        "label": "버리기",
+        "accessibility_label": "레코딩 버리기 버튼"
+      },
+      "submit_recording": {
+        "label": "완료",
+        "accessibility_label": "레코딩 보내기 버튼"
+      }
+    },
+    "dialogs": {
+      "discard": {
+        "title": "오디오 메세지",
+        "question": "임시저장본을 버릴까요?"
+      }
+    }
+  },
+  "backup": {
+    "title": "백업",
+    "introduction": {
+      "title": "귀하의 계정은 보안을 위해 두 부분으로 구성되어 있습니다."
+    },
+    "data": {
+      "title": "데이터",
+      "description": {
+        "1_normal": "이것은 사용자 계정의 게시물, 메시지, 사진, 좋아요 및 기타 유사한 활동을 저장한 것입니다. 갑작스러운 분실에 대비하여, 우리는 ",
+        "2_bold": "크라우드 백업을 활용합니다",
+        "3_normal": ". 여러분이 해야할 것은 단지 ",
+        "4_bold": "신뢰할 만한 친구들 또는",
+        "5_normal": " 여러분의 다른 장치에 동기화를 진행하면 됩니다. 그 외에 ",
+        "6_bold": "다른 할 일은 없습니다",
+        "7_normal": ", 멀티버스를 자주 사용하면 할 수록 친구들이 여러분의 데이터를 백업하게 됩니다!"
+      },
+      "call_to_action": {
+        "acknowledge": {
+          "label": "이해하였습니다",
+          "accessibility_label": "동의함"
+        }
+      }
+    },
+    "identity": {
+      "title": "계정",
+      "description": {
+        "1_normal": "계정의 \"지문\"은 매우 독특한 ",
+        "2_bold": "복구 단계로 구성됩니다",
+        "3_normal": ". 이것은 귀하의 계정을 잠금 해제하는 24단어의 순서입니다. ",
+        "4_bold": "이 정보를 안전한 곳에 보관하세요",
+        "5_normal": "만약 다른 사람이 액세스할 수 있는 경우 귀하의 계정을 제어할 수 있습니다. ",
+        "6_bold": "귀하와 귀하만이",
+        "7_normal": " 귀하의 계정을 복구할 수 있으므로 안전하게 보관하세요."
+      },
+      "call_to_action": {
+        "show_recovery_phrase": "복구 문구 보이기"
+      }
+    }
+  },
+  "biography": {
+    "picture": {
+      "accessibility_label": "자기소개 사진"
+    },
+    "description": {
+      "accessibility_label": "자기소개 설명"
+    }
+  },
+  "conversation": {
+    "title": "대화",
+    "placeholder": "메세지를 입력...",
+    "call_to_action": {
+      "show_recipients": {
+        "accessibility_label": "받는사람 보이기"
+      }
+    },
+    "notifications": {
+      "new_conversation": "새로운 비공개 대화 입니다"
+    }
+  },
+  "dialog_about": {
+    "title": "Manyverse에 대하여",
+    "version": "Version {{version}}",
+    "copyright": "Copyright (C)",
+    "authors": "The Manyverse 개발자",
+    "repository": "오픈 소스 레포지토리",
+    "licensed": "{{license}} 라이선스"
+  },
+  "dialog_thanks": {
+    "title": "감사합니다!",
+    "description": "이 앱은 {{sponsor1}} 과 {{sponsor2}} 의 지원을 받아 개발되었으며, 다음의 분들이 기여해주셨습니다:\n\n**{{topBackers}}**, 및 [그 외 다른 수많은 지원들]({{donateLink}}). 감사합니다!"
+  },
+  "drawer": {
+    "menu": {
+      "my_profile": {
+        "label": "내 프로필",
+        "accessibility_label": "내 프로필"
+      },
+      "raw_database": {
+        "label": "데이터베이스 원본",
+        "accessibility_label": "데이터베이스 원본 보기"
+      },
+      "email_bug_report": {
+        "label": "이메일로 버그 리포트",
+        "accessibility_label": "이메일로 버그 리포트 보내기"
+      },
+      "translate": {
+        "label": "번역을 도와주세요",
+        "accessibility_label": "번역 웹사이트 바로가기"
+      },
+      "more": {
+        "label": "더 보기",
+        "accessibility_label": "메뉴 아이템 더 보기"
+      },
+      "settings": {
+        "label": "설정",
+        "accessibility_label": "설정으로 가기"
+      },
+      "preparing_database": {
+        "label": "데이터베이스 준비중..."
+      },
+      "ready_estimate": {
+        "label": "준비:"
+      }
+    }
+  },
+  "invite_paste": {
+    "placeholder": "초대 코드 붙여넣기",
+    "call_to_action": {
+      "accept": {
+        "accessibility_label": "초대코드 수락하기"
+      }
+    },
+    "alert_unsupported_dht": {
+      "title": "지원하지 않는 타입",
+      "description": "P2P 초대는 더 이상 Manyverse에서 지원하지 않습니다."
+    },
+    "text_field": {
+      "accessibility_label": "초대코드 텍스트 입력"
+    }
+  },
+  "libraries": {
+    "title": "외부 라이브러리",
+    "description": "Manyverse는 다음과 같은 오픈 소스 라이브러리 및 구성 요소를 사용합니다. 우리는 이 라이브러리의 저자에게 감사를 표하고 적절한 귀속을 위해 웹사이트 링크를 제공합니다.",
+    "image": {
+      "name": "이미지 {{name}}",
+      "attribution": " 는 {{author}} 가 제작하였으며, {{license}} 라이선스를 따릅니다"
+    }
+  },
+  "profile": {
+    "call_to_action": {
+      "copy_cypherlink": "Cypherlink 복사",
+      "private_chat": "비공개 대화 열기",
+      "block": "차단",
+      "block_secretly": "몰래 차단",
+      "unblock": "차단 해제",
+      "unblock_secretly": "몰래 차단 해제",
+      "follow": "팔로우",
+      "edit_profile": {
+        "label": "프로필 수정",
+        "accessibility_label": "수정"
+      },
+      "manage": {
+        "accessibility_label": "연락처 관리"
+      }
+    },
+    "dialog_ssb_id": {
+      "title": "SSB ID"
+    },
+    "dialog_manage_contact": {
+      "title": "연락처"
+    },
+    "dialog_friend_request": {
+      "title": "친구 요청",
+      "description": "이 계정은 귀하와 연결을 시도하고 있지만, Manyverse가 귀하의 커뮤니티 외부에 있기 때문에 차단했습니다.\n\n이 ID를 알면 \"팔로우\"를 눌러 연결을 허용할 수 있습니다."
+    },
+    "toast": {
+      "copied_to_clipboard": "클립보드로 복사 되었습니다"
+    },
+    "details": {
+      "id": {
+        "accessibility_label": "SSB 식별자"
+      },
+      "biography": {
+        "accessibility_label": "자기소개 읽기"
+      },
+      "counters": {
+        "following": "팔로잉",
+        "followers": "팔로워"
+      }
+    },
+    "info": {
+      "follows_you": "나를 팔로우",
+      "blocks_you": "나를 블록",
+      "following": "팔로잉"
+    },
+    "picture": {
+      "accessibility_label": "프로필 사진"
+    },
+    "name": {
+      "accessibility_label": "프로필 이름"
+    },
+    "empty": {
+      "blocked": {
+        "title": "차단됨",
+        "description": "이 계정과의 상호 작용을 중지하도록 선택했습니다."
+      },
+      "no_self_messages": {
+        "title": "메세지 없음",
+        "description": "나중에 친구들과 공유하려면\n다이어리를 쓰세요"
+      },
+      "no_messages": {
+        "title": "메세지 없음",
+        "description": "이 계정의 데이터가 아직 없습니다."
+      }
+    },
+    "floating_action_button": {
+      "compose": "공개할 메세지 작성"
+    }
+  },
+  "profile_edit": {
+    "title": "프로필 수정",
+    "call_to_action": {
+      "discard": "버리기",
+      "save": {
+        "label": "저장",
+        "accessibility_label": "프로필 저장"
+      },
+      "edit_picture": {
+        "accessibility_label": "프로필 사진 변경"
+      },
+      "register_new_alias": {
+        "label": "새로운 닉네임 등록",
+        "accessibility_label": "새로운 룸 서버 닉네임 등록"
+      }
+    },
+    "dialogs": {
+      "discard": {
+        "title": "프로필 수정",
+        "question": "변경사항을 폐기할까요?"
+      },
+      "remove_alias": {
+        "description": "이 작업은 룸 서버에서 \"{{alias}}\" 닉네임을 제거합니다.\n\n사람들이 더 이상 이 닉네임을 사용하여 나에게 연락할 수 없습니다."
+      }
+    },
+    "toasts": {
+      "alias_removed_success": "닉네임이 삭제되었습니다",
+      "alias_removed_failure": "닉네임을 삭제하지 못했습니다."
+    },
+    "fields": {
+      "name": {
+        "label": "이름",
+        "accessibility_label": "이름 텍스트 입력"
+      },
+      "description": {
+        "label": "자기소개",
+        "accessibility_label": "자기소개 텍스트 입력"
+      },
+      "aliases": {
+        "label": "닉네임"
+      }
+    }
+  },
+  "manage_aliases": {
+    "title": "닉네임 관리"
+  },
+  "register_alias": {
+    "title": "닉네임 등록",
+    "empty": {
+      "no_servers": {
+        "title": "서버 없음",
+        "description": "닉네임을 등록하려면 일부 SSB 룸 서버의 구성원이어야 합니다. 인터넷에서 해시태그 #ssbroom을 찾아 닉네임(alias) 을 지원하는지 확인하십시오."
+      }
+    },
+    "header": {
+      "description": "새로운 닉네임 링크를 등록할 룸 서버를 선택하세요.\n\n닉네임은 사람들이 귀하와 연결하는 데 사용할 수 있는 웹 주소입니다."
+    },
+    "dialogs": {
+      "input_alias": {
+        "description": "원하는 새 닉네임을 영문소문자로 된 한 단어로 {{host}} 에 제출하세요.\n\n예를 들어 \"myname.{{host}}\"라는 닉네임을 원하면 아래에 \"myname\"을 작성합니다."
+      }
+    },
+    "submitting": {
+      "title": "보내는 중..."
+    },
+    "failure": {
+      "title": "실패하였습니다",
+      "alias_taken": "제출한 닉네임은 이미 다른 사용자가 사용하고 있습니다.",
+      "call_to_action": {
+        "try_again": {
+          "label": "다시 시도",
+          "accessibility_label": "다시 시도 버튼"
+        }
+      }
+    },
+    "success": {
+      "title": "최고에요!",
+      "description": "닉네임 {{alias}} 을 획득하였습니다.",
+      "call_to_action": {
+        "go_back": {
+          "label": "뒤로가기",
+          "accessibility_label": "뒤로"
+        }
+      }
+    }
+  },
+  "raw_db": {
+    "title": "데이터베이스 원본",
+    "item": {
+      "type": {
+        "any": "타입: {{type}}",
+        "encrypted": "암호화됨"
+      }
+    }
+  },
+  "raw_msg": {
+    "title": "메세지 원본"
+  },
+  "recipients_input": {
+    "title": "새 메세지",
+    "call_to_action": {
+      "proceed": {
+        "label": "다음",
+        "accessibility_label": "다음 버튼"
+      }
+    },
+    "fields": {
+      "mention_input": {
+        "placeholder": "추가할 사람들을 검색",
+        "accessibility_label": "계정 멘션 텍스트 입력"
+      }
+    },
+    "empty": {
+      "instructions": {
+        "title": "멤버 선택",
+        "description": "새로운 채팅에 참여할 사람들의 이름을 입력하세요"
+      },
+      "none_to_choose": {
+        "title": "아무도 없습니다",
+        "description": "해당 이름을 사용하는 사용자가 커뮤니티 내에 없습니다"
+      }
+    },
+    "toasts": {
+      "limit_reached": "{{limit}} 명 이상의 수신자를 선택할 수 없습니다"
+    }
+  },
+  "search": {
+    "query_input": {
+      "placeholder": "공개된 게시물 검색",
+      "accessibility_label": "검색 쿼리 텍스트 입력"
+    },
+    "clear_query": {
+      "accessibility_label": "검색 쿼리 텍스트 입력창 초기화"
+    },
+    "empty": {
+      "initial": {
+        "title": "무엇을 찾으시나요",
+        "description": "주변의 피어에 연결할 때까지\n잠시 기다려주세요"
+      },
+      "zero_results": {
+        "title": "결과가 없습니다",
+        "description": "\"{{query}}\"에 대한 검색 결과가 없습니다"
+      }
+    }
+  },
+  "secret_input": {
+    "practice": {
+      "title": "연습",
+      "header": "반복하여 올바른지 확인합니다."
+    },
+    "restore": {
+      "title": "계정 복구"
+    },
+    "header": "복구 문구를 주의하여 입력하세요",
+    "call_to_action": {
+      "confirm": {
+        "label": "확인",
+        "accessibility_label": "복구 문구 확인 버튼"
+      }
+    },
+    "fields": {
+      "words_input": {
+        "placeholder": "24단어(또는 48단어) 복구 구문",
+        "accessibility_label": "복구 구문 텍스트 입력"
+      }
+    },
+    "dialogs": {
+      "practice": {
+        "correct": {
+          "title": "정확합니다!",
+          "description": "복구 문구를 알고 계시므로 이제 이 계정의 ID가 안전합니다."
+        },
+        "incorrect": {
+          "title": "틀렸습니다",
+          "description": "다시 시도해보세요: 공백으로 구분된 24개의 단어로 구성된 복구 문구를 적어 보관하세요"
+        }
+      },
+      "restore": {
+        "correct": {
+          "title": "다시 돌아오신것을 환영합니다!",
+          "description": "이제 계정의 ID가 복원되었습니다.\n\n이제 데이터를 복원하려면 이전에 나와 상호 작용한 친구와 연결하여 데이터를 다시 다운로드하십시오."
+        },
+        "incorrect": {
+          "title": "틀렸습니다",
+          "description": {
+            "try_again": "공백으로 구분된 24개의 단어로 구성된 복구 문구를 다시 입력하세요",
+            "overwrite_risk": "앱에 이미 계정이 있으므로 덮어쓸 수 없습니다. 무시하고 싶다면 Manyverse를 제거하고 다시 설치하여 계정을 깨끗한 상태에서 복구하세요.",
+            "too_short": "빠진 단어가 있습니다. 복구 문구는 24단어여야 합니다.",
+            "too_long": "단어가 너무 많습니다. 복구 문구는 정확히 24단어여야 합니다.",
+            "wrong_length": "복구 문구는 정확히 24단어여야 합니다.",
+            "generic": "제공하신 복구 문구는 Manyverse에서 생성한 유효한 ID가 아닌것으로 보입니다."
+          }
+        }
+      }
+    }
+  },
+  "secret_output": {
+    "title": "복구 문구",
+    "header": {
+      "1_normal": "다음의 복구 문구를 주의하여 종이에 ",
+      "2_bold": "적어두시기 바랍니다",
+      "3_normal": ""
+    },
+    "footer": {
+      "1_normal": "안전한 장소에 ",
+      "2_bold": "보관하시기 바라며",
+      "3_normal": ", 분실 및 도난등에 대한 ",
+      "4_bold": "책임은 사용자 본인에게",
+      "5_normal": " 있음을 유념하시기 바랍니다"
+    },
+    "words": {
+      "accessibility_label": "비밀 단어"
+    },
+    "call_to_action": {
+      "confirm": {
+        "accessibility_label": "복구 작업 확인 버튼"
+      }
+    },
+    "loading": "로드중..."
+  },
+  "settings": {
+    "title": "설정",
+    "preferences": {
+      "title": "사용자 설정",
+      "show_follows": {
+        "title": "팔로우 이벤트 표시",
+        "subtitle": "공개 게시판에서 팔로우 또는 차단 또는 팔로우 해제 사례 표시",
+        "accessibility_label": "공개 게시판에서 이벤트 팔로우 또는 해제"
+      },
+      "hops": {
+        "title": "복제 홉",
+        "subtitle": "얼마나 친구의 몇촌까지 Manyverse가 데이터를 다운로드할지 선택하세요; 1은 친구 전용, 2는 2촌까지입니다. 주의: 높을수록 더 많은 데이터가 다운로드됩니다!",
+        "unlimited": "무제한",
+        "accessibility_label": "촌수 슬라이더"
+      }
+    },
+    "data_and_storage": {
+      "title": "데이터 및 저장소",
+      "backup": {
+        "title": "백업",
+        "subtitle": "복구용 24단어 문구를 확인하기",
+        "accessibility_label": "내 계정 백업"
+      },
+      "blobs_storage": {
+        "title": "Blob 저장소 제한",
+        "subtitle": "지정한 용량을 초과하면 오래된 이미지와 Blob부터 기기에서 자동으로 삭제합니다.",
+        "unlimited": "무제한",
+        "accessibility_label": "저장소 제한 슬라이더"
+      }
+    },
+    "troubleshooting": {
+      "title": "문제 해결",
+      "bug_report": {
+        "title": "이메일로 버그 리포트",
+        "accessibility_label": "이메일로 버그를 리포팅 하기"
+      },
+      "detailed_logs": {
+        "title": "상세로그 활성화",
+        "accessibility_label": "개발자용 상세 로그를 활성화 합니다"
+      }
+    },
+    "more_information": {
+      "title": "더 많은 정보",
+      "thanks": {
+        "title": "압도적 감사",
+        "accessibility_label": "고마운 분들"
+      },
+      "third_party_libs": {
+        "title": "외부 라이브러리",
+        "accessibility_label": "외부 라이브러리 보기"
+      },
+      "about": {
+        "title": "이 앱에 대하여",
+        "accessibility_label": "이 앱에 대하여"
+      }
+    },
+    "dialogs": {
+      "restart_required": {
+        "title": "재시작 필요",
+        "description": "이 설정은 Manyverse를 종료 후 다시 시작해야 적용됩니다."
+      }
+    }
+  },
+  "thread": {
+    "title": "글타래",
+    "call_to_action": {
+      "expand_reply": {
+        "accessibility_label": "답장 버튼 확장"
+      },
+      "publish_reply": {
+        "accessibility_label": "답변 등록 버튼"
+      }
+    },
+    "fields": {
+      "reply": {
+        "placeholder": "댓글",
+        "accessibility_label": "댓글 텍스트 입력"
+      }
+    },
+    "loading_replies": "답장 로드중...",
+    "empty": {
+      "missing": {
+        "title": "잃어버린 데이터",
+        "description": "ID와 연결된 메시지에 해당하는\n데이터가 아직 없습니다\n"
+      },
+      "blocked": {
+        "title": "차단된 글타래",
+        "description": "이 글타래의 작성자를 \n차단하도록 선택했습니다."
+      },
+      "incompatible": {
+        "title": "죄송합니다",
+        "description": "이 앱은 해당 글타래를 정상적으로 표시할 수 없습니다"
+      }
+    }
+  },
+  "message": {
+    "call_to_action": {
+      "show_reactions": {
+        "accessibility_label": "반응 보기"
+      },
+      "add_reaction": {
+        "accessibility_label": "반응 추가"
+      },
+      "reply": {
+        "accessibility_label": "답장"
+      },
+      "etc": {
+        "dialog_title": "메세지",
+        "accessibility_label": "기타"
+      },
+      "copy_blob_id": {
+        "accessibility_label": "Blob ID 복사"
+      },
+      "copy_msg_id": "Cypherlink 복사",
+      "view_raw": "원본 보기"
+    },
+    "toast": {
+      "copied_to_clipboard": "클립보드로 복사"
+    },
+    "reactions": {
+      "categories": {
+        "smileys_and_emotion": "웃는 얼굴 및 감정",
+        "people_and_body": "사람 및 신체",
+        "animals_and_nature": "동물 및 자연",
+        "food_and_drink": "음식 및 음료",
+        "activities": "활동",
+        "travel_and_places": "여행 및 지역",
+        "objects": "사물",
+        "symbols": "심볼",
+        "flags": "Flags"
+      },
+      "show_more": {
+        "accessibility_label": "반응 추가 옵션"
+      }
+    },
+    "image": {
+      "without_caption": {
+        "accessibility_label": "설명 없는 사진"
+      }
+    },
+    "audio": {
+      "play": {
+        "accessibility_label": "오디오 재생"
+      },
+      "pause": {
+        "accessibility_label": "오디오 일시정지"
+      },
+      "duration": {
+        "accessibility_label": "오디오 길이"
+      },
+      "elapsed": {
+        "accessibility_label": "오디오 현재 재생 시간"
+      },
+      "slider": {
+        "accessibility_label": "오디오 재생 시간 변경"
+      }
+    },
+    "content_warning": {
+      "title": "컨텐트 경고",
+      "call_to_action": {
+        "hide": "숨기기",
+        "show": "보기"
+      }
+    },
+    "fork_note": {
+      "1_normal": "Fork 소스 ",
+      "2_bold": "{{cypherlink}}",
+      "3_normal": ""
+    },
+    "about": {
+      "new_picture": {
+        "1_normal": "",
+        "2_bold": "{{name}}",
+        "3_normal": " 이 새로운 프로필 사진을 등록하였습니다 "
+      },
+      "new_name_and_description": {
+        "1_normal": "",
+        "2_bold": "{{name}}",
+        "3_normal": " 이 이름 \"",
+        "4_bold": "{{name}}",
+        "5_normal": "\" 및 설명을 사용중입니다: "
+      },
+      "new_description": {
+        "1_normal": "",
+        "2_bold": "{{name}}",
+        "3_normal": " 이 새로운 자기소개를 작성하였습니다 "
+      },
+      "new_name": {
+        "1_normal": "",
+        "2_bold": "{{name}}",
+        "3_normal": " 는 이름: \"",
+        "4_bold": "{{name}}",
+        "5_normal": "\"을 사용중입니다"
+      }
+    },
+    "contact": {
+      "follow_event": {
+        "1_normal": "",
+        "2_bold": "{{author}}",
+        "3_normal": " 팔로잉 중 ",
+        "4_bold": "{{target}}",
+        "5_normal": ""
+      },
+      "block_event": {
+        "1_normal": "",
+        "2_bold": "{{author}}",
+        "3_normal": " 차단됨 ",
+        "4_bold": "{{target}}",
+        "5_normal": ""
+      },
+      "unfollow_event": {
+        "1_normal": "",
+        "2_bold": "{{author}}",
+        "3_normal": " 팔로우 취소 ",
+        "4_bold": "{{target}}",
+        "5_normal": ""
+      },
+      "unblock_event": {
+        "1_normal": "",
+        "2_bold": "{{author}}",
+        "3_normal": " 차단 해제 ",
+        "4_bold": "{{target}}",
+        "5_normal": ""
+      }
+    }
+  }
+}

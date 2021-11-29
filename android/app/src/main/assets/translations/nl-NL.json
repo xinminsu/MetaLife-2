@@ -1,0 +1,1192 @@
+{
+  "call_to_action": {
+    "ok": "Ok",
+    "add": "Voeg toe",
+    "done": "Voltooid",
+    "cancel": "Annuleer",
+    "continue": "Doorgaan",
+    "delete": "Verwijder",
+    "remove": "Remove",
+    "save": "Opslaan",
+    "yes": "Ja",
+    "no": "Nee",
+    "open_menu": {
+      "accessibility_label": "Menuknop"
+    },
+    "go_back": {
+      "accessibility_label": "Terugknop"
+    },
+    "close": {
+      "accessibility_label": "Sluitknop"
+    },
+    "close_dialog": {
+      "accessibility_label": "Dialoogknop sluiten"
+    },
+    "external_link_confirmation": {
+      "title": "Open link?",
+      "description": "Do you want to open {{link}} in your browser?"
+    }
+  },
+  "date": {
+    "relative": {
+      "past": {
+        "years": {
+          "one": "1 jaar geleden",
+          "other": "{{count}} jaren geleden"
+        },
+        "months": {
+          "one": "1 maand geleden",
+          "other": "{{count}} maanden geleden"
+        },
+        "weeks": {
+          "one": "1 week geleden",
+          "other": "{{count}} weken geleden"
+        },
+        "days": {
+          "one": "1 dag geleden",
+          "other": "{{count}} dagen geleden"
+        },
+        "hours": {
+          "one": "1 uur geleden",
+          "other": "{{count}} uren geleden"
+        },
+        "minutes": {
+          "one": "1 minuut geleden",
+          "other": "{{count}} minuten geleden"
+        },
+        "now": "Op dit moment"
+      },
+      "future": {
+        "years": {
+          "one": "1 jaar vanaf nu",
+          "other": "{{count}} jaren vanaf nu"
+        },
+        "months": {
+          "one": "1 maand vanaf nu",
+          "other": "{{count}} maanden vanaf nu"
+        },
+        "weeks": {
+          "one": "1 week vanaf nu",
+          "other": "{{count}} weken vanaf nu"
+        },
+        "days": {
+          "one": "1 dag vanaf nu",
+          "other": "{{count}} dagen vanaf nu"
+        },
+        "hours": {
+          "one": "1 uur vanaf nu",
+          "other": "{{count}} uren vanaf nu"
+        },
+        "minutes": {
+          "one": "1 minuut vanaf nu",
+          "other": "{{count}} minuten vanaf nu"
+        },
+        "now": "Zeer binnenkort"
+      }
+    }
+  },
+  "welcome": {
+    "learn_more": "Meer info",
+    "overview": {
+      "title": "Welkom bij Manyverse!",
+      "description": "Sociale netwerken kunnen eenvoudig, neutraal, niet-commercieel zijn en gebaseerd op vertrouwen tussen vrienden. Dit is waar Manyverse voor staat, en we hopen dat u er ook uw digitale thuis van kunt maken. Dit alles wordt mogelijk gemaakt door het nieuwe SSB-protocol."
+    },
+    "off_the_grid": {
+      "title": "Niet aangesloten op het netwerk",
+      "description": {
+        "1_normal": "Manyverse kan internetverbinding gebruiken, maar het is niet ",
+        "2_bold": "op",
+        "3_normal": " het internet. Alles gebeurt hier op uw apparaat. Dit betekent dat je het normaal kunt gebruiken, zelfs wanneer je offline bent! Uw ",
+        "4_bold": "inhoud wordt eerst op uw apparaat opgeslagen",
+        "5_normal": ", en je kunt het synchroniseren met je vrienden zodra je met hen verbindt."
+      }
+    },
+    "connections": {
+      "title": "Veel manieren om verbinding te maken",
+      "description": {
+        "ios": {
+          "1_normal": "Om te verbinden met vrienden en inhoud te synchroniseren, kunt u neem deel aan dezelfde ",
+          "2_bold": "Wi-Fi",
+          "3_normal": ". Om nieuwe mensen op het internet te vinden, zoek je naar een uitnodigingscode voor een ",
+          "4_bold": "pubserver",
+          "5_normal": " of een ",
+          "6_bold": "roomserver",
+          "7_normal": ", of start je eigen server!"
+        },
+        "default": {
+          "1_normal": "Om te verbinden met vrienden en inhoud te synchroniseren, kunt u: neem deel aan dezelfde ",
+          "2_bold": "Wi-Fi",
+          "3_normal": ", of gebruik ",
+          "4_bold": "Bluetooth sync",
+          "5_normal": ". Om nieuwe mensen op het internet te vinden, zoek je naar een uitnodigingscode voor een ",
+          "6_bold": "pubserver",
+          "7_normal": " of een ",
+          "8_bold": "roomserver",
+          "9_normal": ", of start je eigen server!"
+        }
+      }
+    },
+    "moderation": {
+      "title": "Gedeelde moderatie",
+      "description": {
+        "1_normal": "Omdat jouw apparaat jouw sociale netwerk bevat, kan niemand anders accounts namens jou verbannen of verwijderen. Alleen jij kan je omgeving modereren door ",
+        "2_bold": "accounts te blokkeren",
+        "3_normal": " die je niet op je apparaat wilt hebben. Daarna kunnen je vrienden ervoor kiezen om dezelfde accounts te blokkeren. Zo kan moderatie zich natuurlijk verspreiden!"
+      }
+    },
+    "permanence": {
+      "title": "Duurzaamheid",
+      "description": {
+        "1_normal": "Zodra uw inhoud is gesynchroniseerd met vrienden, hebben ze een kopie ervan op hun apparaat. Omdat ze hierna offline konden gaan, is het ",
+        "2_bold": "verwijderen niet mogelijk",
+        "3_normal": " van jouw inhoud wereldwijd vanaf alle apparaten! Daarom hebben we ervoor gekozen om inhoud permanent te maken. Het maakt communities ook meer respectvol en aandachtig voor wat er gepost wordt."
+      }
+    },
+    "in_construction": {
+      "title": "In constructie!",
+      "description": {
+        "1_normal": "Manyverse is ",
+        "2_bold": "beta-kwaliteit software",
+        "3_normal": ". We hebben nog niet alles gevonden en sommige onderdelen moeten gerepareerd worden. Tijdens het synchroniseren kan de app enkele minuten bevroren worden. Heb geduld! Informeer ons van alle andere bugs die je hebt opgelopen, en met genoeg tijd en donaties kunnen we dit een geweldige app maken."
+      }
+    },
+    "setup_account": {
+      "title": "Nieuw hier?",
+      "description": "Wil je een nieuw account aanmaken, of wil je je oude account herstellen met een 24-word herstel zin?",
+      "call_to_action": {
+        "create": {
+          "label": "Account aanmaken",
+          "accessibility_label": "Maak Account Knop"
+        },
+        "restore": {
+          "label": "Account herstellen",
+          "accessibility_label": "Herstel Account Knop"
+        }
+      }
+    }
+  },
+  "central": {
+    "app_name": "Manyverse",
+    "tab_headers": {
+      "public": "Publiek bord",
+      "private": "Privé berichten",
+      "activity": "Activity",
+      "connections": "Connected peers"
+    },
+    "tab_footers": {
+      "public": "Publiek",
+      "private": "Privé",
+      "activity": "Activity",
+      "connections": "Verbindingen"
+    },
+    "loading": "Laden...",
+    "building_indexes": "Database-indexen worden gebouwd...\nDit kan enkele minuten duren",
+    "tabs": {
+      "public": {
+        "accessibility_label": "Publieke Tabknop"
+      },
+      "private": {
+        "accessibility_label": "Privé tabknop"
+      },
+      "activity": {
+        "accessibility_label": "Activity Tab Button"
+      },
+      "connections": {
+        "accessibility_label": "Verbindingen Tabknop"
+      }
+    }
+  },
+  "public": {
+    "floating_action_button": {
+      "compose": "Schrijf een publiek bericht"
+    },
+    "empty": {
+      "title": "Geen berichten",
+      "description": "Schrijf een dagboek dat je\nlater met vrienden kunt delen"
+    },
+    "search": {
+      "accessibility_label": "Search Button"
+    }
+  },
+  "private": {
+    "floating_action_button": {
+      "compose": "Start een privégesprek"
+    },
+    "empty": {
+      "title": "Geen conversaties",
+      "description": "Begin een privégesprek\nmet een van je vrienden"
+    },
+    "conversation": {
+      "accessibility_label": "Ga naar conversatie"
+    }
+  },
+  "accounts": {
+    "reactions": {
+      "title": "Reacties"
+    },
+    "recipients": {
+      "title": "Ontvangers"
+    },
+    "call_to_action": {
+      "open_account": {
+        "accessibility_label": "Ga naar Account"
+      }
+    }
+  },
+  "activity": {
+    "mention": {
+      "label": {
+        "1_normal": "",
+        "2_bold": "{{author}}",
+        "3_normal": " mentioned you"
+      }
+    },
+    "follow": {
+      "label": {
+        "1_normal": "",
+        "2_bold": "{{author}}",
+        "3_normal": " followed you"
+      }
+    },
+    "connection_attempt": {
+      "label": {
+        "1_normal": "",
+        "2_bold": "{{author}}",
+        "3_normal": " wants to connect"
+      }
+    },
+    "empty": {
+      "title": "No activity",
+      "description": "When people mention or follow you,\nthey show up here"
+    }
+  },
+  "connections": {
+    "title": "Connections Panel",
+    "floating_action_button": {
+      "create_invite": "Maak een uitnodiging",
+      "paste_invite": "Plak uitnodiging",
+      "bluetooth_seek": "Bluetooth zoeken"
+    },
+    "open_connections_panel": "Open Connections Panel",
+    "empty": {
+      "offline": {
+        "title": "Offline",
+        "description": "Schakel een connectie-modus in\nof geniet van wat bestaande inhoud"
+      },
+      "connecting": {
+        "title": "Verbinding maken",
+        "description": "Wacht terwijl de app\nprobeert verbinding te maken met je buren"
+      },
+      "no_peers": {
+        "title": "Geen verbindingen",
+        "description": "Probeer te synchroniseren met mensen in de buurt van\nof gebruik een server uitnodigingscode"
+      }
+    },
+    "scenarios": {
+      "offline": "Offline",
+      "not_connected": "Not connected",
+      "few_connections": "Too few connections",
+      "many_connections": "Well connected"
+    },
+    "scenario_descriptions": {
+      "offline_with_content": "You cannot connect to peers at the moment, but you can enjoy some content that you already have.",
+      "offline_without_content": "You cannot connect to peers at the moment. Try to get some internet connectivity or turn on Wi-Fi to discover peers nearby.",
+      "knows_no_one": "Your Manyverse is at the moment isolated. You need to be invited by other peers to join room servers, or you can host a room server yourself.",
+      "nearby_strangers_available": "You are not yet connected to anyone, but there are some peers on the same Wi-Fi. Try to connect to them manually if you think they are willing to connect to you too.",
+      "empty_rooms": "You are a member of some rooms, but there is no one you know currently online. Try connecting manually to a stranger in the room, or get an invite code to other servers.",
+      "connected_poorly": "You are connected to one peer, that's good. But, to improve propagation of data, you should connect to more peers. Try waiting a bit longer, or getting an invite code to other servers.",
+      "connected_well": "You are connected to plenty of peers. All is good! They are propagating your data and you are propagating theirs."
+    },
+    "recommendations": {
+      "consume_invite": "How to get an invite",
+      "follow_staged_manually": "Follow someone new",
+      "host_ssb_room": "How to host a room server",
+      "others": "Other choices"
+    },
+    "recommendation_descriptions": {
+      "consume_invite": "This social network is based on invites, to keep it friendly and safe from spam. If you haven't yet received an invite from a friend, you can search the web for some server that gives invites to anyone.\n\nLook for the key words \"SSB room server\" or \"SSB pub server\". The hashtag #ssbroom may also be useful.",
+      "follow_staged_manually": {
+        "part1": {
+          "not_connected": "Your friends are not online right now, but if you want to get more content, there are some unknown peers currently online in the same room(s) as you are. You can try to become friends with them.",
+          "connected": "If you want to get more content beyond what you already have, you can follow more people. There are some unknown peers currently online in the same room(s) as you are. You can try to become friends with them."
+        },
+        "part2": "On the next screen, you will see unknown peers displayed like this. Press one of them and choose \"Open Profile\", then \"Follow\"."
+      }
+    },
+    "toasts": {
+      "invite_accepted": "Uitnodiging geaccepteerd",
+      "invite_rejected": "Uitnodiging afgewezen. Weet je zeker dat het juist is?",
+      "connecting_to_alias": "Connecting to {{alias}}",
+      "connected_to_alias": "Connected to {{alias}}",
+      "not_connected_to_alias": "{{alias}} is offline right now"
+    },
+    "dialogs": {
+      "sign_in_with_ssb": {
+        "client_initiated": {
+          "title": "Allow sign-in?",
+          "description": "Open {{room}}'s website to create invite links and manage members. Do you want to use Manyverse to sign in?\n\nThe room's ID is {{roomid}}"
+        },
+        "server_initiated": {
+          "title": "Allow sign-in?",
+          "description": "A web browser is requesting permission to identify you. Do you want to sign in to the server {{room}}?\n\nIts ID is {{roomid}}"
+        }
+      }
+    },
+    "peers": {
+      "types": {
+        "bluetooth": "Bluetooth",
+        "lan": "Wi-Fi",
+        "dht": {
+          "connected": "Internet P2P"
+        },
+        "room": {
+          "server": "Kamer server",
+          "endpoint": "Kamer peer",
+          "alone_online": "(alleen jij bent online)",
+          "others_online": {
+            "one": "({{count}} online)",
+            "other": "({{count}} online)"
+          }
+        },
+        "pub": "Pub server",
+        "server": "Server",
+        "unknown": "Onbekend"
+      }
+    },
+    "modes": {
+      "generic": {
+        "enabled": "(ENABLED)"
+      },
+      "bluetooth": {
+        "title": "Bluetooth",
+        "accessibility_label": "Bluetooth modus",
+        "disabled": "(Zet Bluetooth aan om dit te gebruiken)",
+        "description": "Ontdek gebruikers in de buurt en maak verbinding met hen via Bluetooth.",
+        "permission_request": {
+          "title": "Lokaliseren via Bluetooth toestaan?",
+          "message": "Manyverse moet Bluetooth gebruiken om te ontdekken waar je bent (\"grove locatie\") en welke peers er om je heen zijn."
+        }
+      },
+      "wifi": {
+        "title": "Wi-Fi",
+        "accessibility_label": "Wi-Fi modus",
+        "disabled": "(Schakel Wi-Fi in om dit te gebruiken)",
+        "description": "Verbind met vrienden in hetzelfde lokale netwerk, met andere woorden, vrienden met dezelfde Wi-Fi."
+      },
+      "servers": {
+        "title": "Internetservers",
+        "accessibility_label": "Internetservers modus",
+        "disabled": "(Ga online om dit te gebruiken)",
+        "description": "Maak verbinding met een zogenaamde 'Pubserver' van een vriend, die de nieuwste gegevens uit meerdere accounts bevat."
+      }
+    },
+    "menu": {
+      "dialog_title": "Connection",
+      "open_profile": {
+        "label": "Open profiel",
+        "accessibility_label": {
+          "connected": "Open het profielscherm voor deze verbonden peer",
+          "staged": "Profielscherm openen voor deze voorgestelde connectie"
+        }
+      },
+      "connect": {
+        "label": "Verbinden",
+        "accessibility_label": {
+          "staged_peer": "Verbind met deze voorgestelde peer",
+          "staged_room": "Verbind met deze voorgestelde ruimte"
+        }
+      },
+      "follow_connect": {
+        "label": "Verbind en volg",
+        "accessibility_label": "Verbind met deze voorgestelde peer en volg ze"
+      },
+      "disconnect": {
+        "label": "Verbreek",
+        "accessibility_label": {
+          "peer": "Verbinding met deze peer verbreken",
+          "room": "Verbinding verbreken met deze ruimte"
+        }
+      },
+      "disconnect_forget": {
+        "label": "Verbinding verbreken en vergeet",
+        "accessibility_label": {
+          "peer": "Verbreek de verbinding met deze peer en verwijder deze uit onze database",
+          "room": "Verbreek de verbinding met deze ruimte en verwijder deze uit onze database"
+        }
+      },
+      "forget": {
+        "label": "Vergeet",
+        "accessibility_label": {
+          "room": "Verwijder deze ruimte uit onze database"
+        }
+      },
+      "manage_aliases": {
+        "label": "Manage my aliases",
+        "accessibility_label": "Manage my aliases in Room servers"
+      },
+      "room_sign_in": {
+        "label": "Sign into website",
+        "accessibility_label": "Open this room's website and sign into its dashboard, Button"
+      },
+      "room_share_invite": {
+        "label": "Deel uitnodigingscode",
+        "accessibility_label": "Deel de uitnodigingscode voor deze ruimte"
+      },
+      "invite_info": {
+        "label": "Informatie",
+        "accessibility_label": "Over deze uitnodigingscode"
+      },
+      "invite_note": {
+        "label": "Notitie toevoegen",
+        "accessibility_label": "Voeg herinneringsnotitie toe aan zichzelf"
+      },
+      "invite_share": {
+        "label": "Deel",
+        "accessibility_label": "Deel uitnodigingscode"
+      },
+      "invite_delete": {
+        "label": "Verwijder",
+        "accessibility_label": "Uitnodigingscode verwijderen"
+      }
+    },
+    "notes": {
+      "add": {
+        "title": "Notitie toevoegen",
+        "description": "Schrijf een privé (alleen voor uzelf) opmerking over deze uitnodigingscode. Bijvoorbeeld: \"Dit is voor Alice\""
+      }
+    },
+    "share_code": {
+      "room": {
+        "title": "Uitnodigingscode voor een SSB-kamer",
+        "message": "Sluit je aan bij de SSB room {{name}} door deze uitnodigingscode te plakken in Manyverse:",
+        "dialog_note": "Geef deze uitnodigingscode aan een vriend"
+      }
+    }
+  },
+  "compose": {
+    "call_to_action": {
+      "publish_new_thread": {
+        "label": "Publiceren",
+        "accessibility_label": "Publiceer reactieknop"
+      },
+      "reply_to_thread": {
+        "label": "Beantwoorden",
+        "accessibility_label": "Publiceer reactieknop"
+      },
+      "preview": {
+        "label": "Preview",
+        "accessibility_label": "Voorbeeld knop"
+      },
+      "close": {
+        "accessibility_label": "Sluitknop"
+      },
+      "record_audio": {
+        "accessibility_label": "Record Audio Button",
+        "permission_request": {
+          "title": "Allow Manyverse to record audio?",
+          "message": "Manyverse needs access to your microphone so you can compose audio messages",
+          "neutral": "Ask me later",
+          "positive": "Ok",
+          "negative": "Annuleer"
+        }
+      },
+      "open_camera": {
+        "accessibility_label": "Open Camera Knop"
+      },
+      "add_picture": {
+        "accessibility_label": "Voeg Afbeelding Toe Knop"
+      }
+    },
+    "dialogs": {
+      "content_warning": {
+        "title": "Waarschuwing voor inhoud",
+        "description": "Als je post gevoelige onderwerpen bevat, voeg dan een korte notitie toe om de mensen hiervan te waarschuwen."
+      },
+      "image_caption": {
+        "title": "Onderschrift",
+        "description": "Voeg een beschrijving van deze afbeelding toe, vooral voor slechtzienden."
+      }
+    },
+    "content_warning_initials": {
+      "label": "CW",
+      "accessibility_label": "Inhoud waarschuwingsknop"
+    },
+    "mention_field": {
+      "accessibility_label": "Tekstinvoer account vermelden"
+    },
+    "text_field": {
+      "placeholder": "Schrijf een publiek bericht",
+      "accessibility_label": "Tekstinvoer opstellen"
+    }
+  },
+  "compose_audio": {
+    "title": "Audio message",
+    "call_to_action": {
+      "start_recording": {
+        "accessibility_label": "Start recording"
+      },
+      "stop_recording": {
+        "accessibility_label": "Stop recording"
+      },
+      "discard_recording": {
+        "label": "Weggooien",
+        "accessibility_label": "Discard Recording Button"
+      },
+      "submit_recording": {
+        "label": "Voltooid",
+        "accessibility_label": "Submit Recording Button"
+      }
+    },
+    "dialogs": {
+      "discard": {
+        "title": "Audio message",
+        "question": "Discard draft?"
+      }
+    }
+  },
+  "backup": {
+    "title": "Back-up",
+    "introduction": {
+      "title": "Je account heeft\ntwee delen om veilig te zijn"
+    },
+    "data": {
+      "title": "Gegevens",
+      "description": {
+        "1_normal": "Dit zijn berichten van jouw account, berichten, foto's, vind-ik-leuks en vergelijkbare activiteiten. Om deze veilig te houden tegen plotselinge verlies, gebruiken we ",
+        "2_bold": "backuppen via crowd",
+        "3_normal": ". Je hoeft alleen ",
+        "4_bold": "synchroniseren met betrouwbare vrienden",
+        "5_normal": " of andere apparaten die je hebt. Er is ",
+        "6_bold": "niets anders te doen",
+        "7_normal": ", gebruik gewoon Manyverse vaak en je vrienden backuppen je!"
+      },
+      "call_to_action": {
+        "acknowledge": {
+          "label": "Ik begrijp het",
+          "accessibility_label": "Bevestigen"
+        }
+      }
+    },
+    "identity": {
+      "title": "Identiteit",
+      "description": {
+        "1_normal": "De \"vingerafdruk\" van je account bestaat uit een zeer uniek ",
+        "2_bold": "herstelzin",
+        "3_normal": ". Dit is een reeks van 24 woorden die je account deblokkeren. ",
+        "4_bold": "Hou het geheim",
+        "5_normal": ", want als iemand anders er toegang toe heeft, dan kan men de controle over je account overnemen. ",
+        "6_bold": "Neem verantwoordelijkheid",
+        "7_normal": " erover, omdat jij en alleen jij je account kan herstellen!"
+      },
+      "call_to_action": {
+        "show_recovery_phrase": "Toon herstelzin"
+      }
+    }
+  },
+  "biography": {
+    "picture": {
+      "accessibility_label": "Biografische foto"
+    },
+    "description": {
+      "accessibility_label": "Biografische beschrijving"
+    }
+  },
+  "conversation": {
+    "title": "Conversatie",
+    "placeholder": "Schrijf een bericht...",
+    "call_to_action": {
+      "show_recipients": {
+        "accessibility_label": "Toon Ontvangers"
+      }
+    },
+    "notifications": {
+      "new_conversation": "Dit is een nieuw privégesprek"
+    }
+  },
+  "dialog_about": {
+    "title": "Over Manyverse",
+    "version": "Versie {{version}}",
+    "copyright": "Auteursrecht (C)",
+    "authors": "De Manyverse auteurs",
+    "repository": "Open source repository",
+    "licensed": "Licentie {{license}}"
+  },
+  "dialog_thanks": {
+    "title": "Dank je wel!",
+    "description": "Ontwikkeling van deze app werd ondersteund door subsidies van {{sponsor1}} en {{sponsor2}}, en donaties van:\n\n**{{topBackers}}** en [nog honderd extra backers]({{donateLink}}). Dankjewel!"
+  },
+  "drawer": {
+    "menu": {
+      "my_profile": {
+        "label": "Mijn profiel",
+        "accessibility_label": "Mijn profiel menu-item"
+      },
+      "raw_database": {
+        "label": "Ruwe database",
+        "accessibility_label": "Toon ruwe database"
+      },
+      "email_bug_report": {
+        "label": "E-mail foutrapport",
+        "accessibility_label": "Stuur foutrapport als e-mail"
+      },
+      "translate": {
+        "label": "Help us translate",
+        "accessibility_label": "Open translation website"
+      },
+      "more": {
+        "label": "More",
+        "accessibility_label": "Show more Menu items"
+      },
+      "settings": {
+        "label": "Instellingen",
+        "accessibility_label": "Ga naar instellingen"
+      },
+      "preparing_database": {
+        "label": "Preparing database..."
+      },
+      "ready_estimate": {
+        "label": "Ready:"
+      }
+    }
+  },
+  "invite_paste": {
+    "placeholder": "Plak een uitnodigingscode",
+    "call_to_action": {
+      "accept": {
+        "accessibility_label": "Accepteer uitnodigingscode"
+      }
+    },
+    "alert_unsupported_dht": {
+      "title": "Unsupported type",
+      "description": "P2P Invites are no longer supported in Manyverse."
+    },
+    "text_field": {
+      "accessibility_label": "Uitnodigingscode tekstinvoer"
+    }
+  },
+  "libraries": {
+    "title": "Bibliotheken van derden",
+    "description": "Manyverse maakt gebruik van de volgende open source bibliotheken en componenten. We willen de auteurs van deze bibliotheken bedanken en naar hun websites linken voor de juiste attributie.",
+    "image": {
+      "name": "Afbeelding {{name}}",
+      "attribution": " is gemaakt door {{author}}, gelicenseerd {{license}}"
+    }
+  },
+  "profile": {
+    "call_to_action": {
+      "copy_cypherlink": "Kopieer cypherlink",
+      "private_chat": "Open private conversation",
+      "block": "Blokkeer",
+      "block_secretly": "In het geheim blokkeren",
+      "unblock": "Deblokkeer",
+      "unblock_secretly": "Deblokkeer in het geheim",
+      "follow": "Volg",
+      "edit_profile": {
+        "label": "Profiel bewerken",
+        "accessibility_label": "Profielafbeelding bewerken"
+      },
+      "manage": {
+        "accessibility_label": "Contactpersoon beheren"
+      }
+    },
+    "dialog_ssb_id": {
+      "title": "SSB ID"
+    },
+    "dialog_manage_contact": {
+      "title": "Contact"
+    },
+    "dialog_friend_request": {
+      "title": "Friend request",
+      "description": "This account is trying to connect with you, but Manyverse prevented it because they are outside your community.\n\nIf you recognize this ID, you can press \"Follow\" to allow them to connect with you."
+    },
+    "toast": {
+      "copied_to_clipboard": "Gekopieerd naar klembord"
+    },
+    "details": {
+      "id": {
+        "accessibility_label": "SSB Identifier"
+      },
+      "biography": {
+        "accessibility_label": "Read Biography"
+      },
+      "counters": {
+        "following": "Volgt",
+        "followers": "Followers"
+      }
+    },
+    "info": {
+      "follows_you": "Volgt jou",
+      "blocks_you": "Blokkeert jou",
+      "following": "Volgt"
+    },
+    "picture": {
+      "accessibility_label": "Profiel Afbeelding"
+    },
+    "name": {
+      "accessibility_label": "Profiel Naam"
+    },
+    "empty": {
+      "blocked": {
+        "title": "Geblokkeerd",
+        "description": "Je hebt ervoor gekozen om\nde interactie met dit account te stoppen"
+      },
+      "no_self_messages": {
+        "title": "Geen berichten",
+        "description": "Schrijf een dagboek dat je\nlater met vrienden kunt delen"
+      },
+      "no_messages": {
+        "title": "Geen berichten",
+        "description": "Je hebt nog geen gegevens\nvan dit account"
+      }
+    },
+    "floating_action_button": {
+      "compose": "Schrijf een publiek bericht"
+    }
+  },
+  "profile_edit": {
+    "title": "Profiel bewerken",
+    "call_to_action": {
+      "discard": "Weggooien",
+      "save": {
+        "label": "Opslaan",
+        "accessibility_label": "Profiel opslaan"
+      },
+      "edit_picture": {
+        "accessibility_label": "Profielafbeelding bewerken"
+      },
+      "register_new_alias": {
+        "label": "Register new alias",
+        "accessibility_label": "Register New Room Server Alias"
+      }
+    },
+    "dialogs": {
+      "discard": {
+        "title": "Profiel bewerken",
+        "question": "Wijzigingen verwerpen?"
+      },
+      "remove_alias": {
+        "description": "This action will remove the alias \"{{alias}}\" from the room server.\n\nPeople won't be able to reach you any more using this alias."
+      }
+    },
+    "toasts": {
+      "alias_removed_success": "Alias removed",
+      "alias_removed_failure": "Failed to remove alias"
+    },
+    "fields": {
+      "name": {
+        "label": "Naam",
+        "accessibility_label": "Naam Tekst Ingave"
+      },
+      "description": {
+        "label": "Biografie",
+        "accessibility_label": "Biografie tekstinvoer"
+      },
+      "aliases": {
+        "label": "Aliases"
+      }
+    }
+  },
+  "manage_aliases": {
+    "title": "Manage aliases"
+  },
+  "register_alias": {
+    "title": "Register alias",
+    "empty": {
+      "no_servers": {
+        "title": "No servers",
+        "description": "To register an alias, you need to be a member of some SSB room server. Find one on the internet with the hashtag #ssbroom and make sure it supports aliases."
+      }
+    },
+    "header": {
+      "description": "Choose a room server where you would like to register a new alias link for yourself.\n\nAliases are web addresses that people can use to connect with you."
+    },
+    "dialogs": {
+      "input_alias": {
+        "description": "Submit your desired new alias to {{host}} as a single word in lowercase.\n\nFor example, if you want the alias \"myname.{{host}}\", write \"myname\" below."
+      }
+    },
+    "submitting": {
+      "title": "Submitting..."
+    },
+    "failure": {
+      "title": "It didn't work",
+      "alias_taken": "The alias you submitted is already taken by some user.",
+      "call_to_action": {
+        "try_again": {
+          "label": "Try again",
+          "accessibility_label": "Try Again Button"
+        }
+      }
+    },
+    "success": {
+      "title": "Great!",
+      "description": "The alias {{alias}} is now yours.",
+      "call_to_action": {
+        "go_back": {
+          "label": "Go back",
+          "accessibility_label": "Go Back Button"
+        }
+      }
+    }
+  },
+  "raw_db": {
+    "title": "Onbewerkte database",
+    "item": {
+      "type": {
+        "any": "type: {{type}}",
+        "encrypted": "versleuteld"
+      }
+    }
+  },
+  "raw_msg": {
+    "title": "Onbewerkt bericht"
+  },
+  "recipients_input": {
+    "title": "Nieuw bericht",
+    "call_to_action": {
+      "proceed": {
+        "label": "Volgende",
+        "accessibility_label": "Volgende knop"
+      }
+    },
+    "fields": {
+      "mention_input": {
+        "placeholder": "Zoek naar mensen om toe te voegen",
+        "accessibility_label": "Tekstinvoer account vermelden"
+      }
+    },
+    "empty": {
+      "instructions": {
+        "title": "Choose members",
+        "description": "Type in the names\nof people to join the new chat"
+      },
+      "none_to_choose": {
+        "title": "Niemand",
+        "description": "Er is niemand in je\nbuurt met die naam"
+      }
+    },
+    "toasts": {
+      "limit_reached": "Kan niet meer dan {{limit}} ontvangers kiezen"
+    }
+  },
+  "search": {
+    "query_input": {
+      "placeholder": "Search public posts",
+      "accessibility_label": "Search Query Text Input"
+    },
+    "clear_query": {
+      "accessibility_label": "Reset the Search Query Text Input"
+    },
+    "empty": {
+      "initial": {
+        "title": "Search something",
+        "description": "Wacht terwijl de app\nprobeert verbinding te maken met je buren"
+      },
+      "zero_results": {
+        "title": "Zero results",
+        "description": "Nothing found for \"{{query}}\""
+      }
+    }
+  },
+  "secret_input": {
+    "practice": {
+      "title": "Oefening",
+      "header": "Herhaal het om te bevestigen dat het juist is:"
+    },
+    "restore": {
+      "title": "Account herstellen"
+    },
+    "header": "Voer zorgvuldig uw herstel zin in",
+    "call_to_action": {
+      "confirm": {
+        "label": "Bevestigen",
+        "accessibility_label": "Bevestig herstel zin knop"
+      }
+    },
+    "fields": {
+      "words_input": {
+        "placeholder": "24-woord herstel zin",
+        "accessibility_label": "Herstel zin tekstinvoer"
+      }
+    },
+    "dialogs": {
+      "practice": {
+        "correct": {
+          "title": "Correct!",
+          "description": "De identiteit van je account is nu veilig omdat je de herstel zin kent."
+        },
+        "incorrect": {
+          "title": "Verkeerd",
+          "description": "Probeer opnieuw: schrijf uw herstel zin op bestaande uit 24 woorden gescheiden door een spatie."
+        }
+      },
+      "restore": {
+        "correct": {
+          "title": "Welkom terug!",
+          "description": "De identiteit van je account is nu hersteld.\n\nOm je gegevens te herstellen, moet je vervolgens eerst vrienden inschakelen die al eerder met je hebben gecommuniceerd, om je gegevens opnieuw via hen te downloaden."
+        },
+        "incorrect": {
+          "title": "Verkeerd",
+          "description": {
+            "try_again": "Probeer het opnieuw door uw herstel zin in te voegen bestaande uit 24 woorden gescheiden door een spatie.",
+            "overwrite_risk": "Er is al een account in de app, we kunnen deze niet overschrijven. Als je zeker weet dat je Manyverse wilt overschrijven, verwijderen en opnieuw installeren om je account te herstellen vanuit een schone staat.",
+            "too_short": "Er ontbreken enkele woorden. Uw herstelzin moet 24 woorden lang zijn.",
+            "too_long": "Er zijn te veel woorden. Uw herstelzin moet precies 24 woorden lang zijn.",
+            "wrong_length": "Uw herstelzin moet precies 24 woorden lang zijn.",
+            "generic": "De herstel zin die je hebt opgegeven lijkt niet op een geldige identiteit gegenereerd door Manyverse."
+          }
+        }
+      }
+    }
+  },
+  "secret_output": {
+    "title": "Herstelzin",
+    "header": {
+      "1_normal": "Schrijf zorgvuldig de volgende herstelzin op op een ",
+      "2_bold": "stuk papier",
+      "3_normal": ""
+    },
+    "footer": {
+      "1_normal": "Bewaar het ",
+      "2_bold": "vertrouwelijk",
+      "3_normal": ", en\nje eigen ",
+      "4_bold": "verantwoordelijkheid",
+      "5_normal": " over het document"
+    },
+    "words": {
+      "accessibility_label": "Geheime Woorden"
+    },
+    "call_to_action": {
+      "confirm": {
+        "accessibility_label": "Bevestig herstel zin knop"
+      }
+    },
+    "loading": "Laden..."
+  },
+  "settings": {
+    "title": "Instellingen",
+    "preferences": {
+      "title": "Voorkeuren",
+      "show_follows": {
+        "title": "Volggebeurtenissen weergeven",
+        "subtitle": "Laat de volg-, blokkeer- of ontvolggevallen zien op het openbare bord",
+        "accessibility_label": "Wissel volgen van gebeurtenissen op het openbare bord"
+      },
+      "hops": {
+        "title": "Replicatiehops",
+        "subtitle": "Tot waar in de social graph moet Manyverse gegevens downloaden; 1 is alleen-vrienden, 2 is vrienden-van-vrienden etc. Let op: hoe hoger dit is, hoe meer gegevens worden gedownload!",
+        "unlimited": "Ongelimiteerd",
+        "accessibility_label": "Schuifbalk replicatiehops"
+      }
+    },
+    "data_and_storage": {
+      "title": "Gegevens & opslag",
+      "backup": {
+        "title": "Back-up",
+        "subtitle": "Bekijk uw 24-woord herstelzin",
+        "accessibility_label": "Back-up maken van mijn account"
+      },
+      "blobs_storage": {
+        "title": "Opslaglimiet Blobs",
+        "subtitle": "Verwijder automatisch oude afbeeldingen en blobs totdat ze maximaal dit aantal opslagruimte op je apparaat bezet",
+        "unlimited": "Ongelimiteerd",
+        "accessibility_label": "Opslaglimiet slider"
+      }
+    },
+    "troubleshooting": {
+      "title": "Probleem oplossen",
+      "bug_report": {
+        "title": "E-mail foutrapport",
+        "accessibility_label": "Stuur foutrapport als e-mail"
+      },
+      "detailed_logs": {
+        "title": "Schakel gedetailleerde logs in",
+        "accessibility_label": "Schakel gedetailleerde developer logboeken aan/uit"
+      }
+    },
+    "more_information": {
+      "title": "Meer informatie",
+      "thanks": {
+        "title": "Hartelijk dank",
+        "accessibility_label": "Toon dank aan"
+      },
+      "third_party_libs": {
+        "title": "Bibliotheken van derden",
+        "accessibility_label": "Bekijk bibliotheken van derden"
+      },
+      "about": {
+        "title": "Over",
+        "accessibility_label": "Over deze app"
+      }
+    },
+    "dialogs": {
+      "restart_required": {
+        "title": "Opnieuw opstarten vereist",
+        "description": "Deze instelling wordt alleen van kracht als u de app sluit en Manyvers herstart."
+      }
+    }
+  },
+  "thread": {
+    "title": "Conversatie",
+    "call_to_action": {
+      "expand_reply": {
+        "accessibility_label": "Antwoordknop uitklappen"
+      },
+      "publish_reply": {
+        "accessibility_label": "Reactie publiceren knop"
+      }
+    },
+    "fields": {
+      "reply": {
+        "placeholder": "Reactie",
+        "accessibility_label": "Tekstinvoer beantwoorden"
+      }
+    },
+    "loading_replies": "Reacties laden...",
+    "empty": {
+      "missing": {
+        "title": "Ontbrekende gegevens",
+        "description": "Je hebt nog geen gegevens\nvoor het bericht dat bekend is bij het ID\n"
+      },
+      "blocked": {
+        "title": "Geblokkeerde discussie",
+        "description": "Je hebt ervoor gekozen om\nde auteur van deze thread te blokkeren"
+      },
+      "incompatible": {
+        "title": "Sorry",
+        "description": "Deze app weet niet hoe het deze thread correct moet verwerken en weergeven"
+      }
+    }
+  },
+  "message": {
+    "call_to_action": {
+      "show_reactions": {
+        "accessibility_label": "Toon reacties"
+      },
+      "add_reaction": {
+        "accessibility_label": "Voeg reactie knop toe"
+      },
+      "reply": {
+        "accessibility_label": "Antwoordknop"
+      },
+      "etc": {
+        "dialog_title": "Bericht",
+        "accessibility_label": "Etc-knop"
+      },
+      "copy_blob_id": {
+        "accessibility_label": "Kopieer Blob ID"
+      },
+      "copy_msg_id": "Kopieer cypherlink",
+      "view_raw": "Ruw bericht weergeven"
+    },
+    "toast": {
+      "copied_to_clipboard": "Gekopieerd naar klembord"
+    },
+    "reactions": {
+      "categories": {
+        "smileys_and_emotion": "Smileys en emotie",
+        "people_and_body": "Mensen en lichaam",
+        "animals_and_nature": "Dieren en natuur",
+        "food_and_drink": "Eten en drinken",
+        "activities": "Activiteiten",
+        "travel_and_places": "Reizen en plaatsen",
+        "objects": "Objecten",
+        "symbols": "Symbolen",
+        "flags": "Flags"
+      },
+      "show_more": {
+        "accessibility_label": "Laat meer reactie opties zien"
+      }
+    },
+    "image": {
+      "without_caption": {
+        "accessibility_label": "Foto zonder bijschrift"
+      }
+    },
+    "audio": {
+      "play": {
+        "accessibility_label": "Play audio"
+      },
+      "pause": {
+        "accessibility_label": "Pause audio"
+      },
+      "duration": {
+        "accessibility_label": "Audio duration"
+      },
+      "elapsed": {
+        "accessibility_label": "Audio current time"
+      },
+      "slider": {
+        "accessibility_label": "Change audio time"
+      }
+    },
+    "content_warning": {
+      "title": "Waarschuwing voor inhoud",
+      "call_to_action": {
+        "hide": "Verberg",
+        "show": "Bekijken"
+      }
+    },
+    "fork_note": {
+      "1_normal": "Afgetakt van ",
+      "2_bold": "{{cypherlink}}",
+      "3_normal": ""
+    },
+    "about": {
+      "new_picture": {
+        "1_normal": "",
+        "2_bold": "{{name}}",
+        "3_normal": " heeft een nieuwe profielfoto: "
+      },
+      "new_name_and_description": {
+        "1_normal": "",
+        "2_bold": "{{name}}",
+        "3_normal": " gebruikt de naam \"",
+        "4_bold": "{{name}}",
+        "5_normal": "\" en de beschrijving: "
+      },
+      "new_description": {
+        "1_normal": "",
+        "2_bold": "{{name}}",
+        "3_normal": " heeft een nieuwe biografie: "
+      },
+      "new_name": {
+        "1_normal": "",
+        "2_bold": "{{name}}",
+        "3_normal": " gebruikt de naam \"",
+        "4_bold": "{{name}}",
+        "5_normal": "\""
+      }
+    },
+    "contact": {
+      "follow_event": {
+        "1_normal": "",
+        "2_bold": "{{author}}",
+        "3_normal": " gevolgd ",
+        "4_bold": "{{target}}",
+        "5_normal": ""
+      },
+      "block_event": {
+        "1_normal": "",
+        "2_bold": "{{author}}",
+        "3_normal": " geblokkeerd ",
+        "4_bold": "{{target}}",
+        "5_normal": ""
+      },
+      "unfollow_event": {
+        "1_normal": "",
+        "2_bold": "{{author}}",
+        "3_normal": " ontvolgd ",
+        "4_bold": "{{target}}",
+        "5_normal": ""
+      },
+      "unblock_event": {
+        "1_normal": "",
+        "2_bold": "{{author}}",
+        "3_normal": " gedeblokkeerd ",
+        "4_bold": "{{target}}",
+        "5_normal": ""
+      }
+    }
+  }
+}

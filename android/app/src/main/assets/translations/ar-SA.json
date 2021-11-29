@@ -1,0 +1,1192 @@
+{
+  "call_to_action": {
+    "ok": "موافق",
+    "add": "أضف",
+    "done": "تم",
+    "cancel": "ألغ",
+    "continue": "تابع",
+    "delete": "احذف",
+    "remove": "أزل",
+    "save": "احفظ",
+    "yes": "نعم",
+    "no": "لا",
+    "open_menu": {
+      "accessibility_label": "زر القائمة"
+    },
+    "go_back": {
+      "accessibility_label": "زر العودة"
+    },
+    "close": {
+      "accessibility_label": "زر الإغلاق"
+    },
+    "close_dialog": {
+      "accessibility_label": "زر إغلاق الحوار"
+    },
+    "external_link_confirmation": {
+      "title": "Open link?",
+      "description": "Do you want to open {{link}} in your browser?"
+    }
+  },
+  "date": {
+    "relative": {
+      "past": {
+        "years": {
+          "one": "منذ سنة",
+          "other": "منذ {{count}} سنوات"
+        },
+        "months": {
+          "one": "منذ شهر",
+          "other": "منذ {{count}} أشهر"
+        },
+        "weeks": {
+          "one": "منذ أسبوع",
+          "other": "منذ {{count}} أسابيع"
+        },
+        "days": {
+          "one": "منذ يوم",
+          "other": "منذ {{count}} أيام"
+        },
+        "hours": {
+          "one": "منذ ساعة",
+          "other": "منذ {{count}} ساعات"
+        },
+        "minutes": {
+          "one": "منذ دقيقة",
+          "other": "منذ {{count}} دقائق"
+        },
+        "now": "توّا"
+      },
+      "future": {
+        "years": {
+          "one": "سنة من الآن",
+          "other": "{{count}} سنوات من الآن"
+        },
+        "months": {
+          "one": "شهر من الآن",
+          "other": "{{count}} أشهر من الآن"
+        },
+        "weeks": {
+          "one": "أسبوع من الآن",
+          "other": "{{count}} أسابيع من الآن"
+        },
+        "days": {
+          "one": "يوم من الآن",
+          "other": "{{count}} أيام من الآن"
+        },
+        "hours": {
+          "one": "ساعة من الآن",
+          "other": "{{count}} ساعات من الآن"
+        },
+        "minutes": {
+          "one": "دقيقة من الآن",
+          "other": "{{count}} دقائق من الآن"
+        },
+        "now": "قريبا"
+      }
+    }
+  },
+  "welcome": {
+    "learn_more": "اعرف المزيد",
+    "overview": {
+      "title": "مرحبا بك في منيفرس!",
+      "description": "يمكن لشبكات التواصل الاجتماعي أن تكون بسيطة ومحايدة وغير تجارية مبنية على الثقة بين الأصدقاء. هذا ما يمثله منيفرس، نأمل أن يكون بمثابة منزلك الرقمي. كل هذا ممكن بفضل بروتوكول SSB الجديد."
+    },
+    "off_the_grid": {
+      "title": "معزولة عن الشبكة",
+      "description": {
+        "1_normal": "يمكن للمنيفرس الاتصال بالإنترنت ، لكنه ليس ",
+        "2_bold": "متواجدا على",
+        "3_normal": " الإنترنت. كل شيء يحدث هنا على جهازك. هذا يعني أنه يمكنك استخدامه حتى عند عدم توفر اتصال! ",
+        "4_bold": "يتم تخزين محتواك على جهازك أولا",
+        "5_normal": ", ثم يمكنك مزامنته مع أصدقائك فور الاقتران بهم."
+      }
+    },
+    "connections": {
+      "title": "عدة طرق للاقتران",
+      "description": {
+        "ios": {
+          "1_normal": "لمزامنة المحتوى والتواصل مع أصدقائك يمكنك: الاتصال بنفس ",
+          "2_bold": "شبكة الواي-فاي",
+          "3_normal": ". للبحث عن أشخاص على الإنترنت، ابحث عن رمز الدعوة في ",
+          "4_bold": "خادم pub",
+          "5_normal": " أو في ",
+          "6_bold": "خادم غرفة",
+          "7_normal": "، أو استضف خادما بنفسك!"
+        },
+        "default": {
+          "1_normal": "لمزامنة المحتوى والتواصل مع أصدقائك يمكنك: الانضمام إلى نفس ",
+          "2_bold": "واي-فاي",
+          "3_normal": "، أو استخدم ",
+          "4_bold": "المزامنة ببلوتوث",
+          "5_normal": ". للبحث عن أشخاص على الإنترنت، ابحث عن رمز الدعوة في ",
+          "6_bold": "خادم pub",
+          "7_normal": " أو في ",
+          "8_bold": "خادم غرفة",
+          "9_normal": "، أو استضف خادما بنفسك!"
+        }
+      }
+    },
+    "moderation": {
+      "title": "إشراف مشترك",
+      "description": {
+        "1_normal": "لأن شبكة التواصل محجوزة في جهازك، لا بمكن لأحد حظر أو إزالة الحسابات نيابة عنك، انت المتحكم في مساحتك، ",
+        "2_bold": "بحظر الحسابات",
+        "3_normal": " التي لا ترغب بها على جهازك. كما يمكن لأصدقائك حظر تلك الحسابات. هكذا ينتشر الاشراف بشكل طبيع!"
+      }
+    },
+    "permanence": {
+      "title": "الديمومة",
+      "description": {
+        "1_normal": "تحتوي اجهزت أصدقائك على المحتوى الذي زامنته معهم، ليتمكنوا من تصفحه عند انقطاع الاتصال ",
+        "2_bold": "يستحيل حذف",
+        "3_normal": " محتواك من جميع الاجهزة! لهذا قررنا جعل المحتوى دائما. كما انه يجعل المجتمعات اكثر تقبلا لما يتم نشره."
+      }
+    },
+    "in_construction": {
+      "title": "قيد الإنشاء!",
+      "description": {
+        "1_normal": "منيفرس ",
+        "2_bold": "لا يزال في مرحلة البيتا",
+        "3_normal": "نحن لا نزال في أول الطريق وبعض الأجزاء تحتاج الإصلاح. فمثلا عند المزامنة قد يتجمد التطبيق بضع دقائق. تحلى بالصبر! وأعلمنا إن واجهة أي علة، بالوقت الكافي والتبراعات يمكننا جعل هذا التطبيق رائعا."
+      }
+    },
+    "setup_account": {
+      "title": "هل هذه مرتك الاولى؟",
+      "description": "هل تريد إنشاء حساب، أم استعادة حساب قديم باستخدام عبارة الاستعادة ذات 24 كلمة؟",
+      "call_to_action": {
+        "create": {
+          "label": "أنشئ حساب",
+          "accessibility_label": "زر انشاء الحساب"
+        },
+        "restore": {
+          "label": "استعد حساب",
+          "accessibility_label": "زر استعادة الحساب"
+        }
+      }
+    }
+  },
+  "central": {
+    "app_name": "مانيفرس",
+    "tab_headers": {
+      "public": "اللوح العام",
+      "private": "الرسائل الخاصة",
+      "activity": "النشاط",
+      "connections": "Connected peers"
+    },
+    "tab_footers": {
+      "public": "عام",
+      "private": "خاص",
+      "activity": "النشاط",
+      "connections": "الاقترانات"
+    },
+    "loading": "يحمل...",
+    "building_indexes": "يبني فهارس قاعدة البيانات...\nقد يستغرق بضع دقائق",
+    "tabs": {
+      "public": {
+        "accessibility_label": "زر التبويب العام"
+      },
+      "private": {
+        "accessibility_label": "زر التبويب الخاص"
+      },
+      "activity": {
+        "accessibility_label": "زر تبويب النشاط"
+      },
+      "connections": {
+        "accessibility_label": "زر تبويب الاقترانات"
+      }
+    }
+  },
+  "public": {
+    "floating_action_button": {
+      "compose": "اكتب رسالة عامة"
+    },
+    "empty": {
+      "title": "لا رسائل",
+      "description": "اكتب يومياتك\nلتشاركها مع أصدقائك لاحقاً"
+    },
+    "search": {
+      "accessibility_label": "زر البحث"
+    }
+  },
+  "private": {
+    "floating_action_button": {
+      "compose": "ابدأ محادثة خاصة"
+    },
+    "empty": {
+      "title": "لا توجد محادثات",
+      "description": "ابدأ محادثة خاصة\nمع أي من أصدقائك"
+    },
+    "conversation": {
+      "accessibility_label": "انتقل إلى المحادثة"
+    }
+  },
+  "accounts": {
+    "reactions": {
+      "title": "التفاعلات"
+    },
+    "recipients": {
+      "title": "المتلقون"
+    },
+    "call_to_action": {
+      "open_account": {
+        "accessibility_label": "انتقل إلى الحساب"
+      }
+    }
+  },
+  "activity": {
+    "mention": {
+      "label": {
+        "1_normal": "",
+        "2_bold": "{{author}}",
+        "3_normal": " ذكرك"
+      }
+    },
+    "follow": {
+      "label": {
+        "1_normal": "",
+        "2_bold": "{{author}}",
+        "3_normal": " تابعك"
+      }
+    },
+    "connection_attempt": {
+      "label": {
+        "1_normal": "",
+        "2_bold": "{{author}}",
+        "3_normal": " يريد ان يقترن بك"
+      }
+    },
+    "empty": {
+      "title": "لا يوجد نشاط",
+      "description": "يُعرض هنا من قام بذكرك أو متابعتك"
+    }
+  },
+  "connections": {
+    "title": "Connections Panel",
+    "floating_action_button": {
+      "create_invite": "أنشئ دعوة",
+      "paste_invite": "لصق دعوة",
+      "bluetooth_seek": "بحث بلوتوث"
+    },
+    "open_connections_panel": "Open Connections Panel",
+    "empty": {
+      "offline": {
+        "title": "غير متصل",
+        "description": "شغل احد أوضاع الاقتران\nأو استمتع بقراءة المحتوى الموجود"
+      },
+      "connecting": {
+        "title": "يقترن",
+        "description": "انتظر بينما يحاول\nالتطبيق الاقتران بنظرائك"
+      },
+      "no_peers": {
+        "title": "بدون اقترانات",
+        "description": "زامن مع أشخاص قريبين\nأو استخدم رمز دعوة خادم"
+      }
+    },
+    "scenarios": {
+      "offline": "غير متصل",
+      "not_connected": "Not connected",
+      "few_connections": "Too few connections",
+      "many_connections": "Well connected"
+    },
+    "scenario_descriptions": {
+      "offline_with_content": "You cannot connect to peers at the moment, but you can enjoy some content that you already have.",
+      "offline_without_content": "You cannot connect to peers at the moment. Try to get some internet connectivity or turn on Wi-Fi to discover peers nearby.",
+      "knows_no_one": "Your Manyverse is at the moment isolated. You need to be invited by other peers to join room servers, or you can host a room server yourself.",
+      "nearby_strangers_available": "You are not yet connected to anyone, but there are some peers on the same Wi-Fi. Try to connect to them manually if you think they are willing to connect to you too.",
+      "empty_rooms": "You are a member of some rooms, but there is no one you know currently online. Try connecting manually to a stranger in the room, or get an invite code to other servers.",
+      "connected_poorly": "You are connected to one peer, that's good. But, to improve propagation of data, you should connect to more peers. Try waiting a bit longer, or getting an invite code to other servers.",
+      "connected_well": "You are connected to plenty of peers. All is good! They are propagating your data and you are propagating theirs."
+    },
+    "recommendations": {
+      "consume_invite": "How to get an invite",
+      "follow_staged_manually": "Follow someone new",
+      "host_ssb_room": "How to host a room server",
+      "others": "Other choices"
+    },
+    "recommendation_descriptions": {
+      "consume_invite": "This social network is based on invites, to keep it friendly and safe from spam. If you haven't yet received an invite from a friend, you can search the web for some server that gives invites to anyone.\n\nLook for the key words \"SSB room server\" or \"SSB pub server\". The hashtag #ssbroom may also be useful.",
+      "follow_staged_manually": {
+        "part1": {
+          "not_connected": "Your friends are not online right now, but if you want to get more content, there are some unknown peers currently online in the same room(s) as you are. You can try to become friends with them.",
+          "connected": "If you want to get more content beyond what you already have, you can follow more people. There are some unknown peers currently online in the same room(s) as you are. You can try to become friends with them."
+        },
+        "part2": "On the next screen, you will see unknown peers displayed like this. Press one of them and choose \"Open Profile\", then \"Follow\"."
+      }
+    },
+    "toasts": {
+      "invite_accepted": "قُبلت الدعوة",
+      "invite_rejected": "رُفضت الدعوة. هل انت متأكد من صحتها؟",
+      "connecting_to_alias": "يقترن بـ {{alias}}",
+      "connected_to_alias": "اقترن بـ {{alias}}",
+      "not_connected_to_alias": "{{alias}} غير متصل"
+    },
+    "dialogs": {
+      "sign_in_with_ssb": {
+        "client_initiated": {
+          "title": "أتسمح بالولوج؟",
+          "description": "بفتح موقع {{room}} ستتمكن من انشاء روابط دعوة وإدارة الأعضاء. أتريد استخدام مانِفيرس للولوج؟\n\nمعرف الغرفة هو {{roomid}}"
+        },
+        "server_initiated": {
+          "title": "أتسمح بالولوج؟",
+          "description": "متصفح ويب يطلب الإذن للتعرف عليك. هل تريد تسجيل الدخول إلى الخادم {{room}}؟\n\nمعرفته {{roomid}}"
+        }
+      }
+    },
+    "peers": {
+      "types": {
+        "bluetooth": "بلوتوث",
+        "lan": "واي-فاي",
+        "dht": {
+          "connected": "الانترنت باتصال ند لند"
+        },
+        "room": {
+          "server": "خادم غرفة",
+          "endpoint": "نظير الغرفة",
+          "alone_online": "(انت الوحيد المتصل)",
+          "others_online": {
+            "one": "({{count}} متصل)",
+            "other": "({{count}} متصل)"
+          }
+        },
+        "pub": "خادم pub",
+        "server": "خادم",
+        "unknown": "مجهول"
+      }
+    },
+    "modes": {
+      "generic": {
+        "enabled": "(مفَعّل)"
+      },
+      "bluetooth": {
+        "title": "بلوتوث",
+        "accessibility_label": "وضع بلوتوث",
+        "disabled": "(شغل بلوتوث لاستخدامه)",
+        "description": "اقترن بالمستخدمين القريبين بِبلوتوث.",
+        "permission_request": {
+          "title": "السماح بتحديد موقعك عبر البلوتوث؟",
+          "message": "يحتاج منيفرس لاستخدام البلوتوث لاكتشاف مكان وجودك (\"الموقع التقريبي\") والنظراء من حولك."
+        }
+      },
+      "wifi": {
+        "title": "شبكة الواي فاي",
+        "accessibility_label": "وضع واي فاي",
+        "disabled": "(شغل واي فاي لاستخدامه)",
+        "description": "اقترن بأصدقائك باستخدام الشبكة المحلية, أي باستخدام نفس شبكة واي-فاي."
+      },
+      "servers": {
+        "title": "خوادم الإنترنت",
+        "accessibility_label": "وضع خوادم الإنترنت",
+        "disabled": "(اتصل لاستخدامه)",
+        "description": "اقترن بما يسمى \"خادم Bub\" الذي يملكه بعض الأصدقاء، يحتوي على أحدث البيانات من عدة حسابات."
+      }
+    },
+    "menu": {
+      "dialog_title": "الاقتران",
+      "open_profile": {
+        "label": "افتح الملف الشخصي",
+        "accessibility_label": {
+          "connected": "افتح شاشة الملف الشخصي لهذا النظير المقترن",
+          "staged": "افتح شاشة الملف الشخصي لهذا الاقتران المقترح"
+        }
+      },
+      "connect": {
+        "label": "اقترن",
+        "accessibility_label": {
+          "staged_peer": "اقترن بهذا النظير المقترح",
+          "staged_room": "اقترن بهذه الغرفة المقترحة"
+        }
+      },
+      "follow_connect": {
+        "label": "اقترن وتابع",
+        "accessibility_label": "اقترن بهذا النظير المقترح وتابعه"
+      },
+      "disconnect": {
+        "label": "ألغ الاقتران",
+        "accessibility_label": {
+          "peer": "ألغ الاقتران بهذا النظير",
+          "room": "ألغ الاقتران بهذه الغرفة"
+        }
+      },
+      "disconnect_forget": {
+        "label": "ألغ الاقتران وإنسى",
+        "accessibility_label": {
+          "peer": "ألغ الاقتران بهذا النظير وأزله من قاعدة البيانات",
+          "room": "ألغ الاقتران بهذه الغرفة وأزلها من قاعدة البيانات"
+        }
+      },
+      "forget": {
+        "label": "انسى",
+        "accessibility_label": {
+          "room": "أزِل هذه الغرفة من قاعدة البيانات"
+        }
+      },
+      "manage_aliases": {
+        "label": "إدارة ألقابي",
+        "accessibility_label": "إدارة الأسماء المستعارة الخاصة بي في خوادم الغرفة"
+      },
+      "room_sign_in": {
+        "label": "لِج الى موقع",
+        "accessibility_label": "زر الولوج الى لوحة تحكم الغرفة"
+      },
+      "room_share_invite": {
+        "label": "شارك رمز الدعوة",
+        "accessibility_label": "شارك رمز الدعوة لهذه الغرفة"
+      },
+      "invite_info": {
+        "label": "حول",
+        "accessibility_label": "حول رمز الدعوة"
+      },
+      "invite_note": {
+        "label": "أضف ملاحظة",
+        "accessibility_label": "أضف ملاحظة تذكيرية لنفسي"
+      },
+      "invite_share": {
+        "label": "شارك",
+        "accessibility_label": "شارك رمز الدعوة"
+      },
+      "invite_delete": {
+        "label": "احذف",
+        "accessibility_label": "احذف رمز الدعوة"
+      }
+    },
+    "notes": {
+      "add": {
+        "title": "أضف ملاحظة",
+        "description": "اكتب ملاحظة خاصة (لنفسك) حول هذا الرمز. مثلا: \"هذا الرمز لأمجد\""
+      }
+    },
+    "share_code": {
+      "room": {
+        "title": "رمز دعوة لغرفة SSB",
+        "message": "انضم إلي في غرفة SSB {{name}} بلصق هذا الرمز في منيفيرس:",
+        "dialog_note": "امنح هذا الرمز لصديق"
+      }
+    }
+  },
+  "compose": {
+    "call_to_action": {
+      "publish_new_thread": {
+        "label": "انشر",
+        "accessibility_label": "زر نشر رسالة"
+      },
+      "reply_to_thread": {
+        "label": "ردّ",
+        "accessibility_label": "زر نشر رد"
+      },
+      "preview": {
+        "label": "معاينة",
+        "accessibility_label": "زر معاينة"
+      },
+      "close": {
+        "accessibility_label": "زر إغلاق"
+      },
+      "record_audio": {
+        "accessibility_label": "زر تسجيل الصوت",
+        "permission_request": {
+          "title": "هل تسمح لمنيفيرس بتسحيل الصوت؟",
+          "message": "يحتاج منيفيرس الى الوصول للميكروفون لتسجيل الرسائل الصوتية",
+          "neutral": "اسألني لاحقاً",
+          "positive": "موافق",
+          "negative": "ألغ"
+        }
+      },
+      "open_camera": {
+        "accessibility_label": "زر فتح الكاميرا"
+      },
+      "add_picture": {
+        "accessibility_label": "زر إضافة صورة"
+      }
+    },
+    "dialogs": {
+      "content_warning": {
+        "title": "تحذير من المحتوى",
+        "description": "اذا احتوى منشورك علي مواد حساسة، أضف ملاحظة لإخطار الناس."
+      },
+      "image_caption": {
+        "title": "تعليق",
+        "description": "أعط وصفا للصورة، من أجل ضعاف البصر."
+      }
+    },
+    "content_warning_initials": {
+      "label": "CW",
+      "accessibility_label": "زر التحذير من المحتوى"
+    },
+    "mention_field": {
+      "accessibility_label": "دَخل الإشارة الى حساب"
+    },
+    "text_field": {
+      "placeholder": "اكتب رسالة عامة",
+      "accessibility_label": "دَخل النص"
+    }
+  },
+  "compose_audio": {
+    "title": "رسالة صوتية",
+    "call_to_action": {
+      "start_recording": {
+        "accessibility_label": "ابدأ التسجيل"
+      },
+      "stop_recording": {
+        "accessibility_label": "أوقف التسجيل"
+      },
+      "discard_recording": {
+        "label": "ألغِ",
+        "accessibility_label": "تجاهل زر التسجيل"
+      },
+      "submit_recording": {
+        "label": "تم",
+        "accessibility_label": "إرسال زر التسجيل"
+      }
+    },
+    "dialogs": {
+      "discard": {
+        "title": "رسالة صوتية",
+        "question": "أتريد تجاهل المسودة؟"
+      }
+    }
+  },
+  "backup": {
+    "title": "النسخ الاحتياطي",
+    "introduction": {
+      "title": "هناك جزءان لتأمين حسابك"
+    },
+    "data": {
+      "title": "البيانات",
+      "description": {
+        "1_normal": "هي مشاركاتك ورسائلك وصورك و اعجاباتك وما شابه ذلك. للحفاظ عليها من الخسارة المفاجئة، نستخدم ",
+        "2_bold": "النسخ الاحتياطي بالحشد",
+        "3_normal": ". ماعليك سوى ",
+        "4_bold": "المزامنة مع أصدقاء موثوقين",
+        "5_normal": " أو جهاز آخر تمتلكه. ",
+        "6_bold": "لا حاجة لشيئ آخر",
+        "7_normal": "، فقط استخدم منيفرس بشكل متكرر وأصدقائك سيساندونك!"
+      },
+      "call_to_action": {
+        "acknowledge": {
+          "label": "أتفهم",
+          "accessibility_label": "أُقر"
+        }
+      }
+    },
+    "identity": {
+      "title": "الهويّة",
+      "description": {
+        "1_normal": "\"بصمة\" حسابك مكونة من ",
+        "2_bold": "عبارة استعادة",
+        "3_normal": "فريدة. تكونها 24 كلمة قادرة على فتح حسابك. ",
+        "4_bold": "حافظ عليها في مكان آمن",
+        "5_normal": "فبهذه الكلمات يمكن لأي شخص الحصول على حسابك والتحكم فيه. ",
+        "6_bold": "تحمّل مسؤوليتها",
+        "7_normal": " ، لتكون أنت الوحيد القادر على استعادته!"
+      },
+      "call_to_action": {
+        "show_recovery_phrase": "إعرض عبارة الاستعادة"
+      }
+    }
+  },
+  "biography": {
+    "picture": {
+      "accessibility_label": "صورة السيرة"
+    },
+    "description": {
+      "accessibility_label": "وصف السيرة"
+    }
+  },
+  "conversation": {
+    "title": "المحادثة",
+    "placeholder": "اكتب رسالة...",
+    "call_to_action": {
+      "show_recipients": {
+        "accessibility_label": "إعرض المستلمين"
+      }
+    },
+    "notifications": {
+      "new_conversation": "هذه محادثة خاصة جديدة"
+    }
+  },
+  "dialog_about": {
+    "title": "حول منيفرس",
+    "version": "الإصدار {{version}}",
+    "copyright": "حقوق التأليف والنشر (C)",
+    "authors": "مؤلفو مانيفرس",
+    "repository": "مستودع الكود المصدري",
+    "licensed": "مرخص تحت بنود {{license}}"
+  },
+  "dialog_thanks": {
+    "title": "شكرا لك!",
+    "description": "دُعم تطوير هذا التطبيق بواسطة منح من {{sponsor1}} و {{sponsor2}}، وتبرعات من:\n\n**{{topBackers}}**، و [100 داعم إضافي]({{donateLink}}). شكراً!"
+  },
+  "drawer": {
+    "menu": {
+      "my_profile": {
+        "label": "ملفي الشخصي",
+        "accessibility_label": "عنصر قائمة ملفي الشخصي"
+      },
+      "raw_database": {
+        "label": "قاعدة البيانات الخام",
+        "accessibility_label": "اعرض قاعدة البيانات الخام"
+      },
+      "email_bug_report": {
+        "label": "بلغ عن علة بالبريد",
+        "accessibility_label": "أرسل تقريرا عن علة بالبريد الالكتروني"
+      },
+      "translate": {
+        "label": "ساعدنا على الترجمة",
+        "accessibility_label": "فتح موقع الترجمة"
+      },
+      "more": {
+        "label": "المزيد",
+        "accessibility_label": "إظهار المزيد من عناصر القائمة"
+      },
+      "settings": {
+        "label": "الإعدادات",
+        "accessibility_label": "انتقل إلى الإعدادات"
+      },
+      "preparing_database": {
+        "label": "يعِد قاعدة البيانات..."
+      },
+      "ready_estimate": {
+        "label": "جاهز:"
+      }
+    }
+  },
+  "invite_paste": {
+    "placeholder": "لصق رمز الدعوة",
+    "call_to_action": {
+      "accept": {
+        "accessibility_label": "اقبل رمز الدعوة"
+      }
+    },
+    "alert_unsupported_dht": {
+      "title": "نوع غير مدعوم",
+      "description": "لم تعد دعوات P2P مدعومة في العديد من الجهات."
+    },
+    "text_field": {
+      "accessibility_label": "دَخل نص رمز الدعوة"
+    }
+  },
+  "libraries": {
+    "title": "مكتبات الطرف الثالث",
+    "description": "يستخدم منيفرس المكتبات والمكونات مفتوحة المصدر التالية. نود شكر مؤلفي هذه المكتبات إضافة لذكر روابط مواقعهم.",
+    "image": {
+      "name": "صورة {{name}}",
+      "attribution": " أنشأها {{author}}، تحت رخص {{license}}"
+    }
+  },
+  "profile": {
+    "call_to_action": {
+      "copy_cypherlink": "انسخ الرابط التخيلي",
+      "private_chat": "افتح محادثة خاصة",
+      "block": "اُحظر",
+      "block_secretly": "اُحظره سرا",
+      "unblock": "ألغ الحظر",
+      "unblock_secretly": "ألغ الحظر سراً",
+      "follow": "تابع",
+      "edit_profile": {
+        "label": "حرر الملف الشخصي",
+        "accessibility_label": "زر تحرير الملف الشخصي"
+      },
+      "manage": {
+        "accessibility_label": "أدر المراسلين"
+      }
+    },
+    "dialog_ssb_id": {
+      "title": "معرف SSB"
+    },
+    "dialog_manage_contact": {
+      "title": "جهة"
+    },
+    "dialog_friend_request": {
+      "title": "طلب صداقة",
+      "description": "هذا الحساب يحاول الاقتران بك، لكن مانيفرس منعه لأنه خارج مجتمعك.\n\nإذا تعرّفت على هذا المعرف، اضغط على \"تابع\" للسماح لهم بالاقتران بك."
+    },
+    "toast": {
+      "copied_to_clipboard": "نُسخ في الحافظة"
+    },
+    "details": {
+      "id": {
+        "accessibility_label": "معرف SSB"
+      },
+      "biography": {
+        "accessibility_label": "اقرأ السيرة"
+      },
+      "counters": {
+        "following": "متابع",
+        "followers": "المتابِعون"
+      }
+    },
+    "info": {
+      "follows_you": "يتابعك",
+      "blocks_you": "حظرك",
+      "following": "متابع"
+    },
+    "picture": {
+      "accessibility_label": "صورة الملف الشخصي"
+    },
+    "name": {
+      "accessibility_label": "اسم الملف الشخصي"
+    },
+    "empty": {
+      "blocked": {
+        "title": "محظور",
+        "description": "اخترت إيقاف \nالتفاعل مع هذا الحساب"
+      },
+      "no_self_messages": {
+        "title": "لا رسائل",
+        "description": "اكتب يوميات\nلتشاركها مع أصدقائك لاحقاً"
+      },
+      "no_messages": {
+        "title": "لا رسائل",
+        "description": "ليس لديك أي بيانات\nمن هذا الحساب"
+      }
+    },
+    "floating_action_button": {
+      "compose": "اكتب رسالة عامة"
+    }
+  },
+  "profile_edit": {
+    "title": "تحرير الملف الشخصي",
+    "call_to_action": {
+      "discard": "ألغِ",
+      "save": {
+        "label": "احفظ",
+        "accessibility_label": "احفظ الملف الشخصي"
+      },
+      "edit_picture": {
+        "accessibility_label": "حرر صورة الملف الشخصي"
+      },
+      "register_new_alias": {
+        "label": "سجّل لقبًا جديدًا",
+        "accessibility_label": "سجّل لقبًا جديدًا لهذه الغرفة"
+      }
+    },
+    "dialogs": {
+      "discard": {
+        "title": "تحرير الملف الشخصي",
+        "question": "تجاهل التغييرات؟"
+      },
+      "remove_alias": {
+        "description": "سيؤدي هذا الإجراء إلى إزالة الاسم لقب \"{{alias}}\" من خادم الغرفة.\n\nلن يتمكن الناس من الوصول إليك باستخدام هذا اللقب."
+      }
+    },
+    "toasts": {
+      "alias_removed_success": "أُزيل اللقب",
+      "alias_removed_failure": "فشلت إزالت اللقب"
+    },
+    "fields": {
+      "name": {
+        "label": "الاسم",
+        "accessibility_label": "دَخل الاسم"
+      },
+      "description": {
+        "label": "السيرة",
+        "accessibility_label": "دَخل السيرة"
+      },
+      "aliases": {
+        "label": "الألقاب"
+      }
+    }
+  },
+  "manage_aliases": {
+    "title": "إدارة الألقاب"
+  },
+  "register_alias": {
+    "title": "تسجيل لقب",
+    "empty": {
+      "no_servers": {
+        "title": "لا خوادم",
+        "description": "لتسجيل لقب، يجب أن تكون عضوا في غرفة SSB. ابحث عن واحدة في وسائل التواصل باستخدام هاشتاج #ssbroom وتأكد من أنه دعمها للالقاب."
+      }
+    },
+    "header": {
+      "description": "اختر خادم غرفة أين ترغب في تسجيل رابط لقب جديد لنفسك.\n\n الألقاب عبارة عن عناوين ويب يمكن للناس استخدامها للوصول إليك."
+    },
+    "dialogs": {
+      "input_alias": {
+        "description": "أرسل الاسم اللقب الجديد إلى {{host}} ككلمة واحدة بحروف صغيرة.\n\nعلى سبيل المثال، إذا كنت تريد لقب \"my name.{{host}}\", اكتب \"myname\" أدناه."
+      }
+    },
+    "submitting": {
+      "title": "يرسل..."
+    },
+    "failure": {
+      "title": "لم تنجح",
+      "alias_taken": "اللقب الذي طلبته محجوز.",
+      "call_to_action": {
+        "try_again": {
+          "label": "حاول مجددا",
+          "accessibility_label": "زر إعادة المحاولة"
+        }
+      }
+    },
+    "success": {
+      "title": "ممتاز!",
+      "description": "اصبح لقب {{alias}} لك.",
+      "call_to_action": {
+        "go_back": {
+          "label": "عُد",
+          "accessibility_label": "زر العودة"
+        }
+      }
+    }
+  },
+  "raw_db": {
+    "title": "قاعدة البيانات الخام",
+    "item": {
+      "type": {
+        "any": "النوع: {{type}}",
+        "encrypted": "مشفرة"
+      }
+    }
+  },
+  "raw_msg": {
+    "title": "خام الرسالة"
+  },
+  "recipients_input": {
+    "title": "رسالة جديدة",
+    "call_to_action": {
+      "proceed": {
+        "label": "التالي",
+        "accessibility_label": "زر التالي"
+      }
+    },
+    "fields": {
+      "mention_input": {
+        "placeholder": "ابحث عن أشخاص لإضافتهم",
+        "accessibility_label": "دَخل الإشارة الى حساب"
+      }
+    },
+    "empty": {
+      "instructions": {
+        "title": "اختر الأعضاء",
+        "description": "لضم أشخاص للمحادثة أكتب أسماءهم"
+      },
+      "none_to_choose": {
+        "title": "لا أحد",
+        "description": "لا يوجد أحد في مجتمعك\nبهذا الاسم"
+      }
+    },
+    "toasts": {
+      "limit_reached": "لا يمكن اختيار أكثر من {{limit}} مستلمين"
+    }
+  },
+  "search": {
+    "query_input": {
+      "placeholder": "ابحث في المشاركات العامومية",
+      "accessibility_label": "مُدخل نص البحث"
+    },
+    "clear_query": {
+      "accessibility_label": "صفِّر مدخل نص البحث"
+    },
+    "empty": {
+      "initial": {
+        "title": "اِبحث",
+        "description": "انتظر بينما يحاول\nالتطبيق الاقتران بنظرائك"
+      },
+      "zero_results": {
+        "title": "لا نتائج",
+        "description": "لم يُعثر على نتائج لـ \"{{query}}\""
+      }
+    }
+  },
+  "secret_input": {
+    "practice": {
+      "title": "التدرب",
+      "header": "كررها للتأكيد:"
+    },
+    "restore": {
+      "title": "استعد حساب"
+    },
+    "header": "أدخل عبارة الاستعادة بعناية",
+    "call_to_action": {
+      "confirm": {
+        "label": "أكّد",
+        "accessibility_label": "زر تأكيد عبارة الاستعادة"
+      }
+    },
+    "fields": {
+      "words_input": {
+        "placeholder": "عبارة الاستعادة ذات 24 كلمة (أو 48 كلمة)",
+        "accessibility_label": "دَخل عبارة الاستعادة"
+      }
+    },
+    "dialogs": {
+      "practice": {
+        "correct": {
+          "title": "صحيح!",
+          "description": "حسابك الآن آمن بمعرفتك لعبارة الاستعادة."
+        },
+        "incorrect": {
+          "title": "خطأ",
+          "description": "حاول مرة أخرى: اكتب عبارة الاستعادة الخاصة بك ذات ال 24 كلمة مفصولة بمسافة."
+        }
+      },
+      "restore": {
+        "correct": {
+          "title": "مرحبا بعودتك!",
+          "description": "اُستعيد حسابك.\n\nاقترن مع الأصدقاء الذين تفاعلوا معك من قبل، لتحميل بياناتك منهم."
+        },
+        "incorrect": {
+          "title": "خطأ",
+          "description": {
+            "try_again": "حاول مرة أخرى: ادخل عبارة الاستعادة الخاصة بك ذات ال 24 كلمة مفصولة بمسافة.",
+            "overwrite_risk": "منيفرس يستخدم حساب بالفعل، لا يمكن الكتابة فوقه. إذا كنت تريد استخدام هذا الحساب، ألغ تثبيت مانيفرس وأعد تثبيته واسترد حسابك في حالة نظيفة.",
+            "too_short": "عدد الكلمات ناقص. يجب أن تكون كلمات عبارة الاستعادة 24 كلمة.",
+            "too_long": "عدد الكلمات كبير. يجب أن تكون كلمات عبارة الاستعادة 24 كلمة.",
+            "wrong_length": "يجب أن تكون عبارة الاستعادة الخاصة بك 24 كلمة.",
+            "generic": "عبارة الاستعادة هذه ليست هويّة صالحة ولّدها منيفرس."
+          }
+        }
+      }
+    }
+  },
+  "secret_output": {
+    "title": "عبارة الاستعادة",
+    "header": {
+      "1_normal": "اكتب بعناية عبارة الاستعادة على ",
+      "2_bold": "ورقة",
+      "3_normal": ""
+    },
+    "footer": {
+      "1_normal": "واحتفظ بها ",
+      "2_bold": "في مكان آمن",
+      "3_normal": "، وتحمل ",
+      "4_bold": "مسؤلية",
+      "5_normal": " الحفاظ عليها"
+    },
+    "words": {
+      "accessibility_label": "الكلمات السرية"
+    },
+    "call_to_action": {
+      "confirm": {
+        "accessibility_label": "زر تأكيد عبارة الاستعادة"
+      }
+    },
+    "loading": "يحمل..."
+  },
+  "settings": {
+    "title": "الإعدادات",
+    "preferences": {
+      "title": "التفضيلات",
+      "show_follows": {
+        "title": "اعرض أحداث المتابعة",
+        "subtitle": "اعرض المتابعات أو الحظر أو إلغاء المتابعة في اللوح العام",
+        "accessibility_label": "بدِّل عرض أحداث المتابعة في اللوح العام"
+      },
+      "hops": {
+        "title": "الفروع",
+        "subtitle": "كم عدد الفروع التي يجب على منيفرس ان ينزل بياناتها; 1 الأصدقاء فقط، 2 أصدقاء الأصدقاء، إلخ. تحذير كلما ارتفع العدد زاد حجم البيانات المنزلة!",
+        "unlimited": "غير محدود",
+        "accessibility_label": "شريط تمرير عدد الفروع"
+      }
+    },
+    "data_and_storage": {
+      "title": "البيانات والتخزين",
+      "backup": {
+        "title": "النسخ الاحتياطي",
+        "subtitle": "اعرض عبارة الاستعادة ذات ال 24 كلمة",
+        "accessibility_label": "أنشئ نسخة إحتياطية لحسابب"
+      },
+      "blobs_storage": {
+        "title": "حد تخزين الكائنات الثنائية الكبيرة",
+        "subtitle": "حذف الصور والكائنات الثنائية القديمة تلقائياً حتى لا تشغل أكثر من هذه الكمية على جهازك",
+        "unlimited": "غير محدود",
+        "accessibility_label": "شريط تمرير حد التخزين"
+      }
+    },
+    "troubleshooting": {
+      "title": "استكشاف الأخطاء",
+      "bug_report": {
+        "title": "بلغ عن علة بالبريد",
+        "accessibility_label": "أرسل تقريرا عن علة بالبريد الالكتروني"
+      },
+      "detailed_logs": {
+        "title": "مكن السجلات المفصلة",
+        "accessibility_label": "بدِّل سجلات المطور المفصلة"
+      }
+    },
+    "more_information": {
+      "title": "مزيد من التفاصيل",
+      "thanks": {
+        "title": "شكراً",
+        "accessibility_label": "اعرض التشكرات"
+      },
+      "third_party_libs": {
+        "title": "مكتبات الطرف الثالث",
+        "accessibility_label": "اعرض مكتبات الطرف الثالث"
+      },
+      "about": {
+        "title": "حول",
+        "accessibility_label": "حول هذا التطبيق"
+      }
+    },
+    "dialogs": {
+      "restart_required": {
+        "title": "مطلوب إعادة التشغيل",
+        "description": "سينفذ هذا الإعداد عند قتل التطبيق وإعادة تشغيله."
+      }
+    }
+  },
+  "thread": {
+    "title": "الموضوع",
+    "call_to_action": {
+      "expand_reply": {
+        "accessibility_label": "زر توسيع الرد"
+      },
+      "publish_reply": {
+        "accessibility_label": "زر نشر الرد"
+      }
+    },
+    "fields": {
+      "reply": {
+        "placeholder": "علِّق",
+        "accessibility_label": "دَخل الرد"
+      }
+    },
+    "loading_replies": "يحمل الردود...",
+    "empty": {
+      "missing": {
+        "title": "البيانات المفقودة",
+        "description": "ليس لديك بيانات\nللرسالة هذا المعرف\n"
+      },
+      "blocked": {
+        "title": "الموضوع المحظور",
+        "description": "اخترت حظر\nمؤلف هذا الموضوع"
+      },
+      "incompatible": {
+        "title": "آسف",
+        "description": "لا يمكن لهذا التطبيق عرض هذا الموضوع بشكل صحيح"
+      }
+    }
+  },
+  "message": {
+    "call_to_action": {
+      "show_reactions": {
+        "accessibility_label": "اعرض التفاعلات"
+      },
+      "add_reaction": {
+        "accessibility_label": "زر اضافة تفاعل"
+      },
+      "reply": {
+        "accessibility_label": "زر الرد"
+      },
+      "etc": {
+        "dialog_title": "رسالة",
+        "accessibility_label": "زر Etc"
+      },
+      "copy_blob_id": {
+        "accessibility_label": "انسخ معرف الكائن الثنائي"
+      },
+      "copy_msg_id": "انسخ الرابط التخيلي",
+      "view_raw": "اعرض خام الرسالة"
+    },
+    "toast": {
+      "copied_to_clipboard": "نُسخ في الحافظة"
+    },
+    "reactions": {
+      "categories": {
+        "smileys_and_emotion": "الابتسامات والعواطف",
+        "people_and_body": "الأشخاص والجسد",
+        "animals_and_nature": "الحيوان والطبيعة",
+        "food_and_drink": "الغذاء والشراب",
+        "activities": "الأنشطة",
+        "travel_and_places": "السفر والمواقع",
+        "objects": "الأشياء",
+        "symbols": "الرموز",
+        "flags": "Flags"
+      },
+      "show_more": {
+        "accessibility_label": "اعرض مزيدا من خيارات التفاعل"
+      }
+    },
+    "image": {
+      "without_caption": {
+        "accessibility_label": "صورة بدون تعليق"
+      }
+    },
+    "audio": {
+      "play": {
+        "accessibility_label": "شغل الصوت"
+      },
+      "pause": {
+        "accessibility_label": "أوقف الصوت مؤقتًا"
+      },
+      "duration": {
+        "accessibility_label": "مدة الصوت"
+      },
+      "elapsed": {
+        "accessibility_label": "الوقت الحالي للصوت"
+      },
+      "slider": {
+        "accessibility_label": "غيِّر وقت الصوت"
+      }
+    },
+    "content_warning": {
+      "title": "تحذير من المحتوى",
+      "call_to_action": {
+        "hide": "أخفِ",
+        "show": "اعرض"
+      }
+    },
+    "fork_note": {
+      "1_normal": "شُعِب من ",
+      "2_bold": "{{cypherlink}}",
+      "3_normal": ""
+    },
+    "about": {
+      "new_picture": {
+        "1_normal": "",
+        "2_bold": "{{name}}",
+        "3_normal": " لديه صورة شخصية جديدة: "
+      },
+      "new_name_and_description": {
+        "1_normal": "",
+        "2_bold": "{{name}}",
+        "3_normal": " يستخدم الاسم \"",
+        "4_bold": "{{name}}",
+        "5_normal": "\" والوصف: "
+      },
+      "new_description": {
+        "1_normal": "",
+        "2_bold": "{{name}}",
+        "3_normal": " لديه سيرة جديدة: "
+      },
+      "new_name": {
+        "1_normal": "",
+        "2_bold": "{{name}}",
+        "3_normal": " يستخدم الاسم \"",
+        "4_bold": "{{name}}",
+        "5_normal": "\""
+      }
+    },
+    "contact": {
+      "follow_event": {
+        "1_normal": "",
+        "2_bold": "{{author}}",
+        "3_normal": " تابع ",
+        "4_bold": "{{target}}",
+        "5_normal": ""
+      },
+      "block_event": {
+        "1_normal": "",
+        "2_bold": "{{author}}",
+        "3_normal": " حظَر ",
+        "4_bold": "{{target}}",
+        "5_normal": ""
+      },
+      "unfollow_event": {
+        "1_normal": "",
+        "2_bold": "{{author}}",
+        "3_normal": " ألغى متابعة ",
+        "4_bold": "{{target}}",
+        "5_normal": ""
+      },
+      "unblock_event": {
+        "1_normal": "",
+        "2_bold": "{{author}}",
+        "3_normal": " ألغى متابعة ",
+        "4_bold": "{{target}}",
+        "5_normal": ""
+      }
+    }
+  }
+}

@@ -1,0 +1,1192 @@
+{
+  "call_to_action": {
+    "ok": "OK",
+    "add": "Aggiungi",
+    "done": "Fatto",
+    "cancel": "Annulla",
+    "continue": "Continua",
+    "delete": "Elimina",
+    "remove": "Rimuovi",
+    "save": "Salva",
+    "yes": "Sì",
+    "no": "No",
+    "open_menu": {
+      "accessibility_label": "Tasto Menu"
+    },
+    "go_back": {
+      "accessibility_label": "Tasto Indietro"
+    },
+    "close": {
+      "accessibility_label": "Tasto Chiudi"
+    },
+    "close_dialog": {
+      "accessibility_label": "Tasto Chiudi Finestra"
+    },
+    "external_link_confirmation": {
+      "title": "Open link?",
+      "description": "Do you want to open {{link}} in your browser?"
+    }
+  },
+  "date": {
+    "relative": {
+      "past": {
+        "years": {
+          "one": "1 anno fa",
+          "other": "{{count}} anni fa"
+        },
+        "months": {
+          "one": "1 mese fa",
+          "other": "{{count}} anni fa"
+        },
+        "weeks": {
+          "one": "1 settimana fa",
+          "other": "{{count}} settimane fa"
+        },
+        "days": {
+          "one": "1 giorno fa",
+          "other": "{{count}} giorni fa"
+        },
+        "hours": {
+          "one": "1 ora fa",
+          "other": "{{count}} ore fa"
+        },
+        "minutes": {
+          "one": "1 minuto fa",
+          "other": "{{count}} minuti fa"
+        },
+        "now": "Proprio ora"
+      },
+      "future": {
+        "years": {
+          "one": "1 anno da adesso",
+          "other": "{{count}} anni da adesso"
+        },
+        "months": {
+          "one": "1 mese da adesso",
+          "other": "{{count}} mesi da adesso"
+        },
+        "weeks": {
+          "one": "1 settimana da adesso",
+          "other": "{{count}} settimane da adesso"
+        },
+        "days": {
+          "one": "1 giorno da adesso",
+          "other": "{{count}} giorni da adesso"
+        },
+        "hours": {
+          "one": "1 ora da adesso",
+          "other": "{{count}} ore da adesso"
+        },
+        "minutes": {
+          "one": "1 minuto da adesso",
+          "other": "{{count}} minuti da adesso"
+        },
+        "now": "Molto presto"
+      }
+    }
+  },
+  "welcome": {
+    "learn_more": "Scopri di più",
+    "overview": {
+      "title": "Benvenuto su Manyverse!",
+      "description": "Il social networking può essere semplice, neutrale, non commerciale e costruito sulla fiducia tra amici. Questo è ciò che Manyverse rappresenta e speriamo che anche tu possa renderlo la tua casa digitale. Tutto ciò è reso possibile dall'innovativo protocollo SSB."
+    },
+    "off_the_grid": {
+      "title": "Fuori dalla rete",
+      "description": {
+        "1_normal": "Manyverse può usare la connettività internet, ma non è ",
+        "2_bold": "su",
+        "3_normal": " internet. Tutto accade qui sul tuo dispositivo. Questo significa che lo puoi usare normalmente anche quando sei disconnesso da internet! ",
+        "4_bold": "Il tuo contenuto viene prima memorizzato sul tuo dispositivo",
+        "5_normal": " e puoi sincronizzarlo con i tuoi amici una volta che vi siete connessi."
+      }
+    },
+    "connections": {
+      "title": "Tanti modi per connettersi",
+      "description": {
+        "ios": {
+          "1_normal": "Per connetterti con gli amici e sincronizzare i contenuti, potete unirvi allo stesso ",
+          "2_bold": "Wi-Fi",
+          "3_normal": ". Per trovare nuove persone su internet, cerca un codice di invito su un ",
+          "4_bold": "pub server",
+          "5_normal": " o su un ",
+          "6_bold": "room server",
+          "7_normal": ", o avvia il tuo server!"
+        },
+        "default": {
+          "1_normal": "Per connetterti con gli amici e sincronizzare i contenuti, potete: unirvi allo stesso ",
+          "2_bold": "Wi-Fi",
+          "3_normal": ", o usare ",
+          "4_bold": "la sincronizzazione Bluetooth",
+          "5_normal": ". Per trovare nuove persone su internet, cerca un codice di invito su un ",
+          "6_bold": "pub server",
+          "7_normal": " o su un ",
+          "8_bold": "room server",
+          "9_normal": ", o avvia il tuo server!"
+        }
+      }
+    },
+    "moderation": {
+      "title": "Moderazione condivisa",
+      "description": {
+        "1_normal": "Poiché il tuo dispositivo ospita il tuo social network, nessun altro può bannare o rimuovere account al posto tuo. Solo tu puoi moderare il tuo spazio, ",
+        "2_bold": "bloccare gli account",
+        "3_normal": " che non vuoi avere sul tuo dispositivo. Quindi i tuoi amici possono scegliere di bloccare gli stessi account. Così la moderazione può diffondersi naturalmente!"
+      }
+    },
+    "permanence": {
+      "title": "Permanenza",
+      "description": {
+        "1_normal": "Una volta sincronizzato il tuo contenuto con gli amici, questi hanno una copia nei loro dispositivi. Poiché successivamente possono andare offline, ",
+        "2_bold": "non è possibile eliminare",
+        "3_normal": " il tuo contenuto globalmente da tutti i dispositivi! Ecco perché abbiamo scelto di rendere permanenti i contenuti. Inoltre questo rende le comunità più rispettose e premurose su ciò che viene pubblicato."
+      }
+    },
+    "in_construction": {
+      "title": "In costruzione!",
+      "description": {
+        "1_normal": "Manyverse è ",
+        "2_bold": "software in fase beta",
+        "3_normal": ". Non ci è ancora tutto chiaro e alcune parti necessitano di correzione. Durante la sincronizzazione l'app potrebbe apparire bloccata per diversi minuti. Abbi pazienza! Segnalaci qualsiasi altro bug incontri, con abbastanza tempo e donazioni possiamo fare di questa una grande app."
+      }
+    },
+    "setup_account": {
+      "title": "È la prima volta?",
+      "description": "Vuoi creare un nuovo account o vuoi ripristinare il tuo vecchio account con una frase di recupero da 24 parole?",
+      "call_to_action": {
+        "create": {
+          "label": "Crea un account",
+          "accessibility_label": "Tasto Crea Un Account"
+        },
+        "restore": {
+          "label": "Ripristina account",
+          "accessibility_label": "Tasto Ripristina Account"
+        }
+      }
+    }
+  },
+  "central": {
+    "app_name": "Manyverse",
+    "tab_headers": {
+      "public": "Board pubblica",
+      "private": "Messaggi privati",
+      "activity": "Attività",
+      "connections": "Connected peers"
+    },
+    "tab_footers": {
+      "public": "Pubblico",
+      "private": "Privato",
+      "activity": "Attività",
+      "connections": "Connessioni"
+    },
+    "loading": "Caricamento...",
+    "building_indexes": "Creazioni degli indici del database...\nPotrebbe richiedere alcuni minuti",
+    "tabs": {
+      "public": {
+        "accessibility_label": "Tasto Tab Pubblico"
+      },
+      "private": {
+        "accessibility_label": "Tasto Tab Privato"
+      },
+      "activity": {
+        "accessibility_label": "Tasto Scheda Attività"
+      },
+      "connections": {
+        "accessibility_label": "Tasto Tab Connessioni"
+      }
+    }
+  },
+  "public": {
+    "floating_action_button": {
+      "compose": "Scrivi un messaggio pubblico"
+    },
+    "empty": {
+      "title": "Nessun messaggio",
+      "description": "Scrivi un diario che sarà\ncondiviso con gli amici più tardi"
+    },
+    "search": {
+      "accessibility_label": "Pulsante Ricerca"
+    }
+  },
+  "private": {
+    "floating_action_button": {
+      "compose": "Inizia una conversazione privata"
+    },
+    "empty": {
+      "title": "Nessuna conversazione",
+      "description": "Inizia una conversazione privata\ncon un tuo amico qualsiasi"
+    },
+    "conversation": {
+      "accessibility_label": "Vai Alla Conversazione"
+    }
+  },
+  "accounts": {
+    "reactions": {
+      "title": "Reazioni"
+    },
+    "recipients": {
+      "title": "Destinatari"
+    },
+    "call_to_action": {
+      "open_account": {
+        "accessibility_label": "Vai All'Account"
+      }
+    }
+  },
+  "activity": {
+    "mention": {
+      "label": {
+        "1_normal": "",
+        "2_bold": "{{author}}",
+        "3_normal": " ti ha menzionato"
+      }
+    },
+    "follow": {
+      "label": {
+        "1_normal": "",
+        "2_bold": "{{author}}",
+        "3_normal": " ti segue"
+      }
+    },
+    "connection_attempt": {
+      "label": {
+        "1_normal": "",
+        "2_bold": "{{author}}",
+        "3_normal": " vuole connettersi"
+      }
+    },
+    "empty": {
+      "title": "Nessuna attività",
+      "description": "Quando le persone ti parlano o ti seguono,\nappaiono qui"
+    }
+  },
+  "connections": {
+    "title": "Connections Panel",
+    "floating_action_button": {
+      "create_invite": "Crea invito",
+      "paste_invite": "Incolla invito",
+      "bluetooth_seek": "Ricerca Bluetooth"
+    },
+    "open_connections_panel": "Open Connections Panel",
+    "empty": {
+      "offline": {
+        "title": "Disconnesso",
+        "description": "Attiva una modalità di connessione\noppure puoi leggere i contenuti esistenti"
+      },
+      "connecting": {
+        "title": "In Connessione",
+        "description": "Attendi mentre l'app\ntenta di connettersi ai tuoi peer"
+      },
+      "no_peers": {
+        "title": "Nessuna connessione",
+        "description": "Prova a sincronizzarti con le persone vicine\noppure usa codice di invito ad un server"
+      }
+    },
+    "scenarios": {
+      "offline": "Disconnesso",
+      "not_connected": "Not connected",
+      "few_connections": "Too few connections",
+      "many_connections": "Well connected"
+    },
+    "scenario_descriptions": {
+      "offline_with_content": "You cannot connect to peers at the moment, but you can enjoy some content that you already have.",
+      "offline_without_content": "You cannot connect to peers at the moment. Try to get some internet connectivity or turn on Wi-Fi to discover peers nearby.",
+      "knows_no_one": "Your Manyverse is at the moment isolated. You need to be invited by other peers to join room servers, or you can host a room server yourself.",
+      "nearby_strangers_available": "You are not yet connected to anyone, but there are some peers on the same Wi-Fi. Try to connect to them manually if you think they are willing to connect to you too.",
+      "empty_rooms": "You are a member of some rooms, but there is no one you know currently online. Try connecting manually to a stranger in the room, or get an invite code to other servers.",
+      "connected_poorly": "You are connected to one peer, that's good. But, to improve propagation of data, you should connect to more peers. Try waiting a bit longer, or getting an invite code to other servers.",
+      "connected_well": "You are connected to plenty of peers. All is good! They are propagating your data and you are propagating theirs."
+    },
+    "recommendations": {
+      "consume_invite": "How to get an invite",
+      "follow_staged_manually": "Follow someone new",
+      "host_ssb_room": "How to host a room server",
+      "others": "Other choices"
+    },
+    "recommendation_descriptions": {
+      "consume_invite": "This social network is based on invites, to keep it friendly and safe from spam. If you haven't yet received an invite from a friend, you can search the web for some server that gives invites to anyone.\n\nLook for the key words \"SSB room server\" or \"SSB pub server\". The hashtag #ssbroom may also be useful.",
+      "follow_staged_manually": {
+        "part1": {
+          "not_connected": "Your friends are not online right now, but if you want to get more content, there are some unknown peers currently online in the same room(s) as you are. You can try to become friends with them.",
+          "connected": "If you want to get more content beyond what you already have, you can follow more people. There are some unknown peers currently online in the same room(s) as you are. You can try to become friends with them."
+        },
+        "part2": "On the next screen, you will see unknown peers displayed like this. Press one of them and choose \"Open Profile\", then \"Follow\"."
+      }
+    },
+    "toasts": {
+      "invite_accepted": "Invito accettato",
+      "invite_rejected": "Invito rifiutato. Sei sicuro che sia corretto?",
+      "connecting_to_alias": "Connessione a {{alias}}",
+      "connected_to_alias": "Connesso a {{alias}}",
+      "not_connected_to_alias": "{{alias}} è offline ora"
+    },
+    "dialogs": {
+      "sign_in_with_ssb": {
+        "client_initiated": {
+          "title": "Consentire l'accesso?",
+          "description": "Aprire il sito web di {{room}} per creare inviti e gestire gli utenti. Vuoi utilizzare Manyverse per accedere?\n\nL'ID della stanza è {{roomid}}"
+        },
+        "server_initiated": {
+          "title": "Consentire l'accesso?",
+          "description": "Un browser web sta richiedendo l'autorizzazione per identificarti. Vuoi accedere al server {{room}}?\n\nIl suo ID è {{roomid}}"
+        }
+      }
+    },
+    "peers": {
+      "types": {
+        "bluetooth": "Bluetooth",
+        "lan": "Wi-Fi",
+        "dht": {
+          "connected": "Internet P2P"
+        },
+        "room": {
+          "server": "Room server",
+          "endpoint": "Room peer",
+          "alone_online": "(solo tu online)",
+          "others_online": {
+            "one": "({{count}} online)",
+            "other": "({{count}} online)"
+          }
+        },
+        "pub": "Pub server",
+        "server": "Server",
+        "unknown": "Sconosciuto"
+      }
+    },
+    "modes": {
+      "generic": {
+        "enabled": "(ATTIVO)"
+      },
+      "bluetooth": {
+        "title": "Bluetooth",
+        "accessibility_label": "Modalità Bluetooth",
+        "disabled": "(Attiva il Bluetooth per usarlo)",
+        "description": "Scopri gli utenti vicini e connettiti con loro utilizzando il Bluetooth.",
+        "permission_request": {
+          "title": "Consentire la localizzazione via Bluetooth?",
+          "message": "Manyverse ha bisogno di utilizzare il Bluetooth per scoprire dove sei (\"posizione approssimativa\") e i peer attorno a te."
+        }
+      },
+      "wifi": {
+        "title": "Wi-Fi",
+        "accessibility_label": "Modalità Wi-Fi",
+        "disabled": "(Attiva il Wi-Fi per usarlo)",
+        "description": "Connettiti con gli amici nella stessa rete locale, in altre parole, con lo stesso Wi-Fi."
+      },
+      "servers": {
+        "title": "Server di Internet",
+        "accessibility_label": "Modalità Server Di Internet",
+        "disabled": "(Connettiti a internet per usarlo)",
+        "description": "Connettiti a un cosiddetto 'Pub server' di qualche amico che contiene i dati aggiornati di più account."
+      }
+    },
+    "menu": {
+      "dialog_title": "Connection",
+      "open_profile": {
+        "label": "Apri il profilo",
+        "accessibility_label": {
+          "connected": "Apri la schermata del profilo per questo nodo connesso",
+          "staged": "Apri la schermata del profilo per questa connessione suggerita"
+        }
+      },
+      "connect": {
+        "label": "Connettiti",
+        "accessibility_label": {
+          "staged_peer": "Connettiti a questo nodo suggerito",
+          "staged_room": "Connettiti a questa stanza suggerita"
+        }
+      },
+      "follow_connect": {
+        "label": "Connettiti e segui",
+        "accessibility_label": "Connetitti a questo nodo suggerito e seguilo"
+      },
+      "disconnect": {
+        "label": "Disconnettiti",
+        "accessibility_label": {
+          "peer": "Disconettiti da questo nodo",
+          "room": "Disconnettiti da questa stanza"
+        }
+      },
+      "disconnect_forget": {
+        "label": "Disconnettiti e dimentica",
+        "accessibility_label": {
+          "peer": "Disconnettiti da questo nodo e rimouvilo dalla banca dati",
+          "room": "Disconnetiti da questa stanza e rimouvila dalla banca dati"
+        }
+      },
+      "forget": {
+        "label": "Dimentica",
+        "accessibility_label": {
+          "room": "Rimuovi questa stanza dalla banca dati"
+        }
+      },
+      "manage_aliases": {
+        "label": "Gestisci i miei alias",
+        "accessibility_label": "Gestisci i miei alias nei server di stanza"
+      },
+      "room_sign_in": {
+        "label": "Accedi al sito web",
+        "accessibility_label": "Apri il sito web di questa stanza e accedi alla sua dashboard, Pulsante"
+      },
+      "room_share_invite": {
+        "label": "Condividi il codice d'invito",
+        "accessibility_label": "Condividi il codice d'invito di questa stanza"
+      },
+      "invite_info": {
+        "label": "Informazioni",
+        "accessibility_label": "Informazioni su questo codice d'invito"
+      },
+      "invite_note": {
+        "label": "Aggiungi una nota",
+        "accessibility_label": "Aggiungi un promemoria"
+      },
+      "invite_share": {
+        "label": "Condividi",
+        "accessibility_label": "Condividi il codice d'invito"
+      },
+      "invite_delete": {
+        "label": "Elimina",
+        "accessibility_label": "Elimina il codice d'invito"
+      }
+    },
+    "notes": {
+      "add": {
+        "title": "Aggiungi una nota",
+        "description": "Scrivi una nota privata (solo per te stesso) riguardando questo codice d'invito. Ad esempio: \"Questo è per Alice\""
+      }
+    },
+    "share_code": {
+      "room": {
+        "title": "Codice d'invito d'una stanza SSB",
+        "message": "Unisciti a me nella stanza SSB {{name}} incollando questo codice d'invito in Manyverse:",
+        "dialog_note": "Dai questo codice d'invito ad un amico"
+      }
+    }
+  },
+  "compose": {
+    "call_to_action": {
+      "publish_new_thread": {
+        "label": "Pubblica",
+        "accessibility_label": "Pulsante di pubblicazione messaggio"
+      },
+      "reply_to_thread": {
+        "label": "Rispondi",
+        "accessibility_label": "Pulsante di risposta messaggio"
+      },
+      "preview": {
+        "label": "Preview",
+        "accessibility_label": "Pulsante d'anteprima"
+      },
+      "close": {
+        "accessibility_label": "Pulsante di chiusura"
+      },
+      "record_audio": {
+        "accessibility_label": "Pulsante Audio Record",
+        "permission_request": {
+          "title": "Consenti a Manyverse di registrare l'audio?",
+          "message": "Manyverse ha bisogno di accedere al tuo microfono per comporre messaggi audio",
+          "neutral": "Chiedimi più tardi",
+          "positive": "OK",
+          "negative": "Annulla"
+        }
+      },
+      "open_camera": {
+        "accessibility_label": "Pulsante d'apertura fotocamera"
+      },
+      "add_picture": {
+        "accessibility_label": "Pulsante d'aggiunta d'imaggine"
+      }
+    },
+    "dialogs": {
+      "content_warning": {
+        "title": "Avviso di contenuto",
+        "description": "Se il tuo messaggio contiene argomenti sensibili, aggiungi una breve nota per avvisare le persone di essi."
+      },
+      "image_caption": {
+        "title": "Didascalia",
+        "description": "Aggiungi una descrizione per questa immagine, in particolare per i non vedenti."
+      }
+    },
+    "content_warning_initials": {
+      "label": "AC",
+      "accessibility_label": "Pulsante d'avviso di contenuto"
+    },
+    "mention_field": {
+      "accessibility_label": "Inserimento di testo del conto di menzione"
+    },
+    "text_field": {
+      "placeholder": "Scrivi un messaggio pubblico",
+      "accessibility_label": "Inserimento di testo composito"
+    }
+  },
+  "compose_audio": {
+    "title": "Messaggio audio",
+    "call_to_action": {
+      "start_recording": {
+        "accessibility_label": "Avvia la registrazione"
+      },
+      "stop_recording": {
+        "accessibility_label": "Interrompi la registrazione"
+      },
+      "discard_recording": {
+        "label": "Scarta",
+        "accessibility_label": "Abbandona Pulsante Registrazione"
+      },
+      "submit_recording": {
+        "label": "Fatto",
+        "accessibility_label": "Invia Pulsante Registrazione"
+      }
+    },
+    "dialogs": {
+      "discard": {
+        "title": "Messaggio audio",
+        "question": "Scartare la bozza?"
+      }
+    }
+  },
+  "backup": {
+    "title": "Backup",
+    "introduction": {
+      "title": "Il tuo account ha due parti da mantenere al sicuro"
+    },
+    "data": {
+      "title": "Dati",
+      "description": {
+        "1_normal": "Questi sono i tuoi messaggi, immagini, like e attività simili. Per mantenerli al sicuro contro perdita improvvisa, usiamo ",
+        "2_bold": "crowd backup",
+        "3_normal": ". Hai solo bisogno di ",
+        "4_bold": "sincronizza con amici affidabili",
+        "5_normal": " o altri dispositivi che possiedi. C'è ",
+        "6_bold": "nient'altro da fare",
+        "7_normal": ", basta usare Manyverse spesso e i tuoi amici ti sostengono!"
+      },
+      "call_to_action": {
+        "acknowledge": {
+          "label": "Ho capito",
+          "accessibility_label": "Riconoscimento"
+        }
+      }
+    },
+    "identity": {
+      "title": "Identità",
+      "description": {
+        "1_normal": "L' \"impronta digitale\" del tuo account è composta da un unico ",
+        "2_bold": "frase di ripristino",
+        "3_normal": ". Questa è una sequenza di 24 parole che sblocca la tua identitá. ",
+        "4_bold": "Mantienilo confidenziale",
+        "5_normal": ", perché se qualcun altro ha accesso ad esso, possono prendere il controllo della tua identitá. ",
+        "6_bold": "Assumi responsabilità",
+        "7_normal": " su di esso, dal momento che solo tu puoi recuperare la tua identitá!"
+      },
+      "call_to_action": {
+        "show_recovery_phrase": "Mostra frase di ripristino"
+      }
+    }
+  },
+  "biography": {
+    "picture": {
+      "accessibility_label": "Imaggine biografica"
+    },
+    "description": {
+      "accessibility_label": "Descrizione biografica"
+    }
+  },
+  "conversation": {
+    "title": "Conversazione",
+    "placeholder": "Digita un messaggio...",
+    "call_to_action": {
+      "show_recipients": {
+        "accessibility_label": "Mostra destinatari"
+      }
+    },
+    "notifications": {
+      "new_conversation": "Questa è una nuova conversazione privata"
+    }
+  },
+  "dialog_about": {
+    "title": "Informazioni su Manyverse",
+    "version": "Versione {{version}}",
+    "copyright": "Copyright (C)",
+    "authors": "Gli autori di manyverse",
+    "repository": "Repository open source",
+    "licensed": "Licenza {{license}}"
+  },
+  "dialog_thanks": {
+    "title": "Grazie!",
+    "description": "Lo sviluppo di questa app è stato supportato da sovvenzioni provenienti da {{sponsor1}} e {{sponsor2}}, e donazioni da:\n\n**{{topBackers}}**, e [un centinaio di altri sostenitori]({{donateLink}}). Grazie!"
+  },
+  "drawer": {
+    "menu": {
+      "my_profile": {
+        "label": "Il mio profilo",
+        "accessibility_label": "Elemento Menu Profilo"
+      },
+      "raw_database": {
+        "label": "Database grezzo",
+        "accessibility_label": "Mostra Database Raw"
+      },
+      "email_bug_report": {
+        "label": "Segnala bug per email",
+        "accessibility_label": "Invia Report Bug Email"
+      },
+      "translate": {
+        "label": "Aiutaci a tradurre",
+        "accessibility_label": "Apri il sito web di traduzione"
+      },
+      "more": {
+        "label": "More",
+        "accessibility_label": "Show more Menu items"
+      },
+      "settings": {
+        "label": "Impostazioni",
+        "accessibility_label": "Vai alle Impostazioni"
+      },
+      "preparing_database": {
+        "label": "Preparazione database..."
+      },
+      "ready_estimate": {
+        "label": "Pronto:"
+      }
+    }
+  },
+  "invite_paste": {
+    "placeholder": "Incolla un codice d'invito",
+    "call_to_action": {
+      "accept": {
+        "accessibility_label": "Accetta il codice d'invito"
+      }
+    },
+    "alert_unsupported_dht": {
+      "title": "Formato non supportato",
+      "description": "Gli Inviti P2P non sono più supportati in Manyverse."
+    },
+    "text_field": {
+      "accessibility_label": "Codice Invito Campo di Testo"
+    }
+  },
+  "libraries": {
+    "title": "Librerie di terze parti",
+    "description": "Manyverse usa le seguenti librerie e componenti open source. Ringraziamo gli autori di queste librerie e forniamo i loro link web per la corretta attribuzione.",
+    "image": {
+      "name": "Immagine {{name}}",
+      "attribution": " è stato creato da {{author}}, concesso in licenza {{license}}"
+    }
+  },
+  "profile": {
+    "call_to_action": {
+      "copy_cypherlink": "Copia cypherlink",
+      "private_chat": "Apri conversazione privata",
+      "block": "Blocca",
+      "block_secretly": "Blocca in segreto",
+      "unblock": "Sblocca",
+      "unblock_secretly": "Sblocca in segreto",
+      "follow": "Segui",
+      "edit_profile": {
+        "label": "Modifica profilo",
+        "accessibility_label": "Edita Tasto Profilo"
+      },
+      "manage": {
+        "accessibility_label": "Gestisci Contatto"
+      }
+    },
+    "dialog_ssb_id": {
+      "title": "SSB ID"
+    },
+    "dialog_manage_contact": {
+      "title": "Contatto"
+    },
+    "dialog_friend_request": {
+      "title": "Richiesta d'amicizia",
+      "description": "Questo account sta cercando di connettersi con te, ma Manyverse lo ha impedito perché è al di fuori dalla tua comunità.\n\nSe riconosci questo ID, puoi premere \"Segui\" per permettergli di connettersi con te."
+    },
+    "toast": {
+      "copied_to_clipboard": "Copiato negli appunti"
+    },
+    "details": {
+      "id": {
+        "accessibility_label": "Identificatore SSB"
+      },
+      "biography": {
+        "accessibility_label": "Leggi Biografia"
+      },
+      "counters": {
+        "following": "Stai seguendo",
+        "followers": "Followers"
+      }
+    },
+    "info": {
+      "follows_you": "Ti segue",
+      "blocks_you": "Ti blocca",
+      "following": "Stai seguendo"
+    },
+    "picture": {
+      "accessibility_label": "Immagine Profilo"
+    },
+    "name": {
+      "accessibility_label": "Nome Profilo"
+    },
+    "empty": {
+      "blocked": {
+        "title": "Bloccato",
+        "description": "Hai scelto di interrompere\nl'interazione con questo account"
+      },
+      "no_self_messages": {
+        "title": "Nessun messaggio",
+        "description": "Scrivi un diario che sarà\ncondiviso con gli amici più tardi"
+      },
+      "no_messages": {
+        "title": "Nessun messaggio",
+        "description": "Non hai ancora alcun dato\nda questo account"
+      }
+    },
+    "floating_action_button": {
+      "compose": "Scrivi un messaggio pubblico"
+    }
+  },
+  "profile_edit": {
+    "title": "Modifica profilo",
+    "call_to_action": {
+      "discard": "Scarta",
+      "save": {
+        "label": "Salva",
+        "accessibility_label": "Salva Profilo"
+      },
+      "edit_picture": {
+        "accessibility_label": "Modifica Foto Profilo"
+      },
+      "register_new_alias": {
+        "label": "Registra nuovo alias",
+        "accessibility_label": "Registra Nuovo Alias per Server di Stanza"
+      }
+    },
+    "dialogs": {
+      "discard": {
+        "title": "Modifica profilo",
+        "question": "Annullare le modifiche?"
+      },
+      "remove_alias": {
+        "description": "Questa azione rimuoverà l'alias \"{{alias}}\" dal server di stanza.\n\nLe persone non saranno più in grado di raggiungerti usando questo alias."
+      }
+    },
+    "toasts": {
+      "alias_removed_success": "Alias rimosso",
+      "alias_removed_failure": "Impossibile rimuovere l'alias"
+    },
+    "fields": {
+      "name": {
+        "label": "Nome",
+        "accessibility_label": "Inserimento di testo composito"
+      },
+      "description": {
+        "label": "Bio",
+        "accessibility_label": "Campo di Testo per Biografia"
+      },
+      "aliases": {
+        "label": "Alias"
+      }
+    }
+  },
+  "manage_aliases": {
+    "title": "Gestisci i miei alias"
+  },
+  "register_alias": {
+    "title": "Registra nuovo alias",
+    "empty": {
+      "no_servers": {
+        "title": "Nessun server",
+        "description": "Per registrare un' alias, è necessario essere membri in servers di stanza SSB. Puoi trovarli su internet usando l'hashtag #ssbroom e assicurandoti che supporti gli alias."
+      }
+    },
+    "header": {
+      "description": "Scegli un server di stanza in cui desideri registrare un nuovo alias di collegamento per te.\n\nGli alias sono indirizzi web che le persone possono usare per connettersi con te."
+    },
+    "dialogs": {
+      "input_alias": {
+        "description": "Invia il tuo nuovo alias a {{host}} come una singola parola in minuscolo.\n\nPer esempio, se si desidera l'alias \"mionome.{{host}}\", scrivere \"mionome\" qui sotto."
+      }
+    },
+    "submitting": {
+      "title": "Inviando..."
+    },
+    "failure": {
+      "title": "Non ha funzionato",
+      "alias_taken": "L'alias che hai inviato è già stato selezionato da alcuni utenti.",
+      "call_to_action": {
+        "try_again": {
+          "label": "Riprova",
+          "accessibility_label": "Tasto Riprova"
+        }
+      }
+    },
+    "success": {
+      "title": "Ottimo!",
+      "description": "L'alias {{alias}} ti è stato assegnato.",
+      "call_to_action": {
+        "go_back": {
+          "label": "Torna indietro",
+          "accessibility_label": "Tasto Indietro"
+        }
+      }
+    }
+  },
+  "raw_db": {
+    "title": "Database grezzo",
+    "item": {
+      "type": {
+        "any": "tipo: {{type}}",
+        "encrypted": "criptato"
+      }
+    }
+  },
+  "raw_msg": {
+    "title": "Messaggio grezzo"
+  },
+  "recipients_input": {
+    "title": "Nuovo messaggio",
+    "call_to_action": {
+      "proceed": {
+        "label": "Successivo",
+        "accessibility_label": "Pulsante Successivo"
+      }
+    },
+    "fields": {
+      "mention_input": {
+        "placeholder": "Ricerca persone da aggiungere",
+        "accessibility_label": "Inserimento di testo del conto di menzione"
+      }
+    },
+    "empty": {
+      "instructions": {
+        "title": "Scegli membri",
+        "description": "Digitare i nomi\ndelle persone da aggiungere alla nuova chat"
+      },
+      "none_to_choose": {
+        "title": "Nessuno",
+        "description": "Non c'è nessuno nella tua comunità\ncon quel nome"
+      }
+    },
+    "toasts": {
+      "limit_reached": "Non è possibile scegliere più di {{limit}} destinatari"
+    }
+  },
+  "search": {
+    "query_input": {
+      "placeholder": "Ricerca post pubblici",
+      "accessibility_label": "Campo di Test per Ricerca"
+    },
+    "clear_query": {
+      "accessibility_label": "Reimposta campo di testo di ricerca"
+    },
+    "empty": {
+      "initial": {
+        "title": "Ricerca qualcosa",
+        "description": "Attendi mentre l'app\ntenta di connettersi ai tuoi peer"
+      },
+      "zero_results": {
+        "title": "Nessun risultato",
+        "description": "Nessun risultato per \"{{query}}\""
+      }
+    }
+  },
+  "secret_input": {
+    "practice": {
+      "title": "Practice",
+      "header": "Ripetilo per confermare che è corretto:"
+    },
+    "restore": {
+      "title": "Ripristina account"
+    },
+    "header": "Inserisci attentamente la tua frase di ripristino",
+    "call_to_action": {
+      "confirm": {
+        "label": "Conferma",
+        "accessibility_label": "Tasto Conferma Frase di Recupero"
+      }
+    },
+    "fields": {
+      "words_input": {
+        "placeholder": "frase di recupero 24 parole (o 48 parole)",
+        "accessibility_label": "Campo di Testo per Frase di Recupero"
+      }
+    },
+    "dialogs": {
+      "practice": {
+        "correct": {
+          "title": "Corretto!",
+          "description": "L'identità del tuo account è ora sicura perché conosci la frase di ripristino."
+        },
+        "incorrect": {
+          "title": "Incorrètto",
+          "description": "Riprova: immetti la tua frase di ripristino composta da 24 parole separate da spazi bianchi."
+        }
+      },
+      "restore": {
+        "correct": {
+          "title": "Bentornato!",
+          "description": "L'identità del tuo account è stata ripristinata.\n\nPer scaricare i tuoi dati, connettiti con gli amici con cui hai interagito in passato."
+        },
+        "incorrect": {
+          "title": "Incorrètto",
+          "description": {
+            "try_again": "Riprova: immetti la tua frase di ripristino composta da 24 parole separate da spazi bianchi.",
+            "overwrite_risk": "C'è già un account nell'app, non possiamo sovrascriverlo. Se sei sicuro di volerlo sovrascrivere, disinstallare e reinstallare Manyverse per ripristinare il tuo account da zero.",
+            "too_short": "Mancano alcune parole. La tua frase di ripristino dovrebbe essere composta da 24 parole.",
+            "too_long": "Ci sono troppe parole. La tua frase di ripristino dovrebbe essere composta da esattamente 24 parole.",
+            "wrong_length": "La tua frase di ripristino dovrebbe essere composta da esattamente 24 parole.",
+            "generic": "La frase di ripristino che hai fornito non sembra un'identità valida generata da Manyverse."
+          }
+        }
+      }
+    }
+  },
+  "secret_output": {
+    "title": "Frase di ripristino",
+    "header": {
+      "1_normal": "Salva la seguente frase di recupero su un ",
+      "2_bold": "foglio di carta",
+      "3_normal": ""
+    },
+    "footer": {
+      "1_normal": "Conservalo ",
+      "2_bold": "riservato",
+      "3_normal": ", and\ntake sole ",
+      "4_bold": "responsabilità",
+      "5_normal": " al di sopra"
+    },
+    "words": {
+      "accessibility_label": "Parole Segrete"
+    },
+    "call_to_action": {
+      "confirm": {
+        "accessibility_label": "Pulsante Conferma Frase Di Ripristino"
+      }
+    },
+    "loading": "Caricamento..."
+  },
+  "settings": {
+    "title": "Impostazioni",
+    "preferences": {
+      "title": "Preferenze",
+      "show_follows": {
+        "title": "Mostra gli eventi seguenti",
+        "subtitle": "Mostra follow o blocca/sblocca casi nella scheda pubblica",
+        "accessibility_label": "Attiva/disattiva eventi nella scheda pubblica"
+      },
+      "hops": {
+        "title": "Replicazione hops",
+        "subtitle": "Estensione della tua rete Manyverse; 1 solo i tuoi amici, 2 amici e amici dei tuoi amici, ecc. Attenzione: più alto è questo numero, più dati verranno scaricati e più memoria verrà utilizzata!",
+        "unlimited": "Illimitato",
+        "accessibility_label": "Cursore di Replicazione Hops"
+      }
+    },
+    "data_and_storage": {
+      "title": "Dati & Archiviazione",
+      "backup": {
+        "title": "Backup",
+        "subtitle": "Visualizza la frase di ripristino di 24 parole",
+        "accessibility_label": "Salva il Mio Account"
+      },
+      "blobs_storage": {
+        "title": "Limite salvataggio",
+        "subtitle": "Elimina automaticamente le vecchie immagini e i vecchi blob fino a quando non occupano al massimo questa quantità di memoria sul tuo dispositivo",
+        "unlimited": "Illimitato",
+        "accessibility_label": "Cursore Limite di Salvataggio"
+      }
+    },
+    "troubleshooting": {
+      "title": "Risoluzione Problemi",
+      "bug_report": {
+        "title": "Segnala bug per email",
+        "accessibility_label": "Invia Report Bug Email"
+      },
+      "detailed_logs": {
+        "title": "Abilita log dettagliati",
+        "accessibility_label": "Attiva/Disattiva i log dettagliati per sviluppatori"
+      }
+    },
+    "more_information": {
+      "title": "Ulteriori informazioni",
+      "thanks": {
+        "title": "Grazie",
+        "accessibility_label": "Mostra Ringraziamenti"
+      },
+      "third_party_libs": {
+        "title": "Librerie di terze parti",
+        "accessibility_label": "Visualizza librerie di terze parti"
+      },
+      "about": {
+        "title": "Informazioni",
+        "accessibility_label": "Informazioni Su Questa Applicazione"
+      }
+    },
+    "dialogs": {
+      "restart_required": {
+        "title": "Riavvio necessario",
+        "description": "Questa impostazione diventerà effettiva solo quando riavvierai Manyverse."
+      }
+    }
+  },
+  "thread": {
+    "title": "Thread",
+    "call_to_action": {
+      "expand_reply": {
+        "accessibility_label": "Pulsante Espandi Risposta"
+      },
+      "publish_reply": {
+        "accessibility_label": "Pulsante Risposta Pubblicazione"
+      }
+    },
+    "fields": {
+      "reply": {
+        "placeholder": "Commento",
+        "accessibility_label": "Campo di Testo Risposta"
+      }
+    },
+    "loading_replies": "Caricamento risposte...",
+    "empty": {
+      "missing": {
+        "title": "Dati non disponibili",
+        "description": "Non disponi ancora di dati\nper il messaggio corrispondente all'ID\n"
+      },
+      "blocked": {
+        "title": "Thread bloccato",
+        "description": "Hai scelto di bloccare\nl'autore di questo thread"
+      },
+      "incompatible": {
+        "title": "Spiacente",
+        "description": "Questa app non sa come elaborare\ne visualizzare correttamente questo thread"
+      }
+    }
+  },
+  "message": {
+    "call_to_action": {
+      "show_reactions": {
+        "accessibility_label": "Mostra Reazioni"
+      },
+      "add_reaction": {
+        "accessibility_label": "Aggiungi Pulsante Risposta"
+      },
+      "reply": {
+        "accessibility_label": "Pulsante Risposta"
+      },
+      "etc": {
+        "dialog_title": "Messaggio",
+        "accessibility_label": "Tasto Indietro"
+      },
+      "copy_blob_id": {
+        "accessibility_label": "Copia Blob ID"
+      },
+      "copy_msg_id": "Copia cypherlink",
+      "view_raw": "Visualizza messaggio raw"
+    },
+    "toast": {
+      "copied_to_clipboard": "Copiato negli appunti"
+    },
+    "reactions": {
+      "categories": {
+        "smileys_and_emotion": "Faccine ed emozioni",
+        "people_and_body": "Persone e corpo",
+        "animals_and_nature": "Animali e natura",
+        "food_and_drink": "Cibo e bevande",
+        "activities": "Attività",
+        "travel_and_places": "Viaggi e posti",
+        "objects": "Oggetti",
+        "symbols": "Simboli",
+        "flags": "Flags"
+      },
+      "show_more": {
+        "accessibility_label": "Mostra Più Opzioni Di Reazione"
+      }
+    },
+    "image": {
+      "without_caption": {
+        "accessibility_label": "Immagine senza didascalia"
+      }
+    },
+    "audio": {
+      "play": {
+        "accessibility_label": "Riproduci audio"
+      },
+      "pause": {
+        "accessibility_label": "Sospendi audio"
+      },
+      "duration": {
+        "accessibility_label": "Durata audio"
+      },
+      "elapsed": {
+        "accessibility_label": "Tempo corrente audio"
+      },
+      "slider": {
+        "accessibility_label": "Modifica tempo audio"
+      }
+    },
+    "content_warning": {
+      "title": "Avviso di contenuto",
+      "call_to_action": {
+        "hide": "Nascondi",
+        "show": "Visualizza"
+      }
+    },
+    "fork_note": {
+      "1_normal": "Forkato da ",
+      "2_bold": "{{cypherlink}}",
+      "3_normal": ""
+    },
+    "about": {
+      "new_picture": {
+        "1_normal": "",
+        "2_bold": "{{name}}",
+        "3_normal": " ha una nuova immagine di profilo: "
+      },
+      "new_name_and_description": {
+        "1_normal": "",
+        "2_bold": "{{name}}",
+        "3_normal": " usa il nome \"",
+        "4_bold": "{{name}}",
+        "5_normal": "\" e la descrizione: "
+      },
+      "new_description": {
+        "1_normal": "",
+        "2_bold": "{{name}}",
+        "3_normal": " ha una nuova biografia: "
+      },
+      "new_name": {
+        "1_normal": "",
+        "2_bold": "{{name}}",
+        "3_normal": " usa il nome \"",
+        "4_bold": "{{name}}",
+        "5_normal": "\""
+      }
+    },
+    "contact": {
+      "follow_event": {
+        "1_normal": "",
+        "2_bold": "{{author}}",
+        "3_normal": " followed ",
+        "4_bold": "{{target}}",
+        "5_normal": ""
+      },
+      "block_event": {
+        "1_normal": "",
+        "2_bold": "{{author}}",
+        "3_normal": " bloccato ",
+        "4_bold": "{{target}}",
+        "5_normal": ""
+      },
+      "unfollow_event": {
+        "1_normal": "",
+        "2_bold": "{{author}}",
+        "3_normal": " unfollowed ",
+        "4_bold": "{{target}}",
+        "5_normal": ""
+      },
+      "unblock_event": {
+        "1_normal": "",
+        "2_bold": "{{author}}",
+        "3_normal": " sblocca ",
+        "4_bold": "{{target}}",
+        "5_normal": ""
+      }
+    }
+  }
+}

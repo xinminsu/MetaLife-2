@@ -1,0 +1,1192 @@
+{
+  "call_to_action": {
+    "ok": "Tamam",
+    "add": "Ekle",
+    "done": "Tamam",
+    "cancel": "İptal",
+    "continue": "Devam et",
+    "delete": "Sil",
+    "remove": "Sil",
+    "save": "Kaydet",
+    "yes": "Evet",
+    "no": "Hayır",
+    "open_menu": {
+      "accessibility_label": "Menü butonu"
+    },
+    "go_back": {
+      "accessibility_label": "Geri butonu"
+    },
+    "close": {
+      "accessibility_label": "Kapat butonu"
+    },
+    "close_dialog": {
+      "accessibility_label": "İletişim kutusunu kapat butonu"
+    },
+    "external_link_confirmation": {
+      "title": "Open link?",
+      "description": "Do you want to open {{link}} in your browser?"
+    }
+  },
+  "date": {
+    "relative": {
+      "past": {
+        "years": {
+          "one": "1 yıl önce",
+          "other": "{{count}} yıl önce"
+        },
+        "months": {
+          "one": "1 ay önce",
+          "other": "{{count}} ay önce"
+        },
+        "weeks": {
+          "one": "1 hafta önce",
+          "other": "{{count}} hafta önce"
+        },
+        "days": {
+          "one": "1 gün önce",
+          "other": "{{count}} gün önce"
+        },
+        "hours": {
+          "one": "1 saat önce",
+          "other": "{{count}} saat önce"
+        },
+        "minutes": {
+          "one": "1 dakika önce",
+          "other": "{{count}} dakika önce"
+        },
+        "now": "Şimdi"
+      },
+      "future": {
+        "years": {
+          "one": "1 yıl sonra",
+          "other": "{{count}} yıl sonra"
+        },
+        "months": {
+          "one": "1 ay sonra",
+          "other": "{{count}} ay sonra"
+        },
+        "weeks": {
+          "one": "1 hafta sonra",
+          "other": "{{count}} hafta sonra"
+        },
+        "days": {
+          "one": "1 gün sonra",
+          "other": "{{count}} gün sonra"
+        },
+        "hours": {
+          "one": "1 saat sonra",
+          "other": "{{count}} saat sonra"
+        },
+        "minutes": {
+          "one": "1 dakika sonra",
+          "other": "{{count}} dakika sonra"
+        },
+        "now": "Çok yakında"
+      }
+    }
+  },
+  "welcome": {
+    "learn_more": "Daha fazla bilgi edin",
+    "overview": {
+      "title": "Manyverse'e hoş geldiniz!",
+      "description": "Sosyal ağ, basit, tarafsız, ticari olmayan ve arkadaşlar arasında güven üzerine inşa edilebilir olmalı. Manyverse bunun için uğraşıyor ve umarız siz de onu dijital eviniz yaparsınız. Bütün bunlar yeni SSB protokolü ile mümkün olmaktadır."
+    },
+    "off_the_grid": {
+      "title": "Şebekeden bağımsız",
+      "description": {
+        "1_normal": "Manyverse internet bağlantısını kullanabilir, ancak internet ",
+        "2_bold": "üzerinden",
+        "3_normal": " değil. Her şey burada, cihazınızda gerçekleşir. Bu, çevrimdışıyken bile normal şekilde kullanabileceğiniz anlamına gelir! İçeriğiniz ",
+        "4_bold": "önce cihazınızda depolanır",
+        "5_normal": "ve bağlantı kurduğunuzda arkadaşlarınızla senkronize edebilirsiniz."
+      }
+    },
+    "connections": {
+      "title": "Bağlanmanın birçok yolu",
+      "description": {
+        "ios": {
+          "1_normal": "Yakınlardaki arkadaşlarınızla bağlanmak ve içerik senkronizasyonu için, aynı... bağlanabilirsiniz ",
+          "2_bold": "Wi-Fi",
+          "3_normal": ". İnternette yeni insanlar bulmak için, davetiye kodu bulun ",
+          "4_bold": "pub sunucusu",
+          "5_normal": " veya bir ",
+          "6_bold": "oda sunucusu",
+          "7_normal": "veya kendi sunucunuzu başlatın!"
+        },
+        "default": {
+          "1_normal": "Yakınlardaki arkadaşlarınızla bağlantı kurmak ve içerik senkronize etmek için, aynı... bağlanabilirsiniz ",
+          "2_bold": "Wi-Fi",
+          "3_normal": ", ya da ",
+          "4_bold": "Bluetooth senkronizasyonunu kullanabilirsiniz",
+          "5_normal": ". İnternette yeni insanlar bulmak için, davetiye kodu bulun ",
+          "6_bold": "açık sunucu",
+          "7_normal": " veya bir ",
+          "8_bold": "oda sunucusu",
+          "9_normal": "veya kendi sunucunuzu başlatın!"
+        }
+      }
+    },
+    "moderation": {
+      "title": "Paylaşımlı moderasyon",
+      "description": {
+        "1_normal": "Sosyal ağınız cihazınızda barındırıldığından, sizin adınıza başka hiç kimse hesaplarınızı yasaklayamaz veya kaldıramaz. Cihazınızda olmasını istemediğiniz ",
+        "2_bold": "engelleyerek",
+        "3_normal": " alanınızı yalnızca siz denetleyebilirsiniz. Ardından, arkadaşlarınız aynı hesapları engellemeyi seçebilir. İşte ölçülülük doğal olarak bu şekilde yayılabilir!"
+      }
+    },
+    "permanence": {
+      "title": "Kalıcılık",
+      "description": {
+        "1_normal": "İçeriğiniz arkadaşlarınız ile eşleştiğinde artık onların cihazlarında da bir kopyası tutuluyor. Çünkü onlar bundan sonra çevrimdışı olabilirler, ",
+        "2_bold": "silmek mümkün değil",
+        "3_normal": " your content globally from all devices! This is why we have chosen to make content permanent. It also makes communities more respectful and considerate of what is being posted."
+      }
+    },
+    "in_construction": {
+      "title": "Yapım aşamasında!",
+      "description": {
+        "1_normal": "Manyverse ",
+        "2_bold": "beta kalitesinde bir yazılımdır",
+        "3_normal": ". Henüz her şeyi çözemedik ve bazı parçaların onarılması gerekiyor. Senkronizasyon sırasında uygulama birkaç dakika donmuş gibi görünebilir. Sabırlı olun! Karşılaştığınız diğer hataları bize bildirin, yeterli zaman ve bağışla, bunu harika bir uygulama haline getirebiliriz."
+      }
+    },
+    "setup_account": {
+      "title": "Bu ilk gelişiniz mi?",
+      "description": "Yeni bir hesap mı oluşturmak mı, yoksa eski hesabınızı 24 kelimelik bir kurtarma ifadesinden geri yüklemek mi istiyorsunuz?",
+      "call_to_action": {
+        "create": {
+          "label": "Hesap oluştur",
+          "accessibility_label": "Hesap oluştur butonu"
+        },
+        "restore": {
+          "label": "Hesabı geri getir",
+          "accessibility_label": "Hesabı geri getir butonu"
+        }
+      }
+    }
+  },
+  "central": {
+    "app_name": "Manyverse",
+    "tab_headers": {
+      "public": "Genel pano",
+      "private": "Özel mesajlar",
+      "activity": "Activity",
+      "connections": "Connected peers"
+    },
+    "tab_footers": {
+      "public": "Genel",
+      "private": "Özel",
+      "activity": "Activity",
+      "connections": "Bağlantılar"
+    },
+    "loading": "Yükleniyor...",
+    "building_indexes": "Veritabanı dizinleri oluşturuluyor...\nBu birkaç dakika sürebilir",
+    "tabs": {
+      "public": {
+        "accessibility_label": "Genel sekme butonu"
+      },
+      "private": {
+        "accessibility_label": "Özel sekme butonu"
+      },
+      "activity": {
+        "accessibility_label": "Activity Tab Button"
+      },
+      "connections": {
+        "accessibility_label": "Bağlantılar sekmesi butonu"
+      }
+    }
+  },
+  "public": {
+    "floating_action_button": {
+      "compose": "Herkese açık bir mesaj yazın"
+    },
+    "empty": {
+      "title": "Mesaj yok",
+      "description": "Daha sonra arkadaşlarınızla paylaşılacak\nbir günlük yazın"
+    },
+    "search": {
+      "accessibility_label": "Search Button"
+    }
+  },
+  "private": {
+    "floating_action_button": {
+      "compose": "Özel görüşme başlat"
+    },
+    "empty": {
+      "title": "Konuşma yok",
+      "description": "Arkadaşlarınızdan herhangi biriyle\nözel görüşme başlatın"
+    },
+    "conversation": {
+      "accessibility_label": "Sohbete git"
+    }
+  },
+  "accounts": {
+    "reactions": {
+      "title": "Reaksiyon"
+    },
+    "recipients": {
+      "title": "Alıcı"
+    },
+    "call_to_action": {
+      "open_account": {
+        "accessibility_label": "Hesaba git"
+      }
+    }
+  },
+  "activity": {
+    "mention": {
+      "label": {
+        "1_normal": "",
+        "2_bold": "{{author}}",
+        "3_normal": " mentioned you"
+      }
+    },
+    "follow": {
+      "label": {
+        "1_normal": "",
+        "2_bold": "{{author}}",
+        "3_normal": " followed you"
+      }
+    },
+    "connection_attempt": {
+      "label": {
+        "1_normal": "",
+        "2_bold": "{{author}}",
+        "3_normal": " wants to connect"
+      }
+    },
+    "empty": {
+      "title": "No activity",
+      "description": "When people mention or follow you,\nthey show up here"
+    }
+  },
+  "connections": {
+    "title": "Connections Panel",
+    "floating_action_button": {
+      "create_invite": "Davet oluştur",
+      "paste_invite": "Daveti yapıştır",
+      "bluetooth_seek": "Bluetooth araması"
+    },
+    "open_connections_panel": "Open Connections Panel",
+    "empty": {
+      "offline": {
+        "title": "Çevrim dışı",
+        "description": "Bazı bağlantı modlarını açın \nveya mevcut içerikleri keyifle okuyun"
+      },
+      "connecting": {
+        "title": "Bağlanma",
+        "description": "Uygulama eşlerinize\nbağlanmaya çalışırken bekleyin"
+      },
+      "no_peers": {
+        "title": "Bağlantı yok",
+        "description": "Yakındaki kişilerle senkronize etmeyi deneyin\nveya sunucu davet kodu kullanın"
+      }
+    },
+    "scenarios": {
+      "offline": "Çevrim dışı",
+      "not_connected": "Not connected",
+      "few_connections": "Too few connections",
+      "many_connections": "Well connected"
+    },
+    "scenario_descriptions": {
+      "offline_with_content": "You cannot connect to peers at the moment, but you can enjoy some content that you already have.",
+      "offline_without_content": "You cannot connect to peers at the moment. Try to get some internet connectivity or turn on Wi-Fi to discover peers nearby.",
+      "knows_no_one": "Your Manyverse is at the moment isolated. You need to be invited by other peers to join room servers, or you can host a room server yourself.",
+      "nearby_strangers_available": "You are not yet connected to anyone, but there are some peers on the same Wi-Fi. Try to connect to them manually if you think they are willing to connect to you too.",
+      "empty_rooms": "You are a member of some rooms, but there is no one you know currently online. Try connecting manually to a stranger in the room, or get an invite code to other servers.",
+      "connected_poorly": "You are connected to one peer, that's good. But, to improve propagation of data, you should connect to more peers. Try waiting a bit longer, or getting an invite code to other servers.",
+      "connected_well": "You are connected to plenty of peers. All is good! They are propagating your data and you are propagating theirs."
+    },
+    "recommendations": {
+      "consume_invite": "How to get an invite",
+      "follow_staged_manually": "Follow someone new",
+      "host_ssb_room": "How to host a room server",
+      "others": "Other choices"
+    },
+    "recommendation_descriptions": {
+      "consume_invite": "This social network is based on invites, to keep it friendly and safe from spam. If you haven't yet received an invite from a friend, you can search the web for some server that gives invites to anyone.\n\nLook for the key words \"SSB room server\" or \"SSB pub server\". The hashtag #ssbroom may also be useful.",
+      "follow_staged_manually": {
+        "part1": {
+          "not_connected": "Your friends are not online right now, but if you want to get more content, there are some unknown peers currently online in the same room(s) as you are. You can try to become friends with them.",
+          "connected": "If you want to get more content beyond what you already have, you can follow more people. There are some unknown peers currently online in the same room(s) as you are. You can try to become friends with them."
+        },
+        "part2": "On the next screen, you will see unknown peers displayed like this. Press one of them and choose \"Open Profile\", then \"Follow\"."
+      }
+    },
+    "toasts": {
+      "invite_accepted": "Davet kabul edildi",
+      "invite_rejected": "Davet reddedildi. Doğru olduğundan emin misin?",
+      "connecting_to_alias": "Connecting to {{alias}}",
+      "connected_to_alias": "Connected to {{alias}}",
+      "not_connected_to_alias": "{{alias}} is offline right now"
+    },
+    "dialogs": {
+      "sign_in_with_ssb": {
+        "client_initiated": {
+          "title": "Allow sign-in?",
+          "description": "Open {{room}}'s website to create invite links and manage members. Do you want to use Manyverse to sign in?\n\nThe room's ID is {{roomid}}"
+        },
+        "server_initiated": {
+          "title": "Allow sign-in?",
+          "description": "A web browser is requesting permission to identify you. Do you want to sign in to the server {{room}}?\n\nIts ID is {{roomid}}"
+        }
+      }
+    },
+    "peers": {
+      "types": {
+        "bluetooth": "Bluetooth",
+        "lan": "Wi-Fi",
+        "dht": {
+          "connected": "İnternet P2P"
+        },
+        "room": {
+          "server": "Oda sunucusu",
+          "endpoint": "Oda eşi",
+          "alone_online": "(yalnızca siz çevrimiçisiniz)",
+          "others_online": {
+            "one": "({{count}} çevrimiçi)",
+            "other": "({{count}} çevrimiçi)"
+          }
+        },
+        "pub": "Pub sunucusu",
+        "server": "Sunucu",
+        "unknown": "Bilinmeyen"
+      }
+    },
+    "modes": {
+      "generic": {
+        "enabled": "(ETKİN)"
+      },
+      "bluetooth": {
+        "title": "Bluetooth",
+        "accessibility_label": "Bluetooth modu",
+        "disabled": "(Bunu kullanmak için Bluetooth açın)",
+        "description": "Yakındaki kullanıcıları keşfedin ve Bluetooth kullanarak onlarla bağlantı kurun.",
+        "permission_request": {
+          "title": "Bluetooth ile bulmaya izin verilsin mi?",
+          "message": "Manyverse nerede olduğunuzu (\"kaba konum\") ve etrafınızdaki eşleri keşfetmek için Bluetooth kullanması gerekir."
+        }
+      },
+      "wifi": {
+        "title": "Wi-Fi",
+        "accessibility_label": "Wi-Fi modu",
+        "disabled": "(Bunu kullanmak için Wi-Fi açın)",
+        "description": "Aynı ağdaki arkadaşlarınızla, diğer bir deyişle aynı Wi-Fi kullanan arkadaşlarınızla bağlantı kurun."
+      },
+      "servers": {
+        "title": "İnternet sunucuları",
+        "accessibility_label": "İnternet sunucusu modu",
+        "disabled": "(Bunu kullanmak için çevrimiçi olun)",
+        "description": "Birden fazla hesaptan son verileri almış bir arkadaşınızın sahip olduğu 'Pub sunucusuna' bağlanın."
+      }
+    },
+    "menu": {
+      "dialog_title": "Connection",
+      "open_profile": {
+        "label": "Profili aç",
+        "accessibility_label": {
+          "connected": "Bağlı eş için profil ekranını aç",
+          "staged": "Önerilen bağlantı için profil ekranını aç"
+        }
+      },
+      "connect": {
+        "label": "Bağlan",
+        "accessibility_label": {
+          "staged_peer": "Önerilen arkadaşınıza bağlanın",
+          "staged_room": "Önerilen odaya bağlanın"
+        }
+      },
+      "follow_connect": {
+        "label": "Bağlan ve takip et",
+        "accessibility_label": "Önerilen arkadaşınıza bağlanın ve onları takip edin"
+      },
+      "disconnect": {
+        "label": "Bağlantıyı kes",
+        "accessibility_label": {
+          "peer": "Bu eşle olan bağlantıyı kes",
+          "room": "Bu oda ile olan bağlantıyı kes"
+        }
+      },
+      "disconnect_forget": {
+        "label": "Bağlantıyı kes ve unut",
+        "accessibility_label": {
+          "peer": "Bu eşden bağlantıyı kes ve veritabanından kaldır",
+          "room": "Bu oda ile bağlantıyı kes ve veritabanından kaldır"
+        }
+      },
+      "forget": {
+        "label": "Unut",
+        "accessibility_label": {
+          "room": "Bu odayı veritabanından kaldır"
+        }
+      },
+      "manage_aliases": {
+        "label": "Manage my aliases",
+        "accessibility_label": "Manage my aliases in Room servers"
+      },
+      "room_sign_in": {
+        "label": "Sign into website",
+        "accessibility_label": "Open this room's website and sign into its dashboard, Button"
+      },
+      "room_share_invite": {
+        "label": "Davet kodunu paylaş",
+        "accessibility_label": "Bu odanın davet kodunu paylaş"
+      },
+      "invite_info": {
+        "label": "Hakkında",
+        "accessibility_label": "Bu davet kodu hakkında"
+      },
+      "invite_note": {
+        "label": "Not ekle",
+        "accessibility_label": "Kendine hatırlatma notu ekle"
+      },
+      "invite_share": {
+        "label": "Paylaş",
+        "accessibility_label": "Davet kodunu paylaş"
+      },
+      "invite_delete": {
+        "label": "Sil",
+        "accessibility_label": "Davet kodunu sil"
+      }
+    },
+    "notes": {
+      "add": {
+        "title": "Not ekle",
+        "description": "Bu davet kodu hakkında özel bir not yazın(size özel). Örneğin: \"Bu Alice için\""
+      }
+    },
+    "share_code": {
+      "room": {
+        "title": "SSB Odası Davet Kodu",
+        "message": "Bu davet kodunu Manyverse'e yapıştırarak {{name}} SSB Odasında bana katılın:",
+        "dialog_note": "Bu davet kodunu bir arkadaşınızla paylaşın"
+      }
+    }
+  },
+  "compose": {
+    "call_to_action": {
+      "publish_new_thread": {
+        "label": "Yayınla",
+        "accessibility_label": "Mesaj Yayınla Düğmesi"
+      },
+      "reply_to_thread": {
+        "label": "Cevapla",
+        "accessibility_label": "Yanıtı Yayınla Düğmesi"
+      },
+      "preview": {
+        "label": "Preview",
+        "accessibility_label": "Önizleme Düğmesi"
+      },
+      "close": {
+        "accessibility_label": "Kapat Düğmesi"
+      },
+      "record_audio": {
+        "accessibility_label": "Ses Kaydet Düğmesi",
+        "permission_request": {
+          "title": "Manyverse'in ses kaydetmesine izin verilsin mi?",
+          "message": "Sesli mesajlar oluşturabilmeniz için Manyverse'in mikrofonunuza erişmesi gerekiyor",
+          "neutral": "Daha sonra sor",
+          "positive": "Tamam",
+          "negative": "İptal"
+        }
+      },
+      "open_camera": {
+        "accessibility_label": "Kamera Düğmesini Aç Düğmesi"
+      },
+      "add_picture": {
+        "accessibility_label": "Fotoğraf ekle butonu"
+      }
+    },
+    "dialogs": {
+      "content_warning": {
+        "title": "İçerik uyarısı",
+        "description": "Yayınınız hassas içerikler barındırıyorsa, lütfen kullanıcıları uyarmak için kısa bir not ekleyin."
+      },
+      "image_caption": {
+        "title": "Başlık",
+        "description": "Bu fotoğrafın, özellikle görme engelliler için bir açıklamasını ekleyin."
+      }
+    },
+    "content_warning_initials": {
+      "label": "İU",
+      "accessibility_label": "İçerik uyarı butonu"
+    },
+    "mention_field": {
+      "accessibility_label": "Bahsedilen Hesap Metin Girişi"
+    },
+    "text_field": {
+      "placeholder": "Herkese açık bir mesaj yazın",
+      "accessibility_label": "Compose Text Input"
+    }
+  },
+  "compose_audio": {
+    "title": "Sesli mesaj",
+    "call_to_action": {
+      "start_recording": {
+        "accessibility_label": "Kayda başla"
+      },
+      "stop_recording": {
+        "accessibility_label": "Kaydı bitir"
+      },
+      "discard_recording": {
+        "label": "Vazgeç",
+        "accessibility_label": "Kayıt Silme Düğmesi"
+      },
+      "submit_recording": {
+        "label": "Tamam",
+        "accessibility_label": "Kayıt Gönder Düğmesi"
+      }
+    },
+    "dialogs": {
+      "discard": {
+        "title": "Sesli mesaj",
+        "question": "Taslak silinsin mi?"
+      }
+    }
+  },
+  "backup": {
+    "title": "Yedekle",
+    "introduction": {
+      "title": "Hesap güvenliği için\niki bölüm var"
+    },
+    "data": {
+      "title": "Veri",
+      "description": {
+        "1_normal": "This is your account's posts, messages, pictures, likes and similar activity. To keep it safe against sudden loss, we use ",
+        "2_bold": "crowd backup",
+        "3_normal": ". You only need to ",
+        "4_bold": "synchronize with reliable friends",
+        "5_normal": " or other devices you own. There is ",
+        "6_bold": "nothing else to do",
+        "7_normal": ", just use Manyverse often and your friends are backing you up!"
+      },
+      "call_to_action": {
+        "acknowledge": {
+          "label": "Anladım",
+          "accessibility_label": "Kabul Et"
+        }
+      }
+    },
+    "identity": {
+      "title": "Doğrulama",
+      "description": {
+        "1_normal": "Your account's \"fingerprint\" is made up of a highly unique ",
+        "2_bold": "recovery phrase",
+        "3_normal": ". This is a sequence of 24 words that unlocks your account. ",
+        "4_bold": "Keep it confidential",
+        "5_normal": ", because if anyone else has access to it, they can take control of your account. ",
+        "6_bold": "Take responsibility",
+        "7_normal": " over it, since you and only you can recover your account!"
+      },
+      "call_to_action": {
+        "show_recovery_phrase": "Kurtarma ifadesini göster"
+      }
+    }
+  },
+  "biography": {
+    "picture": {
+      "accessibility_label": "Biyografi Görseli"
+    },
+    "description": {
+      "accessibility_label": "Biyografi Açıklaması"
+    }
+  },
+  "conversation": {
+    "title": "Sohbet",
+    "placeholder": "Bir mesaj yazın...",
+    "call_to_action": {
+      "show_recipients": {
+        "accessibility_label": "Alıcıları göster"
+      }
+    },
+    "notifications": {
+      "new_conversation": "Bu yeni bir özel görüşme"
+    }
+  },
+  "dialog_about": {
+    "title": "Manyverse hakkında",
+    "version": "Sürüm {{version}}",
+    "copyright": "Telif Hakkı (C)",
+    "authors": "Manyverse yapımcıları",
+    "repository": "Açık kaynak depo",
+    "licensed": "{{license}} lisanslı"
+  },
+  "dialog_thanks": {
+    "title": "Teşekkürler!",
+    "description": "Bu uygulamanın geliştirilmesi, {{sponsor1}}, {{sponsor2}} bağışları ve aşağıda belirtilen bağışlarla desteklendi:\n**{{topBackers}}** ve [yüzlerce destekçi]({{donateLink}}). Teşekkürler!"
+  },
+  "drawer": {
+    "menu": {
+      "my_profile": {
+        "label": "Profilim",
+        "accessibility_label": "Profilim menü öğesi"
+      },
+      "raw_database": {
+        "label": "Ham veritabanı",
+        "accessibility_label": "Ham veritabanını göster"
+      },
+      "email_bug_report": {
+        "label": "E-Posta ile hata bildirimi",
+        "accessibility_label": "Hata raporunu E-Posta olarak gönder"
+      },
+      "translate": {
+        "label": "Help us translate",
+        "accessibility_label": "Open translation website"
+      },
+      "more": {
+        "label": "More",
+        "accessibility_label": "Show more Menu items"
+      },
+      "settings": {
+        "label": "Ayarlar",
+        "accessibility_label": "Ayarlara git"
+      },
+      "preparing_database": {
+        "label": "Preparing database..."
+      },
+      "ready_estimate": {
+        "label": "Ready:"
+      }
+    }
+  },
+  "invite_paste": {
+    "placeholder": "Davet kodunu buraya girin",
+    "call_to_action": {
+      "accept": {
+        "accessibility_label": "Davet kodunu kabul et"
+      }
+    },
+    "alert_unsupported_dht": {
+      "title": "Unsupported type",
+      "description": "P2P Invites are no longer supported in Manyverse."
+    },
+    "text_field": {
+      "accessibility_label": "Davet kodu metin girişi"
+    }
+  },
+  "libraries": {
+    "title": "Üçüncü taraf kütüphaneleri",
+    "description": "Manyverse aşağıdaki açık kaynak kitaplıkları ve bileşenleri kullanır. Bu kütüphanelerin yazarlarına teşekkür etmek ve uygun atıf için web sitelerine bağlantı vermek istiyoruz.",
+    "image": {
+      "name": "Görsel {{name}}",
+      "attribution": " {{author}} tarafından oluşturuldu, lisansı {{license}}"
+    }
+  },
+  "profile": {
+    "call_to_action": {
+      "copy_cypherlink": "Cypherlinki kopyala",
+      "private_chat": "Özel görüşmeyi aç",
+      "block": "Engelle",
+      "block_secretly": "Gizlice engelle",
+      "unblock": "Engeli kaldır",
+      "unblock_secretly": "Gizlice engellemeyi kaldır",
+      "follow": "Takip et",
+      "edit_profile": {
+        "label": "Profili düzenle",
+        "accessibility_label": "Profili düzenle butonu"
+      },
+      "manage": {
+        "accessibility_label": "Kişiyi yönet"
+      }
+    },
+    "dialog_ssb_id": {
+      "title": "SSB ID"
+    },
+    "dialog_manage_contact": {
+      "title": "Contact"
+    },
+    "dialog_friend_request": {
+      "title": "Friend request",
+      "description": "This account is trying to connect with you, but Manyverse prevented it because they are outside your community.\n\nIf you recognize this ID, you can press \"Follow\" to allow them to connect with you."
+    },
+    "toast": {
+      "copied_to_clipboard": "Panoya kopyalandı"
+    },
+    "details": {
+      "id": {
+        "accessibility_label": "SSB Identifier"
+      },
+      "biography": {
+        "accessibility_label": "Read Biography"
+      },
+      "counters": {
+        "following": "Takip ediliyor",
+        "followers": "Followers"
+      }
+    },
+    "info": {
+      "follows_you": "Seni takip ediyor",
+      "blocks_you": "Sizi engelledi",
+      "following": "Takip ediliyor"
+    },
+    "picture": {
+      "accessibility_label": "Profil fotoğrafı"
+    },
+    "name": {
+      "accessibility_label": "Profil ismi"
+    },
+    "empty": {
+      "blocked": {
+        "title": "Engellendi",
+        "description": "Bu hesapla etkileşimi\ndurdurmayı seçtiniz"
+      },
+      "no_self_messages": {
+        "title": "Mesaj yok",
+        "description": "Write a diary which you can\nshare with friends later"
+      },
+      "no_messages": {
+        "title": "Mesaj yok",
+        "description": "You don't yet have any data\nfrom this account"
+      }
+    },
+    "floating_action_button": {
+      "compose": "Herkese açık bir mesaj yazın"
+    }
+  },
+  "profile_edit": {
+    "title": "Profili düzenle",
+    "call_to_action": {
+      "discard": "Vazgeç",
+      "save": {
+        "label": "Kaydet",
+        "accessibility_label": "Profili Kaydet"
+      },
+      "edit_picture": {
+        "accessibility_label": "Profil Fotoğrafını Düzenle"
+      },
+      "register_new_alias": {
+        "label": "Register new alias",
+        "accessibility_label": "Register New Room Server Alias"
+      }
+    },
+    "dialogs": {
+      "discard": {
+        "title": "Profili düzenle",
+        "question": "Değişikliklerden vazgeçilsin mi?"
+      },
+      "remove_alias": {
+        "description": "This action will remove the alias \"{{alias}}\" from the room server.\n\nPeople won't be able to reach you any more using this alias."
+      }
+    },
+    "toasts": {
+      "alias_removed_success": "Alias removed",
+      "alias_removed_failure": "Failed to remove alias"
+    },
+    "fields": {
+      "name": {
+        "label": "İsim",
+        "accessibility_label": "İsim Metin Girişi"
+      },
+      "description": {
+        "label": "Biyo",
+        "accessibility_label": "Biyografi Metin Girişi"
+      },
+      "aliases": {
+        "label": "Aliases"
+      }
+    }
+  },
+  "manage_aliases": {
+    "title": "Manage aliases"
+  },
+  "register_alias": {
+    "title": "Register alias",
+    "empty": {
+      "no_servers": {
+        "title": "No servers",
+        "description": "To register an alias, you need to be a member of some SSB room server. Find one on the internet with the hashtag #ssbroom and make sure it supports aliases."
+      }
+    },
+    "header": {
+      "description": "Choose a room server where you would like to register a new alias link for yourself.\n\nAliases are web addresses that people can use to connect with you."
+    },
+    "dialogs": {
+      "input_alias": {
+        "description": "Submit your desired new alias to {{host}} as a single word in lowercase.\n\nFor example, if you want the alias \"myname.{{host}}\", write \"myname\" below."
+      }
+    },
+    "submitting": {
+      "title": "Submitting..."
+    },
+    "failure": {
+      "title": "It didn't work",
+      "alias_taken": "The alias you submitted is already taken by some user.",
+      "call_to_action": {
+        "try_again": {
+          "label": "Try again",
+          "accessibility_label": "Try Again Button"
+        }
+      }
+    },
+    "success": {
+      "title": "Great!",
+      "description": "The alias {{alias}} is now yours.",
+      "call_to_action": {
+        "go_back": {
+          "label": "Go back",
+          "accessibility_label": "Go Back Button"
+        }
+      }
+    }
+  },
+  "raw_db": {
+    "title": "Ham veritabanı",
+    "item": {
+      "type": {
+        "any": "tür: {{type}}",
+        "encrypted": "şifreli"
+      }
+    }
+  },
+  "raw_msg": {
+    "title": "Ham mesaj"
+  },
+  "recipients_input": {
+    "title": "Yeni mesaj",
+    "call_to_action": {
+      "proceed": {
+        "label": "Sonraki",
+        "accessibility_label": "Sonraki Düğmesi"
+      }
+    },
+    "fields": {
+      "mention_input": {
+        "placeholder": "Eklemek için kişi arayın",
+        "accessibility_label": "Bahsedilen Hesap Metin Girişi"
+      }
+    },
+    "empty": {
+      "instructions": {
+        "title": "Choose members",
+        "description": "Type in the names\nof people to join the new chat"
+      },
+      "none_to_choose": {
+        "title": "Hiç kimse",
+        "description": "Topluluğunuzda bu\nada sahip kimse yok"
+      }
+    },
+    "toasts": {
+      "limit_reached": "{{limit}} fazla seçilemez"
+    }
+  },
+  "search": {
+    "query_input": {
+      "placeholder": "Search public posts",
+      "accessibility_label": "Search Query Text Input"
+    },
+    "clear_query": {
+      "accessibility_label": "Reset the Search Query Text Input"
+    },
+    "empty": {
+      "initial": {
+        "title": "Search something",
+        "description": "Uygulama eşlerinize\nbağlanmaya çalışırken bekleyin"
+      },
+      "zero_results": {
+        "title": "Zero results",
+        "description": "Nothing found for \"{{query}}\""
+      }
+    }
+  },
+  "secret_input": {
+    "practice": {
+      "title": "Practice",
+      "header": "Doğru olduğunu onaylamak için tekrarlayın:"
+    },
+    "restore": {
+      "title": "Hesabı geri getir"
+    },
+    "header": "Kurtarma ifadenizi dikkatlice girin",
+    "call_to_action": {
+      "confirm": {
+        "label": "Onayla",
+        "accessibility_label": "Kurtarma ifadesini onayla butonu"
+      }
+    },
+    "fields": {
+      "words_input": {
+        "placeholder": "24 kelimelik (veya 48 kelimelik) kurtarma ifadesi",
+        "accessibility_label": "Kurtarma ifadesi metin girişi"
+      }
+    },
+    "dialogs": {
+      "practice": {
+        "correct": {
+          "title": "Doğru!",
+          "description": "Kurtarma ifadesini yedeklediğiniz için hesabınız artık güvende."
+        },
+        "incorrect": {
+          "title": "Hatalı",
+          "description": "Tekrar deneyin: boşlukla ayrılmış 24 kelimeden oluşan kurtarma ifadenizi yazın."
+        }
+      },
+      "restore": {
+        "correct": {
+          "title": "Tekrar hoşgeldiniz!",
+          "description": "Hesabınızın kimliği şimdi geri yüklendi.\n\nŞimdi, verilerinizi geri yüklemek için daha önce sizinle etkileşime geçen arkadaşlarınızla bağlantı kurun, verilerinizi onlardan yeniden indirin."
+        },
+        "incorrect": {
+          "title": "Hatalı",
+          "description": {
+            "try_again": "Boşluk ile ayrılmış 24 kelimeden oluşan kurtarma ifadenizi ekleyerek tekrar deneyin.",
+            "overwrite_risk": "Uygulamada zaten açık bir hesap var, üzerine yazamayız. Geçersiz kılmak istediğinizden eminseniz, hesabınızı temiz bir şekilde kurtarmak için Manyverse'i kaldırın ve yeniden yükleyin.",
+            "too_short": "Bazı kelimeler eksik. Kurtarma ifadeniz 24 kelime uzunluğunda olmalıdır.",
+            "too_long": "Çok fazla kelime var. Kurtarma ifadeniz tam olarak 24 kelime uzunluğunda olmalıdır.",
+            "wrong_length": "Kurtarma ifadeniz tam olarak 24 kelime uzunluğunda olmalıdır.",
+            "generic": "Verdiğiniz kurtarma ifadesi, Manyverse tarafından oluşturulan geçerli bir kimlik gibi görünmüyor."
+          }
+        }
+      }
+    }
+  },
+  "secret_output": {
+    "title": "Kurtarma ifadesi",
+    "header": {
+      "1_normal": "Aşağıdaki kurtarma ifadesini dikkatlice yazın ",
+      "2_bold": "bir kağıt parçasına",
+      "3_normal": ""
+    },
+    "footer": {
+      "1_normal": "Keep it ",
+      "2_bold": "confidential",
+      "3_normal": ", and\ntake sole ",
+      "4_bold": "responsibility",
+      "5_normal": " over it"
+    },
+    "words": {
+      "accessibility_label": "Gizli kelimeler"
+    },
+    "call_to_action": {
+      "confirm": {
+        "accessibility_label": "Kurtarma ifadesini onayla butonu"
+      }
+    },
+    "loading": "Yükleniyor..."
+  },
+  "settings": {
+    "title": "Ayarlar",
+    "preferences": {
+      "title": "Tercihler",
+      "show_follows": {
+        "title": "Takip edilen etkinlikleri göster",
+        "subtitle": "Show follow or block or unfollow cases on the public board",
+        "accessibility_label": "Genel panodaki olayları takip et"
+      },
+      "hops": {
+        "title": "Replication hops",
+        "subtitle": "How far out in the social graph should Manyverse download data; 1 is friends-only, 2 is friends-of-friends, etc. Caution: the higher this is, the more data is downloaded!",
+        "unlimited": "Sınırsız",
+        "accessibility_label": "Replication hops slider"
+      }
+    },
+    "data_and_storage": {
+      "title": "Veri depolama",
+      "backup": {
+        "title": "Yedekleme",
+        "subtitle": "24 kelimelik kurtarma ifadenizi görüntüleyin",
+        "accessibility_label": "Hesabımı yedekle"
+      },
+      "blobs_storage": {
+        "title": "Blobs storage limit",
+        "subtitle": "Automatically delete old images and blobs until they occupy at most this amount of storage on your device",
+        "unlimited": "Sınırsız",
+        "accessibility_label": "Depolama sınırı kaydırıcısı"
+      }
+    },
+    "troubleshooting": {
+      "title": "Sorun giderme",
+      "bug_report": {
+        "title": "E-Posta ile hata raporu gönder",
+        "accessibility_label": "Hata raporunu E-Posta olarak gönder"
+      },
+      "detailed_logs": {
+        "title": "Ayrıntılı günlükleri etkinleştir",
+        "accessibility_label": "Ayrıntılı geliştirici günlüklerini aç/kapat"
+      }
+    },
+    "more_information": {
+      "title": "Daha fazla bilgi",
+      "thanks": {
+        "title": "Teşekkürler",
+        "accessibility_label": "Teşekkürleri göster"
+      },
+      "third_party_libs": {
+        "title": "Üçüncü taraf kütüphaneleri",
+        "accessibility_label": "Üçüncü taraf kitaplıklarını görüntüle"
+      },
+      "about": {
+        "title": "Hakkında",
+        "accessibility_label": "Bu uygulama hakkında"
+      }
+    },
+    "dialogs": {
+      "restart_required": {
+        "title": "Yeniden başlatılması gerekiyor",
+        "description": "Bu ayar, yalnızca uygulamayı kapattığınızda ve Manyverse'i yeniden başlattığınızda geçerli olacak."
+      }
+    }
+  },
+  "thread": {
+    "title": "Konu",
+    "call_to_action": {
+      "expand_reply": {
+        "accessibility_label": "Yanıt butonunu genişlet"
+      },
+      "publish_reply": {
+        "accessibility_label": "Yanıtla Yayınla Düğmesi"
+      }
+    },
+    "fields": {
+      "reply": {
+        "placeholder": "Yorum",
+        "accessibility_label": "Cevap Yazısı Girişi"
+      }
+    },
+    "loading_replies": "Yanıtlar yükleniyor...",
+    "empty": {
+      "missing": {
+        "title": "Kayıp veri",
+        "description": "You don't yet have data\nfor the message known by the ID\n"
+      },
+      "blocked": {
+        "title": "Engellenen ileti dizisi",
+        "description": "You have chosen to block\nthe author of this thread"
+      },
+      "incompatible": {
+        "title": "Üzgünüm",
+        "description": "This app doesn't know how to process\nand display this thread correctly"
+      }
+    }
+  },
+  "message": {
+    "call_to_action": {
+      "show_reactions": {
+        "accessibility_label": "Emojileri göster"
+      },
+      "add_reaction": {
+        "accessibility_label": "Emoji ekle butonu"
+      },
+      "reply": {
+        "accessibility_label": "Yanıtla Düğmesi"
+      },
+      "etc": {
+        "dialog_title": "Mesaj",
+        "accessibility_label": "Etc Button"
+      },
+      "copy_blob_id": {
+        "accessibility_label": "Copy Blob ID"
+      },
+      "copy_msg_id": "Cypherlinki kopyala",
+      "view_raw": "Ham mesajı görüntüle"
+    },
+    "toast": {
+      "copied_to_clipboard": "Panoya kopyalandı"
+    },
+    "reactions": {
+      "categories": {
+        "smileys_and_emotion": "Duygu simgeleri",
+        "people_and_body": "Kişiler",
+        "animals_and_nature": "Hayvanlar ve doğa",
+        "food_and_drink": "Yiyecek ve içecekler",
+        "activities": "Aktiviteler",
+        "travel_and_places": "Seyahat ve yerler",
+        "objects": "Objeler",
+        "symbols": "Semboller",
+        "flags": "Flags"
+      },
+      "show_more": {
+        "accessibility_label": "Daha fazla emoji seçeneği göster"
+      }
+    },
+    "image": {
+      "without_caption": {
+        "accessibility_label": "Altyazısız resim"
+      }
+    },
+    "audio": {
+      "play": {
+        "accessibility_label": "Sesi çal"
+      },
+      "pause": {
+        "accessibility_label": "Sesi duraklat"
+      },
+      "duration": {
+        "accessibility_label": "Ses süresi"
+      },
+      "elapsed": {
+        "accessibility_label": "Audio current time"
+      },
+      "slider": {
+        "accessibility_label": "Change audio time"
+      }
+    },
+    "content_warning": {
+      "title": "İçerik uyarısı",
+      "call_to_action": {
+        "hide": "Gizle",
+        "show": "Göster"
+      }
+    },
+    "fork_note": {
+      "1_normal": "Forked from ",
+      "2_bold": "{{cypherlink}}",
+      "3_normal": ""
+    },
+    "about": {
+      "new_picture": {
+        "1_normal": "",
+        "2_bold": "{{name}}",
+        "3_normal": " has a new profile picture: "
+      },
+      "new_name_and_description": {
+        "1_normal": "",
+        "2_bold": "{{name}}",
+        "3_normal": " is using the name \"",
+        "4_bold": "{{name}}",
+        "5_normal": "\" and the description: "
+      },
+      "new_description": {
+        "1_normal": "",
+        "2_bold": "{{name}}",
+        "3_normal": " has a new biography: "
+      },
+      "new_name": {
+        "1_normal": "",
+        "2_bold": "{{name}}",
+        "3_normal": " is using the name \"",
+        "4_bold": "{{name}}",
+        "5_normal": "\""
+      }
+    },
+    "contact": {
+      "follow_event": {
+        "1_normal": "",
+        "2_bold": "{{author}}",
+        "3_normal": " followed ",
+        "4_bold": "{{target}}",
+        "5_normal": ""
+      },
+      "block_event": {
+        "1_normal": "",
+        "2_bold": "{{author}}",
+        "3_normal": " engellendi ",
+        "4_bold": "{{target}}",
+        "5_normal": ""
+      },
+      "unfollow_event": {
+        "1_normal": "",
+        "2_bold": "{{author}}",
+        "3_normal": " takip bırakıldı ",
+        "4_bold": "{{target}}",
+        "5_normal": ""
+      },
+      "unblock_event": {
+        "1_normal": "",
+        "2_bold": "{{author}}",
+        "3_normal": " engellenmemiş ",
+        "4_bold": "{{target}}",
+        "5_normal": ""
+      }
+    }
+  }
+}

@@ -1,0 +1,1192 @@
+{
+  "call_to_action": {
+    "ok": "Εντάξει",
+    "add": "Προσθήκη",
+    "done": "Ολοκληρώθηκε",
+    "cancel": "Ακύρωση",
+    "continue": "Συνέχεια",
+    "delete": "Διαγραφή",
+    "remove": "Remove",
+    "save": "Αποθήκευση",
+    "yes": "Ναι",
+    "no": "Όχι",
+    "open_menu": {
+      "accessibility_label": "Κουμπί Μενού"
+    },
+    "go_back": {
+      "accessibility_label": "Κουμπί Πίσω"
+    },
+    "close": {
+      "accessibility_label": "Κουμπί Κλείσιμο"
+    },
+    "close_dialog": {
+      "accessibility_label": "Κουμπί Κλείσιμο Διαλόγου"
+    },
+    "external_link_confirmation": {
+      "title": "Open link?",
+      "description": "Do you want to open {{link}} in your browser?"
+    }
+  },
+  "date": {
+    "relative": {
+      "past": {
+        "years": {
+          "one": "1 χρόνος πριν",
+          "other": "{{count}} χρόνια πριν"
+        },
+        "months": {
+          "one": "1 μήνας πριν",
+          "other": "{{count}} μήνες πριν"
+        },
+        "weeks": {
+          "one": "1 εβδομάδα πριν",
+          "other": "{{count}} εβδομάδες πριν"
+        },
+        "days": {
+          "one": "1 μέρα πριν",
+          "other": "{{count}} μέρες πριν"
+        },
+        "hours": {
+          "one": "1 ώρα πριν",
+          "other": "{{count}} ώρες πριν"
+        },
+        "minutes": {
+          "one": "1 λεπτό πριν",
+          "other": "{{count}} λεπτά πριν"
+        },
+        "now": "Τώρα"
+      },
+      "future": {
+        "years": {
+          "one": "1 χρόνος από τώρα",
+          "other": "{{count}} χρόνια απο τώρα"
+        },
+        "months": {
+          "one": "1 μήνας από τώρα",
+          "other": "{{count}} μήνες από τώρα"
+        },
+        "weeks": {
+          "one": "1 εβδομάδα από τώρα",
+          "other": "{{count}} εβδομάδες από τώρα"
+        },
+        "days": {
+          "one": "1 μέρα από τώρα",
+          "other": "{{count}} μέρες από τώρα"
+        },
+        "hours": {
+          "one": "1 ώρα από τώρα",
+          "other": "{{count}} ώρες από τώρα"
+        },
+        "minutes": {
+          "one": "1 λεπτό από τώρα",
+          "other": "{{count}} λεπτά από τώρα"
+        },
+        "now": "Σύντομα"
+      }
+    }
+  },
+  "welcome": {
+    "learn_more": "Μάθε περισσότερα",
+    "overview": {
+      "title": "Καλώς ήρθες στο Manyverse!",
+      "description": "Η κοινωνική δικτύωση μπορεί να είναι απλή, ουδέτερη, μη εμπορική και να βασίζεται στην εμπιστοσύνη μεταξύ φίλων. Αυτό είναι το Manyverse, και ελπίζουμε και εσείς να το κάνετε το ψηφιακό σας σπίτι. Όλα αυτά καθίστανται δυνατά από το πρωτόκολλο SSB."
+    },
+    "off_the_grid": {
+      "title": "Εκτός δικτύου",
+      "description": {
+        "1_normal": "Το Manyverse μπορεί να χρησιμοποιήσει τη σύνδεση στο διαδίκτυο, αλλά δεν είναι ",
+        "2_bold": "στο",
+        "3_normal": " internet. Τα πάντα συμβαίνουν στην συσκευή σας. Αυτό σημαίνει οτι μπορείτε να το χρησιμοποιήσεται ακόμα και όταν δεν έχετε ενεργή σύδνεση! Το ",
+        "4_bold": "περιεχόμενο αποθηκεύεται πρώτα στην συσκευή σας",
+        "5_normal": ", και μπορείτε να συγχρονιστείτε με τους φίλους σας μόλις συνδεθείτε.."
+      }
+    },
+    "connections": {
+      "title": "Πολλοί τρόποι σύνδεσης",
+      "description": {
+        "ios": {
+          "1_normal": "Για να συνδεθείτε με φίλους και να συγχρονίσετε περιεχόμενο, μπορείτε είτε να συνδεθείτε στο ίδιο ",
+          "2_bold": "Wi-Fi",
+          "3_normal": ". Για να βρείτε νέα άτομα στο Διαδίκτυο, αναζητήστε έναν κωδικό πρόσκλησης σε ένα ",
+          "4_bold": "pub διακομιστή",
+          "5_normal": " ή σε έναν ",
+          "6_bold": "room διακομιστή",
+          "7_normal": ", ή ξεκινήστε τον δικό σας διακομιστή!"
+        },
+        "default": {
+          "1_normal": "Για να συνδεθείτε με φίλους και να συγχρονίσετε περιεχόμενο, μπορείτε είτε: να συμμετάσχετε στο ίδιο ",
+          "2_bold": "Wi-Fi",
+          "3_normal": ", ή να συγχρονιστείτε με ",
+          "4_bold": "Bluetooth",
+          "5_normal": ". Για να βρείτε νέα άτομα στο Διαδίκτυο, αναζητήστε έναν κωδικό πρόσκλησης σε ένα ",
+          "6_bold": "pub διακομιστή",
+          "7_normal": " ή σε έναν ",
+          "8_bold": "room διακομιστή",
+          "9_normal": ", ή ξεκινήστε τον δικό σας διακομιστή!"
+        }
+      }
+    },
+    "moderation": {
+      "title": "Κοινή εποπτεία",
+      "description": {
+        "1_normal": "Επειδή η συσκευή σας διατηρεί το κοινωνικό σας δίκτυο, κανένας άλλος δεν μπορεί να αποκλείσει ή να καταργήσει τον λογαριασμό σας. Μόνο εσείς μπορείτε να μετριάσετε το χώρο σας, ",
+        "2_bold": "αποκλείοντας λογαριασμους",
+        "3_normal": " που δεν επιθυμείτε να βλέπετε στην συσκευή σας. Στη συνέχεια, οι φίλοι σας μπορούν να επιλέξουν να αποκλείσουν τους ίδιους λογαριασμούς. Έτσι η εποπτεία μπορεί να εξαπλωθεί φυσικά!"
+      }
+    },
+    "permanence": {
+      "title": "Μονιμότητα",
+      "description": {
+        "1_normal": "Μόλις το περιεχόμενό σας συγχρονιστεί με τους φίλους σας, αυτοί διατηρούν πλέον ένα αντίγραφο στις συσκευές τους. Επειδή θα μπορούσαν να είναι εκτός σύνδεσης μετά από αυτό, είναι ",
+        "2_bold": "άδύνατον να διαγράψετε",
+        "3_normal": " το περιεχόμενο σας, καθολικά, από όλες τις συσκευές! Γι'αυτό επιλέξαμε να κάνουμε το περιεχόμενο μόνιμο. Κάνει επίσης τις κοινότητες πιο σεβαστές και διακριτικές για αυτό που δημοσιεύεται."
+      }
+    },
+    "in_construction": {
+      "title": "Υπό κατασκευή!",
+      "description": {
+        "1_normal": "Το Manyverse είναι ",
+        "2_bold": "λογισμικό ποιότητας beta",
+        "3_normal": ". Δεν έχουμε βρει λύση για τα πάντα ακόμα και ορισμένα μέρη πρέπει να διορθωθούν. Κατά τον συγχρονισμό, η εφαρμογή μπορεί να εμφανίζεται παγωμένη για αρκετά λεπτά. Έχετε υπομονή! Ενημερώστε μας για τυχόν άλλα σφάλματα που αντιμετωπίσατε και με αρκετό χρόνο και δωρεές, μπορούμε δημιουργήσουμε μία εξαιρετική εφαρμογή."
+      }
+    },
+    "setup_account": {
+      "title": "Είναι η πρώτη σας φορά;",
+      "description": "Θέλετε να δημιουργήσετε έναν νέο λογαριασμό ή θέλετε να επαναφέρετε τον παλιό σας λογαριασμό από μια φράση ανάκτησης 24 λέξεων;",
+      "call_to_action": {
+        "create": {
+          "label": "Δημιουργήστε λογαριασμό",
+          "accessibility_label": "Κουμπί Δημιουργίας Λογαριασμού"
+        },
+        "restore": {
+          "label": "Ανάκτηση λογαριασμού",
+          "accessibility_label": "Κουμπί Ανάκτησης Λογαριασμού"
+        }
+      }
+    }
+  },
+  "central": {
+    "app_name": "Manyverse",
+    "tab_headers": {
+      "public": "Δημόσιος πίνακας",
+      "private": "Προσωπικά Μηνύματα",
+      "activity": "Activity",
+      "connections": "Connected peers"
+    },
+    "tab_footers": {
+      "public": "Δημόσιες",
+      "private": "Ιδιωτικές",
+      "activity": "Activity",
+      "connections": "Συνδέσεις"
+    },
+    "loading": "Φόρτωση...",
+    "building_indexes": "Δημιουργία ευρετηρίων βάσης δεδομένων... \nΑυτό μπορεί να διαρκέσει αρκετά λεπτά",
+    "tabs": {
+      "public": {
+        "accessibility_label": "Κουμπί Δημόσια Καρτέλα"
+      },
+      "private": {
+        "accessibility_label": "Κουμπί Ιδιωτική Καρτέλα"
+      },
+      "activity": {
+        "accessibility_label": "Activity Tab Button"
+      },
+      "connections": {
+        "accessibility_label": "Κουμπί Συνδέσεις"
+      }
+    }
+  },
+  "public": {
+    "floating_action_button": {
+      "compose": "Γράψτε ένα δημόσιο μήνυμα"
+    },
+    "empty": {
+      "title": "Δεν βρέθηκαν μηνύματα",
+      "description": "Γράψτε ένα ημερολόγιο για να μοιραστείτε με τους φίλους σας αργότερα"
+    },
+    "search": {
+      "accessibility_label": "Search Button"
+    }
+  },
+  "private": {
+    "floating_action_button": {
+      "compose": "Ξεκινήστε μια ιδιωτική συνομιλία"
+    },
+    "empty": {
+      "title": "Δεν βρέθηκαν συνομιλίες",
+      "description": "Ξεκινήστε μια ιδιωτική συνομιλία \nμε οποιονδήποτε από τους φίλους σας"
+    },
+    "conversation": {
+      "accessibility_label": "Μετάβαση στη συνομιλία"
+    }
+  },
+  "accounts": {
+    "reactions": {
+      "title": "Αντιδράσεις"
+    },
+    "recipients": {
+      "title": "Παραλήπτες"
+    },
+    "call_to_action": {
+      "open_account": {
+        "accessibility_label": "Μετάβαση στο λογαριασμό"
+      }
+    }
+  },
+  "activity": {
+    "mention": {
+      "label": {
+        "1_normal": "",
+        "2_bold": "{{author}}",
+        "3_normal": " mentioned you"
+      }
+    },
+    "follow": {
+      "label": {
+        "1_normal": "",
+        "2_bold": "{{author}}",
+        "3_normal": " followed you"
+      }
+    },
+    "connection_attempt": {
+      "label": {
+        "1_normal": "",
+        "2_bold": "{{author}}",
+        "3_normal": " wants to connect"
+      }
+    },
+    "empty": {
+      "title": "No activity",
+      "description": "When people mention or follow you,\nthey show up here"
+    }
+  },
+  "connections": {
+    "title": "Connections Panel",
+    "floating_action_button": {
+      "create_invite": "Δημιουργία πρόσκλησης",
+      "paste_invite": "Επικόλληση πρόσκλησης",
+      "bluetooth_seek": "Αναζήτηση Bluetooth"
+    },
+    "open_connections_panel": "Open Connections Panel",
+    "empty": {
+      "offline": {
+        "title": "Εκτός σύνδεσης",
+        "description": "Ενεργοποιήστε κάποια λειτουργία σύνδεσης \nή απολαύστε την ανάγνωση του υπάρχοντος περιεχομένου"
+      },
+      "connecting": {
+        "title": "Σύνδεση",
+        "description": "Περιμένετε έως ότου η εφαρμογή\n συνδεθεί με τις επαφές σας"
+      },
+      "no_peers": {
+        "title": "Δεν υπάρχουν διαθέσιμες συνδέσεις",
+        "description": "Δοκιμάστε να συγχρονίσετε άτομα που βρίσκονται γύρω σας \nή χρησιμοποιήστε έναν κωδικό πρόσκλησης διακομιστή"
+      }
+    },
+    "scenarios": {
+      "offline": "Εκτός σύνδεσης",
+      "not_connected": "Not connected",
+      "few_connections": "Too few connections",
+      "many_connections": "Well connected"
+    },
+    "scenario_descriptions": {
+      "offline_with_content": "You cannot connect to peers at the moment, but you can enjoy some content that you already have.",
+      "offline_without_content": "You cannot connect to peers at the moment. Try to get some internet connectivity or turn on Wi-Fi to discover peers nearby.",
+      "knows_no_one": "Your Manyverse is at the moment isolated. You need to be invited by other peers to join room servers, or you can host a room server yourself.",
+      "nearby_strangers_available": "You are not yet connected to anyone, but there are some peers on the same Wi-Fi. Try to connect to them manually if you think they are willing to connect to you too.",
+      "empty_rooms": "You are a member of some rooms, but there is no one you know currently online. Try connecting manually to a stranger in the room, or get an invite code to other servers.",
+      "connected_poorly": "You are connected to one peer, that's good. But, to improve propagation of data, you should connect to more peers. Try waiting a bit longer, or getting an invite code to other servers.",
+      "connected_well": "You are connected to plenty of peers. All is good! They are propagating your data and you are propagating theirs."
+    },
+    "recommendations": {
+      "consume_invite": "How to get an invite",
+      "follow_staged_manually": "Follow someone new",
+      "host_ssb_room": "How to host a room server",
+      "others": "Other choices"
+    },
+    "recommendation_descriptions": {
+      "consume_invite": "This social network is based on invites, to keep it friendly and safe from spam. If you haven't yet received an invite from a friend, you can search the web for some server that gives invites to anyone.\n\nLook for the key words \"SSB room server\" or \"SSB pub server\". The hashtag #ssbroom may also be useful.",
+      "follow_staged_manually": {
+        "part1": {
+          "not_connected": "Your friends are not online right now, but if you want to get more content, there are some unknown peers currently online in the same room(s) as you are. You can try to become friends with them.",
+          "connected": "If you want to get more content beyond what you already have, you can follow more people. There are some unknown peers currently online in the same room(s) as you are. You can try to become friends with them."
+        },
+        "part2": "On the next screen, you will see unknown peers displayed like this. Press one of them and choose \"Open Profile\", then \"Follow\"."
+      }
+    },
+    "toasts": {
+      "invite_accepted": "Αποδοχή πρόσκλησης",
+      "invite_rejected": "Απόρριψη πρόσκλησης. Είστε σίγουροι οτι ήταν σωστή;",
+      "connecting_to_alias": "Connecting to {{alias}}",
+      "connected_to_alias": "Connected to {{alias}}",
+      "not_connected_to_alias": "{{alias}} is offline right now"
+    },
+    "dialogs": {
+      "sign_in_with_ssb": {
+        "client_initiated": {
+          "title": "Allow sign-in?",
+          "description": "Open {{room}}'s website to create invite links and manage members. Do you want to use Manyverse to sign in?\n\nThe room's ID is {{roomid}}"
+        },
+        "server_initiated": {
+          "title": "Allow sign-in?",
+          "description": "A web browser is requesting permission to identify you. Do you want to sign in to the server {{room}}?\n\nIts ID is {{roomid}}"
+        }
+      }
+    },
+    "peers": {
+      "types": {
+        "bluetooth": "Bluetooth",
+        "lan": "Wi-Fi",
+        "dht": {
+          "connected": "Internet P2P"
+        },
+        "room": {
+          "server": "Διακομιστής Room",
+          "endpoint": "Επαφή Room",
+          "alone_online": "(μόνο εσείς είστε συνδεμένοι)",
+          "others_online": {
+            "one": "({{count}} συνδεμένος)",
+            "other": "({{count}} συνδεμένοι)"
+          }
+        },
+        "pub": "Pub διακομιστής",
+        "server": "Διακομιστής",
+        "unknown": "Άγνωστος"
+      }
+    },
+    "modes": {
+      "generic": {
+        "enabled": "(ΕΝΕΡΓΟΠΟΙΗΜΕΝΟΣ)"
+      },
+      "bluetooth": {
+        "title": "Bluetooth",
+        "accessibility_label": "Λειτουργία Bluetooth",
+        "disabled": "(Ενεργοποιήστε το Bluetooth για να το χρησιμοποιήσετε)",
+        "description": "Ανακαλύψτε τους κοντινούς χρήστες και συνδεθείτε μαζί τους χρησιμοποιώντας Bluetooth.",
+        "permission_request": {
+          "title": "Να επιτρέπεται ο εντοπισμός μέσω Bluetooth;",
+          "message": "Το Manyverse πρέπει να χρησιμοποιήσει το Bluetooth για να ανακαλύψει πού βρίσκεστε (\"coarse location\") και ποιοι είναι οι γύρω σας."
+        }
+      },
+      "wifi": {
+        "title": "Wi-Fi",
+        "accessibility_label": "Λειτουργία Wi-Fi",
+        "disabled": "(Ενεργοποιήστε το Wi-Fi για να το χρησιμοποιήσετε)",
+        "description": "Συνδεθείτε με φίλους στο ίδιο τοπικό δίκτυο, με άλλα λόγια, φίλους που χρησιμοποιούν το ίδιο Wi-Fi."
+      },
+      "servers": {
+        "title": "Διακομιστές Internet",
+        "accessibility_label": "Λειτουργία διακομιστών Internet",
+        "disabled": "(Συνδεθείτε στο διαδίκτυο για να το χρησιμοποιήσετε)",
+        "description": "Συνδεθείτε σε έναν λεγόμενο «διακομιστή Pub» που ανήκει σε κάποιον φίλο σας, ο οποίος περιέχει τα πιο πρόσφατα δεδομένα από πολλούς λογαριασμούς."
+      }
+    },
+    "menu": {
+      "dialog_title": "Connection",
+      "open_profile": {
+        "label": "Άνοιγμα προφίλ",
+        "accessibility_label": {
+          "connected": "Ανοίξτε την οθόνη προφίλ για αυτή την συνδεδεμένη επαφή",
+          "staged": "Ανοίξτε την οθόνη προφίλ για αυτήν την προτεινόμενη σύνδεση"
+        }
+      },
+      "connect": {
+        "label": "Σύνδεση",
+        "accessibility_label": {
+          "staged_peer": "Σύνδεση στην προτεινόμενη επαφή",
+          "staged_room": "Σύνδεση στο προτεινόμενο δωμάτιο"
+        }
+      },
+      "follow_connect": {
+        "label": "Συνδεθείτε και ακολουθήστε",
+        "accessibility_label": "Συνδεθείτε σε αυτήν την προτεινόμενη επαφή και ακολουθήστε την"
+      },
+      "disconnect": {
+        "label": "Αποσύνδεση",
+        "accessibility_label": {
+          "peer": "Αποσύνδεση από την επαφή",
+          "room": "Αποσύνδεση από το δωμάτιο"
+        }
+      },
+      "disconnect_forget": {
+        "label": "Αποσύνδεση και ξεχάστε",
+        "accessibility_label": {
+          "peer": "Αποσυνδεθείτε από αυτήν την επαφή και αφαιρέστε την από τη βάση δεδομένων",
+          "room": "Αποσυνδεθείτε από αυτό το δωμάτιο και αφαιρέστε το από τη βάση δεδομένων"
+        }
+      },
+      "forget": {
+        "label": "Ξεχάστε",
+        "accessibility_label": {
+          "room": "Αφαίρεση του δωματίου από την βάση δεδομένων"
+        }
+      },
+      "manage_aliases": {
+        "label": "Manage my aliases",
+        "accessibility_label": "Manage my aliases in Room servers"
+      },
+      "room_sign_in": {
+        "label": "Sign into website",
+        "accessibility_label": "Open this room's website and sign into its dashboard, Button"
+      },
+      "room_share_invite": {
+        "label": "Κοινή χρήση κωδικού πρόσκλησης",
+        "accessibility_label": "Μοιραστείτε τον κωδικό πρόσκλησης για αυτό το δωμάτιο"
+      },
+      "invite_info": {
+        "label": "Σχετικά με",
+        "accessibility_label": "Σχετικά με αυτόν τον κωδικό πρόσκλησης"
+      },
+      "invite_note": {
+        "label": "Προσθήκη σημείωσης",
+        "accessibility_label": "Προσθήκη σημείωσης υπενθύμισης στον εαυτό σας"
+      },
+      "invite_share": {
+        "label": "Κοινή χρήση",
+        "accessibility_label": "Κοινή χρήση κωδικού πρόσκλησης"
+      },
+      "invite_delete": {
+        "label": "Διαγραφή",
+        "accessibility_label": "Διαγραφή κωδικού πρόσκλησης"
+      }
+    },
+    "notes": {
+      "add": {
+        "title": "Προσθήκη σημείωσης",
+        "description": "Γράψτε μια ιδιωτική (μόνο για εσάς) σημείωση σχετικά με αυτόν τον κωδικό πρόσκλησης. Για παράδειγμα: \"Αυτό είναι για την Αλίκη\""
+      }
+    },
+    "share_code": {
+      "room": {
+        "title": "Πρόσκληση κωδικού σε δωμάτιο SSB",
+        "message": "Εγγραφείτε μαζί μου στο δωμάτιο SSB {{name}} επικολλώντας αυτόν τον κωδικό πρόσκλησης στο Manyverse:",
+        "dialog_note": "Δώστε αυτόν τον κωδικό πρόσκλησης σε έναν φίλο"
+      }
+    }
+  },
+  "compose": {
+    "call_to_action": {
+      "publish_new_thread": {
+        "label": "Δημοσίευση",
+        "accessibility_label": "Κουμπί δημοσίευσης μηνύματος"
+      },
+      "reply_to_thread": {
+        "label": "Απάντηση",
+        "accessibility_label": "Κουμπί δημοσίευσης απνάντησης"
+      },
+      "preview": {
+        "label": "Preview",
+        "accessibility_label": "Κουμπί προεπισκόπησης"
+      },
+      "close": {
+        "accessibility_label": "Κουμπί κλεισίματος"
+      },
+      "record_audio": {
+        "accessibility_label": "Record Audio Button",
+        "permission_request": {
+          "title": "Allow Manyverse to record audio?",
+          "message": "Manyverse needs access to your microphone so you can compose audio messages",
+          "neutral": "Ask me later",
+          "positive": "Εντάξει",
+          "negative": "Ακύρωση"
+        }
+      },
+      "open_camera": {
+        "accessibility_label": "Κουμπί ανοίγματος κάμερας"
+      },
+      "add_picture": {
+        "accessibility_label": "Κουμπί προσθήκη φωτογραφίας"
+      }
+    },
+    "dialogs": {
+      "content_warning": {
+        "title": "Προειδοποίηση περιεχομένου",
+        "description": "Εάν η ανάρτησή σας περιέχει ευαίσθητα θέματα, προσθέστε μια σύντομη σημείωση για να ειδοποιήσετε αυτούς που θα την δουν."
+      },
+      "image_caption": {
+        "title": "Λεζάντα",
+        "description": "Προσθέστε την περιγραφή αυτής της εικόνας, ειδικά για άτομα με προβλήματα όρασης.."
+      }
+    },
+    "content_warning_initials": {
+      "label": "CW",
+      "accessibility_label": "Κουμπί προειδοποίησης περιεχομένου"
+    },
+    "mention_field": {
+      "accessibility_label": "Αναφορά εισαγωγής κειμένου λογαριασμού"
+    },
+    "text_field": {
+      "placeholder": "Γράψτε ένα δημόσιο μήνυμα",
+      "accessibility_label": "Σύνταξη εισαγωγής κειμένου"
+    }
+  },
+  "compose_audio": {
+    "title": "Audio message",
+    "call_to_action": {
+      "start_recording": {
+        "accessibility_label": "Start recording"
+      },
+      "stop_recording": {
+        "accessibility_label": "Stop recording"
+      },
+      "discard_recording": {
+        "label": "Απόρριψη",
+        "accessibility_label": "Discard Recording Button"
+      },
+      "submit_recording": {
+        "label": "Ολοκληρώθηκε",
+        "accessibility_label": "Submit Recording Button"
+      }
+    },
+    "dialogs": {
+      "discard": {
+        "title": "Audio message",
+        "question": "Discard draft?"
+      }
+    }
+  },
+  "backup": {
+    "title": "Αντιγραφή ασφαλείας",
+    "introduction": {
+      "title": "Ο λογαριασμός σας έχει δύο\n μέρη για να διατηρείται ασφαλής"
+    },
+    "data": {
+      "title": "Δεδομένα",
+      "description": {
+        "1_normal": "Αυτές είναι οι αναρτήσεις, τα μηνύματα, οι φωτογραφίες, οι επισημάνσεις, τα 'μου αρέσει' και παρόμοιες δραστηριότητες του λογαριασμού σας. Για να τις διατηρήσουμε ασφαλές έναντι ξαφνικής απώλειας, χρησιμοποιούμε ",
+        "2_bold": "δημιουργία αντιγράφων ασφαλείας πλήθους",
+        "3_normal": ". Το μόνο που χρειάζεται είναι να ",
+        "4_bold": "συγχρονίστε με αξιόπιστους φίλους",
+        "5_normal": " . ή άλλες συσκευές που σας ανήκουν. ",
+        "6_bold": "Δεν έχετε να χάσετε τίποτα",
+        "7_normal": ", απλώς χρησιμοποιήστε το Manyverse συχνά και οι φίλοι θα σας υποστηρίζουν!"
+      },
+      "call_to_action": {
+        "acknowledge": {
+          "label": "Καταλαβαίνω",
+          "accessibility_label": "Αναγνωρίζω"
+        }
+      }
+    },
+    "identity": {
+      "title": "Ταυτότητα",
+      "description": {
+        "1_normal": "Το \"δακτυλικό αποτύπωμα\" του λογαριασμού σας αποτελείται από μία μοναδική ",
+        "2_bold": "φράση ανάκτησης",
+        "3_normal": ". Αυτή είναι μια ακολουθία 24 λέξεων που ξεκλειδώνει τον λογαριασμό σας. ",
+        "4_bold": "Κρατήστε την απόρρητη",
+        "5_normal": ", γιατί εάν κάποιος άλλος έχει πρόσβαση σε αυτή, μπορεί να πάρει τον έλεγχο του λογαριασμού σας. ",
+        "6_bold": "Αναλάβετε την ευθύνη",
+        "7_normal": ", καθώς εσείς και μόνο εσείς μπορείτε να ανακτήσετε τον λογαριασμό σας!"
+      },
+      "call_to_action": {
+        "show_recovery_phrase": "Εμφάνιση φράσης ανάκτησης"
+      }
+    }
+  },
+  "biography": {
+    "picture": {
+      "accessibility_label": "Βιογραφική εικόνα"
+    },
+    "description": {
+      "accessibility_label": "Βιογραφική περιγραφή"
+    }
+  },
+  "conversation": {
+    "title": "Συνομιλία",
+    "placeholder": "Πληκτρολογήστε ένα μήνυμα...",
+    "call_to_action": {
+      "show_recipients": {
+        "accessibility_label": "Εμφάνιση παραληπτών"
+      }
+    },
+    "notifications": {
+      "new_conversation": "Αυτή είναι μια νέα ιδιωτική συνομιλία"
+    }
+  },
+  "dialog_about": {
+    "title": "Σχετικά με το Manyverse",
+    "version": "Έκδοση {{version}}",
+    "copyright": "Copyright (C)",
+    "authors": "Οι συντάκτες του Manyverse",
+    "repository": "Αποθετήριο ανοιχτού κώδικα",
+    "licensed": "Άδεια {{license}}"
+  },
+  "dialog_thanks": {
+    "title": "Ευχαριστούμε!",
+    "description": "Η ανάπτυξη αυτής της εφαρμογής υποστηρίχθηκε από επιχορηγήσεις από τους {{sponsor1}} και {{sponsor2}} και από δωρεές από:\n\n**{{topBackers}}** και [εκατό ακόμη υποστηρικτές]({{donateLink}}). Ευχαριστούμε!"
+  },
+  "drawer": {
+    "menu": {
+      "my_profile": {
+        "label": "Το προφίλ μου",
+        "accessibility_label": "Στοιχείο μενού του προφίλ μου"
+      },
+      "raw_database": {
+        "label": "Ακατέργαστη βάση δεδομένων",
+        "accessibility_label": "Εμφάνιση ακατέργαστης βάσης δεδομένων"
+      },
+      "email_bug_report": {
+        "label": "Αναφορά σφάλματος μέσω email",
+        "accessibility_label": "Αποστολή αναφοράς σφάλματος ως email"
+      },
+      "translate": {
+        "label": "Help us translate",
+        "accessibility_label": "Open translation website"
+      },
+      "more": {
+        "label": "More",
+        "accessibility_label": "Show more Menu items"
+      },
+      "settings": {
+        "label": "Ρυθμίσεις",
+        "accessibility_label": "Μετάβαση στις Ρυθμίσεις"
+      },
+      "preparing_database": {
+        "label": "Preparing database..."
+      },
+      "ready_estimate": {
+        "label": "Ready:"
+      }
+    }
+  },
+  "invite_paste": {
+    "placeholder": "Επικολλήστε έναν κωδικό πρόσκλησης",
+    "call_to_action": {
+      "accept": {
+        "accessibility_label": "Αποδοχή κωδικού πρόσκλησης"
+      }
+    },
+    "alert_unsupported_dht": {
+      "title": "Unsupported type",
+      "description": "P2P Invites are no longer supported in Manyverse."
+    },
+    "text_field": {
+      "accessibility_label": "Εισαγωγή κειμένου κώδικα πρόσκλησης"
+    }
+  },
+  "libraries": {
+    "title": "Third party βιβλιοθήκες",
+    "description": "Το Manyverse χρησιμοποιεί τις ακόλουθες βιβλιοθήκες ανοιχτού κώδικα. Θέλουμε να ευχαριστήσουμε τους συγγραφείς αυτών των βιβλιοθηκών και να συνδέσουμε με τους ιστότοπούς τους για την κατάλληλη απόδοση..",
+    "image": {
+      "name": "Εικόνα {{name}}",
+      "attribution": " δημιουργήθηκε από {{author}}, με άδεια {{license}}"
+    }
+  },
+  "profile": {
+    "call_to_action": {
+      "copy_cypherlink": "Αντιγραφή cypherlink",
+      "private_chat": "Άνοιγμα ιδιωτικής συνομιλίας",
+      "block": "Αποκλεισμός",
+      "block_secretly": "Κρυφός αποκλεισμός",
+      "unblock": "Άρση αποκλεισμού",
+      "unblock_secretly": "Κρυφύ άρση αποκλεισμού",
+      "follow": "Ακολουθηστε",
+      "edit_profile": {
+        "label": "Επεξεργασία προφίλ",
+        "accessibility_label": "Κουμπί επεξεργασίας προφίλ"
+      },
+      "manage": {
+        "accessibility_label": "Διαχείριση επαφής"
+      }
+    },
+    "dialog_ssb_id": {
+      "title": "SSB ID"
+    },
+    "dialog_manage_contact": {
+      "title": "Contact"
+    },
+    "dialog_friend_request": {
+      "title": "Friend request",
+      "description": "This account is trying to connect with you, but Manyverse prevented it because they are outside your community.\n\nIf you recognize this ID, you can press \"Follow\" to allow them to connect with you."
+    },
+    "toast": {
+      "copied_to_clipboard": "Αντιγράφηκε στο πρόχειρο"
+    },
+    "details": {
+      "id": {
+        "accessibility_label": "SSB Identifier"
+      },
+      "biography": {
+        "accessibility_label": "Read Biography"
+      },
+      "counters": {
+        "following": "Ακολουθείτε",
+        "followers": "Followers"
+      }
+    },
+    "info": {
+      "follows_you": "Σας ακολουθεί",
+      "blocks_you": "Σας έχει αποκλείσει",
+      "following": "Ακολουθείτε"
+    },
+    "picture": {
+      "accessibility_label": "Εικόνα προφίλ"
+    },
+    "name": {
+      "accessibility_label": "Όνομα προφίλ"
+    },
+    "empty": {
+      "blocked": {
+        "title": "Αποκλείστηκε",
+        "description": "Έχετε επιλέξει να σταματήσετε\n να αλληλεπιδράτε με αυτόν τον λογαριασμόc"
+      },
+      "no_self_messages": {
+        "title": "Δεν έχετε μηνύματα",
+        "description": "Γράψτε ένα ημερολόγιο που μπορείτε\n να μοιραστείτε με φίλους αργότερα"
+      },
+      "no_messages": {
+        "title": "Δεν έχετε μηνύματα",
+        "description": "Δεν έχετε ακόμη δεδομένα\n από αυτόν τον λογαριασμό"
+      }
+    },
+    "floating_action_button": {
+      "compose": "Γράψτε ένα δημόσιο μήνυμα"
+    }
+  },
+  "profile_edit": {
+    "title": "Επεξεργασία προφίλ",
+    "call_to_action": {
+      "discard": "Απόρριψη",
+      "save": {
+        "label": "Αποθήκευση",
+        "accessibility_label": "Αποθήκευση προφίλ"
+      },
+      "edit_picture": {
+        "accessibility_label": "Επεξεργασία εικόνας προφίλ"
+      },
+      "register_new_alias": {
+        "label": "Register new alias",
+        "accessibility_label": "Register New Room Server Alias"
+      }
+    },
+    "dialogs": {
+      "discard": {
+        "title": "Επεξεργασία προφίλ",
+        "question": "Απόρριψη αλλαγών;"
+      },
+      "remove_alias": {
+        "description": "This action will remove the alias \"{{alias}}\" from the room server.\n\nPeople won't be able to reach you any more using this alias."
+      }
+    },
+    "toasts": {
+      "alias_removed_success": "Alias removed",
+      "alias_removed_failure": "Failed to remove alias"
+    },
+    "fields": {
+      "name": {
+        "label": "Όνομα",
+        "accessibility_label": "Name Text Input"
+      },
+      "description": {
+        "label": "Βιογραφία",
+        "accessibility_label": "Εισαγωγή κειμένου βιογραφίας"
+      },
+      "aliases": {
+        "label": "Aliases"
+      }
+    }
+  },
+  "manage_aliases": {
+    "title": "Manage aliases"
+  },
+  "register_alias": {
+    "title": "Register alias",
+    "empty": {
+      "no_servers": {
+        "title": "No servers",
+        "description": "To register an alias, you need to be a member of some SSB room server. Find one on the internet with the hashtag #ssbroom and make sure it supports aliases."
+      }
+    },
+    "header": {
+      "description": "Choose a room server where you would like to register a new alias link for yourself.\n\nAliases are web addresses that people can use to connect with you."
+    },
+    "dialogs": {
+      "input_alias": {
+        "description": "Submit your desired new alias to {{host}} as a single word in lowercase.\n\nFor example, if you want the alias \"myname.{{host}}\", write \"myname\" below."
+      }
+    },
+    "submitting": {
+      "title": "Submitting..."
+    },
+    "failure": {
+      "title": "It didn't work",
+      "alias_taken": "The alias you submitted is already taken by some user.",
+      "call_to_action": {
+        "try_again": {
+          "label": "Try again",
+          "accessibility_label": "Try Again Button"
+        }
+      }
+    },
+    "success": {
+      "title": "Great!",
+      "description": "The alias {{alias}} is now yours.",
+      "call_to_action": {
+        "go_back": {
+          "label": "Go back",
+          "accessibility_label": "Go Back Button"
+        }
+      }
+    }
+  },
+  "raw_db": {
+    "title": "Ακατέργαστη βάση δεδομένων",
+    "item": {
+      "type": {
+        "any": "τύπος: {{type}}",
+        "encrypted": "κρυπτογραφημένο"
+      }
+    }
+  },
+  "raw_msg": {
+    "title": "Ακατέργαστο μήνυμα"
+  },
+  "recipients_input": {
+    "title": "Νέο μήνυμα",
+    "call_to_action": {
+      "proceed": {
+        "label": "Επόμενο",
+        "accessibility_label": "Επόμενο κουμπί"
+      }
+    },
+    "fields": {
+      "mention_input": {
+        "placeholder": "Αναζητήστε άτομα για προσθήκη",
+        "accessibility_label": "Αναφορά εισαγωγής κειμένου λογαριασμού"
+      }
+    },
+    "empty": {
+      "instructions": {
+        "title": "Choose members",
+        "description": "Type in the names\nof people to join the new chat"
+      },
+      "none_to_choose": {
+        "title": "Κανένας",
+        "description": "Δεν υπάρχει κανένας\n στην κοινότητά σας με αυτό το όνομα"
+      }
+    },
+    "toasts": {
+      "limit_reached": "Δεν είναι δυνατή η επιλογή περισσότερων από {{limit}} παραληπτών"
+    }
+  },
+  "search": {
+    "query_input": {
+      "placeholder": "Search public posts",
+      "accessibility_label": "Search Query Text Input"
+    },
+    "clear_query": {
+      "accessibility_label": "Reset the Search Query Text Input"
+    },
+    "empty": {
+      "initial": {
+        "title": "Search something",
+        "description": "Περιμένετε έως ότου η εφαρμογή\n συνδεθεί με τις επαφές σας"
+      },
+      "zero_results": {
+        "title": "Zero results",
+        "description": "Nothing found for \"{{query}}\""
+      }
+    }
+  },
+  "secret_input": {
+    "practice": {
+      "title": "Πρακτική",
+      "header": "Επαναλάβετε το για να επιβεβαιώσετε ότι είναι σωστό:"
+    },
+    "restore": {
+      "title": "Επαναφορά λογαριασμού"
+    },
+    "header": "Εισαγάγετε προσεκτικά τη φράση ανάκτησης",
+    "call_to_action": {
+      "confirm": {
+        "label": "Επιβεβαίωση",
+        "accessibility_label": "Κουμπί επιβεβαίωσης φράσης ανάκτησης"
+      }
+    },
+    "fields": {
+      "words_input": {
+        "placeholder": "Φράση ανάκτησης 24 λέξεων (ή 48 λέξεων)",
+        "accessibility_label": "Εισαγωγή κειμένου φράσης ανάκτησης"
+      }
+    },
+    "dialogs": {
+      "practice": {
+        "correct": {
+          "title": "Σωστό!",
+          "description": "Η ταυτότητα του λογαριασμού σας είναι πλέον ασφαλής, επειδή γνωρίζετε τη φράση ανάκτησης."
+        },
+        "incorrect": {
+          "title": "Λανθασμένο",
+          "description": "Δοκιμάστε ξανά: γράψτε τη φράση ανάκτησης που αποτελείται από 24 λέξεις χωρισμένες με κενό διάστημα."
+        }
+      },
+      "restore": {
+        "correct": {
+          "title": "Καλώς ορίσατε πίσω!",
+          "description": "Η ταυτότητα του λογαριασμού σας έχει πλέον αποκατασταθεί.\n\nΤώρα, για να επαναφέρετε τα δεδομένα σας, συνδεθείτε με φίλους που έχουν επικοινωνήσει μαζί σας στο παρελθόν, για να κατεβάσετε ξανά τα δεδομένα σας από αυτούς."
+        },
+        "incorrect": {
+          "title": "Λανθασμένο",
+          "description": {
+            "try_again": "Δοκιμάστε ξανά εισάγοντας τη φράση ανάκτησης που αποτελείται από 24 λέξεις διαχωρισμένες με κενό διάστημα..",
+            "overwrite_risk": "Υπάρχει ήδη ένας λογαριασμός στην εφαρμογή, δεν μπορούμε να τον αντικαταστήσουμε. Εάν είστε βέβαιοι ότι θέλετε να το παρακάμψετε, απεγκαταστήστε και επανεγκαταστήστε το Manyverse για να ανακτήσετε τον λογαριασμό.",
+            "too_short": "Λείπουν μερικές λέξεις. Η φράση ανάκτησης πρέπει να έχει μήκος 24 λέξεων.",
+            "too_long": "Υπάρχουν πάρα πολλές λέξεις. Η φράση ανάκτησης πρέπει να έχει μήκος 24 λέξεων.",
+            "wrong_length": "Η φράση ανάκτησης πρέπει να έχει μήκος 24 λέξεων.",
+            "generic": "Η φράση ανάκτησης που δώσατε δεν μοιάζει με έγκυρη ταυτότητα που δημιουργήθηκε από το Manyverse."
+          }
+        }
+      }
+    }
+  },
+  "secret_output": {
+    "title": "Φράση ανάκτησης",
+    "header": {
+      "1_normal": "Σημειώστε προσεκτικά την ακόλουθη φράση ανάκτησης σε ένα ",
+      "2_bold": "κομμάτι χαρτί",
+      "3_normal": ""
+    },
+    "footer": {
+      "1_normal": "Κρατήστε το ",
+      "2_bold": "απόρρητο",
+      "3_normal": ", και \nαναλάβετε την ",
+      "4_bold": "αποκλειστική ευθύνη",
+      "5_normal": " αυτού."
+    },
+    "words": {
+      "accessibility_label": "Κρυφές λέξεις"
+    },
+    "call_to_action": {
+      "confirm": {
+        "accessibility_label": "Επιβεβαιώστε το κουμπί φράσης ανάκτησης"
+      }
+    },
+    "loading": "Φόρτωση..."
+  },
+  "settings": {
+    "title": "Ρυθμίσεις",
+    "preferences": {
+      "title": "Προτιμήσεις",
+      "show_follows": {
+        "title": "Εμφάνιση συμβάντων παρακολούθησης",
+        "subtitle": "Εμφάνιση στον δημόσιο πίνακα υποθέσεις παρακολούθησης ή αποκλεισμού ή κατάργησης",
+        "accessibility_label": "Εναλλαγή παρακολούθησης συμβάντων στον δημόσιο πίνακα"
+      },
+      "hops": {
+        "title": "Άλματα αναπαραγωγής",
+        "subtitle": "Πόσο μακριά στο κοινωνικό γράφημα θέλετε το Manyverse να λαμβάνει δεδομένα; Το 1 είναι μόνο φίλοι, το 2 είναι φίλοι φίλων, κ.λπ. Προσοχή: όσο υψηλότερο είναι, τόσο περισσότερα δεδομένα λαμβάνονται!",
+        "unlimited": "Απεριόριστα",
+        "accessibility_label": "Ρυθμιστικό αλμάτων αναπαραγωγής"
+      }
+    },
+    "data_and_storage": {
+      "title": "Δεδομένα & αποθήκευση",
+      "backup": {
+        "title": "Αντιγράφων ασφαλείας",
+        "subtitle": "Δείτε τη φράση ανάκτησης 24 λέξεων",
+        "accessibility_label": "Δημιουργία αντιγράφων ασφαλείας του λογαριασμού μου"
+      },
+      "blobs_storage": {
+        "title": "Όριο αποθήκευσης blob",
+        "subtitle": "Διαγράψτε αυτόματα παλιές εικόνες και blob μέχρι να καταλάβουν το μέγιστο αυτό χώρο αποθήκευσης στη συσκευή σας",
+        "unlimited": "Απεριόριστος",
+        "accessibility_label": "Ρυθμιστικό ορίου αποθήκευσης"
+      }
+    },
+    "troubleshooting": {
+      "title": "Αντιμετώπιση προβλημάτων",
+      "bug_report": {
+        "title": "Αναφορά σφάλματος μέσω email",
+        "accessibility_label": "Αποστολή αναφοράς σφάλματος ως email"
+      },
+      "detailed_logs": {
+        "title": "Ενεργοποιήστε λεπτομερή αρχεία καταγραφής",
+        "accessibility_label": "Εναλλαγή λεπτομερών αρχείων καταγραφής προγραμματιστών"
+      }
+    },
+    "more_information": {
+      "title": "Περισσότερες πληροφορίες",
+      "thanks": {
+        "title": "Ευχαριστώ",
+        "accessibility_label": "Δείξε ευχαριστώ"
+      },
+      "third_party_libs": {
+        "title": "Βιβλιοθήκες τρίτων",
+        "accessibility_label": "Δείξε βιβλιοθήκες τρίτωνc"
+      },
+      "about": {
+        "title": "Σχετικά με",
+        "accessibility_label": "Σχετικά με αυτήν την εφαρμογή"
+      }
+    },
+    "dialogs": {
+      "restart_required": {
+        "title": "Απαιτείται επανεκκίνηση",
+        "description": "Αυτή η ρύθμιση θα τεθεί σε ισχύ μόνο όταν τερματίσετε την εφαρμογή και επανεκκινήσετε το Manyverse."
+      }
+    }
+  },
+  "thread": {
+    "title": "Νήμα",
+    "call_to_action": {
+      "expand_reply": {
+        "accessibility_label": "Κουμπί ανάπτυξης απάντησης"
+      },
+      "publish_reply": {
+        "accessibility_label": "Κουμπί απάντησης δημοσίευσης"
+      }
+    },
+    "fields": {
+      "reply": {
+        "placeholder": "Σχόλιο",
+        "accessibility_label": "Απάντηση εισαγωγής κειμένου"
+      }
+    },
+    "loading_replies": "Φόρτωση απαντήσεων...",
+    "empty": {
+      "missing": {
+        "title": "Δεδομένα που λείπουν",
+        "description": "Δεν έχετε ακόμη δεδομένα\nγια το μήνυμα που είναι γνωστό από το ID\n"
+      },
+      "blocked": {
+        "title": "Αποκλεισμένο νήμα",
+        "description": "Έχετε επιλέξει να αποκλείσετε\nτον συγγραφέα αυτού του νήματος"
+      },
+      "incompatible": {
+        "title": "Συγνώμη",
+        "description": "Αυτή η εφαρμογή δεν ξέρει πώς να επεξεργαστεί\n και να εμφανίσει αυτό το νήμα σωστά"
+      }
+    }
+  },
+  "message": {
+    "call_to_action": {
+      "show_reactions": {
+        "accessibility_label": "Εμφάνιση αντιδράσεων"
+      },
+      "add_reaction": {
+        "accessibility_label": "Προσθήκη κουμπιού αντίδρασης"
+      },
+      "reply": {
+        "accessibility_label": "Κουμπί απάντησης"
+      },
+      "etc": {
+        "dialog_title": "Μήνυμα",
+        "accessibility_label": "Etc κουμπί"
+      },
+      "copy_blob_id": {
+        "accessibility_label": "Αντιγραφή Blob ID"
+      },
+      "copy_msg_id": "Αντιγραφή cypherlink",
+      "view_raw": "Προβολή ανεπεξέργαστου μηνύματος"
+    },
+    "toast": {
+      "copied_to_clipboard": "Αντιγράφηκε στο πρόχειρο"
+    },
+    "reactions": {
+      "categories": {
+        "smileys_and_emotion": "Φατσούλες και συναισθήματα",
+        "people_and_body": "Άνθρωποι και σώματα",
+        "animals_and_nature": "Ζώα και φύση",
+        "food_and_drink": "Φαγητό και ποτό",
+        "activities": "Δραστηριότητες",
+        "travel_and_places": "Ταξίδια και μέρη",
+        "objects": "Αντικείμενα",
+        "symbols": "Σύμβολα",
+        "flags": "Flags"
+      },
+      "show_more": {
+        "accessibility_label": "Εμφάνιση περισσότερων επιλογών αντίδρασης"
+      }
+    },
+    "image": {
+      "without_caption": {
+        "accessibility_label": "Εικόνα χωρίς λεζάντα"
+      }
+    },
+    "audio": {
+      "play": {
+        "accessibility_label": "Αναπαραγωγή ήχου"
+      },
+      "pause": {
+        "accessibility_label": "Παύση ήχου"
+      },
+      "duration": {
+        "accessibility_label": "Διάρκεια ήχου"
+      },
+      "elapsed": {
+        "accessibility_label": "Τρέχουσα ώρα ήχου"
+      },
+      "slider": {
+        "accessibility_label": "Αλλαγή ώρας ήχου"
+      }
+    },
+    "content_warning": {
+      "title": "Προειδοποίηση περιεχομένου",
+      "call_to_action": {
+        "hide": "Απόκριψη",
+        "show": "Εμφάνιση"
+      }
+    },
+    "fork_note": {
+      "1_normal": "Forked από ",
+      "2_bold": "{{cypherlink}}",
+      "3_normal": ""
+    },
+    "about": {
+      "new_picture": {
+        "1_normal": "",
+        "2_bold": "{{name}}",
+        "3_normal": " έχει μια νέα εικόνα προφίλ: "
+      },
+      "new_name_and_description": {
+        "1_normal": "",
+        "2_bold": "{{name}}",
+        "3_normal": " χρησιμοποιεί το όνομα \"",
+        "4_bold": "{{name}}",
+        "5_normal": "\" και η περιγραφή: "
+      },
+      "new_description": {
+        "1_normal": "",
+        "2_bold": "{{name}}",
+        "3_normal": " έχει ένα νέo βιογραφικό: "
+      },
+      "new_name": {
+        "1_normal": "",
+        "2_bold": "{{name}}",
+        "3_normal": " χρησιμοποιεί το όνομα \"",
+        "4_bold": "{{name}}",
+        "5_normal": "\""
+      }
+    },
+    "contact": {
+      "follow_event": {
+        "1_normal": "",
+        "2_bold": "{{author}}",
+        "3_normal": " ακολούθησε ",
+        "4_bold": "{{target}}",
+        "5_normal": ""
+      },
+      "block_event": {
+        "1_normal": "",
+        "2_bold": "{{author}}",
+        "3_normal": " αποκλείστηκε ",
+        "4_bold": "{{target}}",
+        "5_normal": ""
+      },
+      "unfollow_event": {
+        "1_normal": "",
+        "2_bold": "{{author}}",
+        "3_normal": " σταμάτησε να ακολουθεί ",
+        "4_bold": "{{target}}",
+        "5_normal": ""
+      },
+      "unblock_event": {
+        "1_normal": "",
+        "2_bold": "{{author}}",
+        "3_normal": " ξεμπλόκαρε ",
+        "4_bold": "{{target}}",
+        "5_normal": ""
+      }
+    }
+  }
+}

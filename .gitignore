@@ -1,0 +1,89 @@
+# SPDX-FileCopyrightText: 2021 The Manyverse Authors
+#
+# SPDX-License-Identifier: Unlicense
+
+# OSX
+#
+.DS_Store
+.history/
+# Xcode
+#
+build/
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata
+*.xccheckout
+*.moved-aside
+DerivedData
+*.hmap
+*.ipa
+*.xcuserstate
+
+# Android/IntelliJ
+#
+build/
+.idea
+.gradle
+local.properties
+*.iml
+android/.project
+android/app/.classpath
+android/app/.project
+android/app/bin
+android/captures
+android/app/.settings/org.eclipse.buildship.core.prefs
+android/.settings/org.eclipse.buildship.core.prefs
+# This should always be generated, not committed, specially for F-Droid builds:
+android/app/src/main/jniLibs/**/libsodium.so
+
+# Visual Studio Code
+#
+.vscode/settings.json
+.vscode/tasks.json
+
+# node.js
+#
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# BUCK
+buck-out/
+\.buckd/
+*.keystore
+!debug.keystore
+
+# fastlane
+#
+# It is recommended to not store the screenshots in the git repo. Instead, use fastlane to re-generate the
+# screenshots whenever they are needed.
+# For more information about the recommended setup visit:
+# https://docs.fastlane.tools/best-practices/source-control/
+
+*/fastlane/report.xml
+*/fastlane/Preview.html
+*/fastlane/screenshots
+
+# Generated Code
+#
+/lib/
+/nodejs-assets/BUILD_NATIVE_MODULES.txt
+/nodejs-assets/nodejs-project/**/*
+!/nodejs-assets/nodejs-project/README.md
+/desktop/nodejs-project
+/desktop/dist
+/android/app/src/main/res/raw/rnnodebundle
+*.jsbundle
+
+# CocoaPods
+/ios/Pods/
+
+# Misc
+#
+/gitignored/

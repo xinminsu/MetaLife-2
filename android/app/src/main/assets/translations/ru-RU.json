@@ -1,0 +1,1192 @@
+{
+  "call_to_action": {
+    "ok": "ОК",
+    "add": "Добавить",
+    "done": "Готово",
+    "cancel": "Отменить",
+    "continue": "Продолжить",
+    "delete": "Удалить",
+    "remove": "Удалить",
+    "save": "Сохранить",
+    "yes": "Да",
+    "no": "Нет",
+    "open_menu": {
+      "accessibility_label": "Кнопка меню"
+    },
+    "go_back": {
+      "accessibility_label": "Кнопка Назад"
+    },
+    "close": {
+      "accessibility_label": "Кнопка Закрыть"
+    },
+    "close_dialog": {
+      "accessibility_label": "Кнопка закрытия диалогового окна"
+    },
+    "external_link_confirmation": {
+      "title": "Open link?",
+      "description": "Do you want to open {{link}} in your browser?"
+    }
+  },
+  "date": {
+    "relative": {
+      "past": {
+        "years": {
+          "one": "1 год назад",
+          "other": "{{count}} года/лет назад"
+        },
+        "months": {
+          "one": "месяц назад",
+          "other": "{{count}} месяцев назад"
+        },
+        "weeks": {
+          "one": "неделю назад",
+          "other": "{{count}} недель назад"
+        },
+        "days": {
+          "one": "вчера",
+          "other": "{{count}} дн(я/ей) назад"
+        },
+        "hours": {
+          "one": "час назад",
+          "other": "{{count}} час(а/ов) назад"
+        },
+        "minutes": {
+          "one": "одну минуту назад",
+          "other": "{{count}} минут(ы) назад"
+        },
+        "now": "Только что"
+      },
+      "future": {
+        "years": {
+          "one": "через 1 год",
+          "other": "через {{count}} года/лет"
+        },
+        "months": {
+          "one": "через месяц",
+          "other": "через {{count}} месяц(а/ев)"
+        },
+        "weeks": {
+          "one": "через неделю",
+          "other": "через {{count}} недел(и/ь)"
+        },
+        "days": {
+          "one": "через день",
+          "other": "через {{count}} дн(я/ей)"
+        },
+        "hours": {
+          "one": "через час",
+          "other": "через {{count}} час(а/ов)"
+        },
+        "minutes": {
+          "one": "Через 1 минуту",
+          "other": "через {{count}} минут(ы)"
+        },
+        "now": "Очень скоро"
+      }
+    }
+  },
+  "welcome": {
+    "learn_more": "Узнать больше",
+    "overview": {
+      "title": "Добро пожаловать в Manyverse!",
+      "description": "Социальные сети могут быть доступными, нейтральными, некоммерческими и основанными на доверии между друзьями. Это те идеалы, которые поддерживает Manyverse, и мы надеемся, что вы тоже сможете сделать его вашим цифровым домом. Все это стало возможным благодаря новому протоколу SSB."
+    },
+    "off_the_grid": {
+      "title": "Оффлайн режим",
+      "description": {
+        "1_normal": "Приложение Manyverse может использовать интернет-соединение, но оно не ",
+        "2_bold": "не подключается к централизованному серверу в сети интернет. ",
+        "3_normal": " Все происходит прямо на вашем устройстве. Это означает, что вы можете использовать его даже в автономном режиме! Ваш ",
+        "4_bold": "контент хранится на вашем устройстве",
+        "5_normal": ", и вы можете синхронизировать его с друзьями после того, как вы соединитесь с ними."
+      }
+    },
+    "connections": {
+      "title": "Много способов подключения",
+      "description": {
+        "ios": {
+          "1_normal": "Чтобы соединиться с друзьями и синхронизировать контент, вы можете присоединится к одному и тому же ",
+          "2_bold": "Wi-Fi",
+          "3_normal": ". Чтобы познакомиться с новыми людей в интернете, получите код приглашения в ",
+          "4_bold": "pub-сервер",
+          "5_normal": " или в ",
+          "6_bold": "сервер комнаты",
+          "7_normal": ", или запустите свой собственный сервер!"
+        },
+        "default": {
+          "1_normal": "Чтобы соединиться с друзьями и синхронизировать контент, вы можете присоединится к одному и тому же ",
+          "2_bold": "Wi-Fi",
+          "3_normal": ", или использовать ",
+          "4_bold": "синхронизацию по Bluetooth",
+          "5_normal": ". Чтобы познакомиться с новыми людей в интернете, получите код приглашения в ",
+          "6_bold": "pub-сервер",
+          "7_normal": " или в ",
+          "8_bold": "сервер комнаты",
+          "9_normal": ", или запустите свой собственный сервер!"
+        }
+      }
+    },
+    "moderation": {
+      "title": "Общая модерация",
+      "description": {
+        "1_normal": "Так как ваше устройство содержит вашу социальную сеть, никто другой не может забанить или удалить учетные записи от вашего имени. Только вы можете модерировать ваше сетевое пространство ",
+        "2_bold": "блокировка аккаунтов",
+        "3_normal": " вы не хотите иметь на вашем устройстве. Затем ваши друзья могут заблокировать эти аккаунты. Вот как модерация может распространяться естественным образом!"
+      }
+    },
+    "permanence": {
+      "title": "Постоянство",
+      "description": {
+        "1_normal": "После того, как ваш контент синхронизируется с друзьями, он будет храниться на их устройствах. Потому что они могут выйти в автономный режим ",
+        "2_bold": "невозможно удалить",
+        "3_normal": " ваш контент по всему миру со всех устройств! Поэтому мы решили сделать контент постоянным. Это также делает сообщества более уважительными и внимательным к тому, что публикуется."
+      }
+    },
+    "in_construction": {
+      "title": "В разработке!",
+      "description": {
+        "1_normal": "Manyverse это ",
+        "2_bold": "программа в стадии бета-тестирования",
+        "3_normal": ". Мы еще не всё доделали, и некоторые части нуждаются в исправлении. Во время синхронизации приложение может \"заморозиться\" в течение нескольких минут. Дождитесь! Сообщите нам о любых других ошибках, которые вы встретили, и со временем и пожертвованиями, мы сможем сделать это отличным приложением."
+      }
+    },
+    "setup_account": {
+      "title": "Это ваш первый раз?",
+      "description": "Вы хотите создать новую учетную запись или восстановить старую учетную запись из ключевой фразы в 24-словах?",
+      "call_to_action": {
+        "create": {
+          "label": "Создать аккаунт",
+          "accessibility_label": "Кнопка \"Создать аккаунт\""
+        },
+        "restore": {
+          "label": "Восстановить аккаунт",
+          "accessibility_label": "Кнопка \"Восстановить аккаунт\""
+        }
+      }
+    }
+  },
+  "central": {
+    "app_name": "Manyverse",
+    "tab_headers": {
+      "public": "Публичная лента",
+      "private": "Личные сообщения",
+      "activity": "Действия",
+      "connections": "Connected peers"
+    },
+    "tab_footers": {
+      "public": "Публичный",
+      "private": "Личный",
+      "activity": "Действия",
+      "connections": "Соединения"
+    },
+    "loading": "Загрузка...",
+    "building_indexes": "Построение индексов базы данных...\nЭто может занять некоторое время",
+    "tabs": {
+      "public": {
+        "accessibility_label": "Кнопка \"Публичная вкладка\""
+      },
+      "private": {
+        "accessibility_label": "Кнопка \"Частная вкладка\""
+      },
+      "activity": {
+        "accessibility_label": "Кнопка Действия"
+      },
+      "connections": {
+        "accessibility_label": "Кнопка \"Вкладка подключений\""
+      }
+    }
+  },
+  "public": {
+    "floating_action_button": {
+      "compose": "Написать публичное сообщение"
+    },
+    "empty": {
+      "title": "Нет сообщений",
+      "description": "Напишите дневник\n, чтобы поделися с друзьями позже"
+    },
+    "search": {
+      "accessibility_label": "Кнопка поиска"
+    }
+  },
+  "private": {
+    "floating_action_button": {
+      "compose": "Начать приватную беседу"
+    },
+    "empty": {
+      "title": "Нет бесед",
+      "description": "Начните приватную беседу\nс любым из ваших друзей"
+    },
+    "conversation": {
+      "accessibility_label": "Перейти к беседе"
+    }
+  },
+  "accounts": {
+    "reactions": {
+      "title": "Реакции"
+    },
+    "recipients": {
+      "title": "Получатели"
+    },
+    "call_to_action": {
+      "open_account": {
+        "accessibility_label": "Открыть учетную запись"
+      }
+    }
+  },
+  "activity": {
+    "mention": {
+      "label": {
+        "1_normal": "",
+        "2_bold": "{{author}}",
+        "3_normal": " упомянул(а) вас"
+      }
+    },
+    "follow": {
+      "label": {
+        "1_normal": "",
+        "2_bold": "{{author}}",
+        "3_normal": " подписался(ась) на вас"
+      }
+    },
+    "connection_attempt": {
+      "label": {
+        "1_normal": "",
+        "2_bold": "{{author}}",
+        "3_normal": " хочет подключиться"
+      }
+    },
+    "empty": {
+      "title": "Нет действий",
+      "description": "Когда другие пользователи упоминают вас или подписываются на вас,\nэто отображается здесь"
+    }
+  },
+  "connections": {
+    "title": "Connections Panel",
+    "floating_action_button": {
+      "create_invite": "Создать приглашение",
+      "paste_invite": "Вставьте приглашение",
+      "bluetooth_seek": "Поиск по Bluetooth"
+    },
+    "open_connections_panel": "Open Connections Panel",
+    "empty": {
+      "offline": {
+        "title": "Автономный",
+        "description": "Включите какой-либо режим подключения\nили наслаждайтесь чтением имеющегося содержимого"
+      },
+      "connecting": {
+        "title": "Соединение",
+        "description": "Подождите, пока приложение\nпытается подключиться к вашим пирам"
+      },
+      "no_peers": {
+        "title": "Нет соединений",
+        "description": "Попробуйте синхронизировать с людьми поблизости\nили используйте код приглашения сервера"
+      }
+    },
+    "scenarios": {
+      "offline": "Автономный",
+      "not_connected": "Not connected",
+      "few_connections": "Too few connections",
+      "many_connections": "Well connected"
+    },
+    "scenario_descriptions": {
+      "offline_with_content": "You cannot connect to peers at the moment, but you can enjoy some content that you already have.",
+      "offline_without_content": "You cannot connect to peers at the moment. Try to get some internet connectivity or turn on Wi-Fi to discover peers nearby.",
+      "knows_no_one": "Your Manyverse is at the moment isolated. You need to be invited by other peers to join room servers, or you can host a room server yourself.",
+      "nearby_strangers_available": "You are not yet connected to anyone, but there are some peers on the same Wi-Fi. Try to connect to them manually if you think they are willing to connect to you too.",
+      "empty_rooms": "You are a member of some rooms, but there is no one you know currently online. Try connecting manually to a stranger in the room, or get an invite code to other servers.",
+      "connected_poorly": "You are connected to one peer, that's good. But, to improve propagation of data, you should connect to more peers. Try waiting a bit longer, or getting an invite code to other servers.",
+      "connected_well": "You are connected to plenty of peers. All is good! They are propagating your data and you are propagating theirs."
+    },
+    "recommendations": {
+      "consume_invite": "How to get an invite",
+      "follow_staged_manually": "Follow someone new",
+      "host_ssb_room": "How to host a room server",
+      "others": "Other choices"
+    },
+    "recommendation_descriptions": {
+      "consume_invite": "This social network is based on invites, to keep it friendly and safe from spam. If you haven't yet received an invite from a friend, you can search the web for some server that gives invites to anyone.\n\nLook for the key words \"SSB room server\" or \"SSB pub server\". The hashtag #ssbroom may also be useful.",
+      "follow_staged_manually": {
+        "part1": {
+          "not_connected": "Your friends are not online right now, but if you want to get more content, there are some unknown peers currently online in the same room(s) as you are. You can try to become friends with them.",
+          "connected": "If you want to get more content beyond what you already have, you can follow more people. There are some unknown peers currently online in the same room(s) as you are. You can try to become friends with them."
+        },
+        "part2": "On the next screen, you will see unknown peers displayed like this. Press one of them and choose \"Open Profile\", then \"Follow\"."
+      }
+    },
+    "toasts": {
+      "invite_accepted": "Приглашение принято",
+      "invite_rejected": "Приглашение отклонено. Вы уверены, что оно было правильным?",
+      "connecting_to_alias": "Идёт соединение с {{alias}}",
+      "connected_to_alias": "Соединение с {{alias}} установлено",
+      "not_connected_to_alias": "{{alias}} сейчас не в сети"
+    },
+    "dialogs": {
+      "sign_in_with_ssb": {
+        "client_initiated": {
+          "title": "Разрешить авторизацию?",
+          "description": "Откройте сайт {{room}} для создания ссылок-приглашений и управления участниками. Вы хотите использовать Manyverse для входа в комнату?\n\nID комнаты: {{roomid}}"
+        },
+        "server_initiated": {
+          "title": "Разрешить авторизацию?",
+          "description": "Веб-браузер запрашивает разрешение на аутентификацию. Вы хотите войти на сервер {{room}}?\n\nЕго ID {{roomid}}"
+        }
+      }
+    },
+    "peers": {
+      "types": {
+        "bluetooth": "Bluetooth",
+        "lan": "Wi-Fi",
+        "dht": {
+          "connected": "Интернет P2P"
+        },
+        "room": {
+          "server": "Сервер комнаты",
+          "endpoint": "Участник комнаты",
+          "alone_online": "(только вы онлайн)",
+          "others_online": {
+            "one": "({{count}} онлайн)",
+            "other": "({{count}} онлайн)"
+          }
+        },
+        "pub": "Паб-сервер",
+        "server": "Сервер",
+        "unknown": "Неизвестно"
+      }
+    },
+    "modes": {
+      "generic": {
+        "enabled": "(РАЗРЕШЕНО)"
+      },
+      "bluetooth": {
+        "title": "Bluetooth",
+        "accessibility_label": "Режим Bluetooth",
+        "disabled": "(Для использования включите Bluetooth)",
+        "description": "Обнаружить ближайших пользователей и связаться с ними используя Bluetooth.",
+        "permission_request": {
+          "title": "Разрешить обнаружение через Bluetooth?",
+          "message": "Маниверу необходимо использовать Bluetooth, чтобы выяснить, где вы находитесь (\"грубое местоположение\") и кто из участников вокруг вас."
+        }
+      },
+      "wifi": {
+        "title": "Wi-Fi",
+        "accessibility_label": "Режим Wi-Fi",
+        "disabled": "(Включите Wi-Fi, чтобы использовать это)",
+        "description": "Подключитесь к друзьям в этой сети, или, другими словами, друзьям использующим этот-же Wi-fi."
+      },
+      "servers": {
+        "title": "Интернет-серверы",
+        "accessibility_label": "Режим Интернет сервера",
+        "disabled": "(Выйти в онлайн, чтобы использовать это)",
+        "description": "Подключиться к так называемому 'Pub серверу', принадлежащему нескольким участникам, содержащему последние данные из нескольких аккаунтов."
+      }
+    },
+    "menu": {
+      "dialog_title": "Соединения",
+      "open_profile": {
+        "label": "Открыть профиль",
+        "accessibility_label": {
+          "connected": "Открыть экран профиля для этого участника",
+          "staged": "Открыть окно профиля для этого предлагаемого подключения"
+        }
+      },
+      "connect": {
+        "label": "Подключить",
+        "accessibility_label": {
+          "staged_peer": "Подключиться к предлагаемому участнику",
+          "staged_room": "Подключиться к этой комнате"
+        }
+      },
+      "follow_connect": {
+        "label": "Подключиться и следовать",
+        "accessibility_label": "Подключиться к этому рекомендованному участнику, а затем следовать за ними"
+      },
+      "disconnect": {
+        "label": "Отключить",
+        "accessibility_label": {
+          "peer": "Отключиться от этого участника",
+          "room": "Отключиться от этой комнаты"
+        }
+      },
+      "disconnect_forget": {
+        "label": "Отключиться и забыть",
+        "accessibility_label": {
+          "peer": "Отсоединиться от этого участника и удалить его из базы данных",
+          "room": "Отсоединиться от этой комнаты и удалить ее из вашей базы данных"
+        }
+      },
+      "forget": {
+        "label": "Забыть",
+        "accessibility_label": {
+          "room": "Удалить эту комнату из базы данных"
+        }
+      },
+      "manage_aliases": {
+        "label": "Управление псевдонимами",
+        "accessibility_label": "Управление псевдонимами на серверах комнат"
+      },
+      "room_sign_in": {
+        "label": "Войти на сайт",
+        "accessibility_label": "Открыть веб-сайт этой комнаты и войти в панель управления"
+      },
+      "room_share_invite": {
+        "label": "Поделиться пригласительным кодом",
+        "accessibility_label": "Поделиться пригласительным кодом для этой комнаты"
+      },
+      "invite_info": {
+        "label": "О приложении Manyverse",
+        "accessibility_label": "Об этом пригласительном коде"
+      },
+      "invite_note": {
+        "label": "Добавить примечание",
+        "accessibility_label": "Добавить напоминание для себя"
+      },
+      "invite_share": {
+        "label": "Поделиться",
+        "accessibility_label": "Поделиться кодом приглашения"
+      },
+      "invite_delete": {
+        "label": "Удалить",
+        "accessibility_label": "Удалить код приглашения"
+      }
+    },
+    "notes": {
+      "add": {
+        "title": "Добавить примечание",
+        "description": "Напишите приватную (только для вас) заметку об этом пригласительном коде. Например: \"Это для Alice\""
+      }
+    },
+    "share_code": {
+      "room": {
+        "title": "Код приглашения в SSB комнату",
+        "message": "Присоединяйтесь ко мне в комнате {{name}} SSB, вставив пригласительный код в Manyverse:",
+        "dialog_note": "Дать этот код приглашения другу"
+      }
+    }
+  },
+  "compose": {
+    "call_to_action": {
+      "publish_new_thread": {
+        "label": "Публиковать",
+        "accessibility_label": "Кнопка \"Опубликовать сообщение\""
+      },
+      "reply_to_thread": {
+        "label": "Ответить",
+        "accessibility_label": "Кнопка \"Опубликовать ответ\""
+      },
+      "preview": {
+        "label": "Предпросмотр",
+        "accessibility_label": "Кнопка предварительного просмотра"
+      },
+      "close": {
+        "accessibility_label": "Кнопка Закрытия"
+      },
+      "record_audio": {
+        "accessibility_label": "Кнопка аудио записи",
+        "permission_request": {
+          "title": "Разрешить Manyverse записывать аудио?",
+          "message": "Manyverse нужен доступ к вашему микрофону, чтобы вы могли записывать звуковые сообщения",
+          "neutral": "Спросите позже",
+          "positive": "ОК",
+          "negative": "Отменить"
+        }
+      },
+      "open_camera": {
+        "accessibility_label": "Копка \"Открыть Фотокамеру\""
+      },
+      "add_picture": {
+        "accessibility_label": "кнопка \"Добавить изображение\""
+      }
+    },
+    "dialogs": {
+      "content_warning": {
+        "title": "Предупреждение о содержимом",
+        "description": "Если ваше сообщение содержит чувствительные темы, пожалуйста, добавьте короткую заметку для оповещения людей об этом."
+      },
+      "image_caption": {
+        "title": "Заголовок",
+        "description": "Добавьте описание этого изображения, особенно для людей с нарушениями зрения."
+      }
+    },
+    "content_warning_initials": {
+      "label": "ПС",
+      "accessibility_label": "кнопка \"Предупреждение о содержимом\""
+    },
+    "mention_field": {
+      "accessibility_label": "Упоминание ввода текста учетной записи"
+    },
+    "text_field": {
+      "placeholder": "Написать публичное сообщение",
+      "accessibility_label": "Написать текстовый ввод"
+    }
+  },
+  "compose_audio": {
+    "title": "Аудио сообщение",
+    "call_to_action": {
+      "start_recording": {
+        "accessibility_label": "Начать запись"
+      },
+      "stop_recording": {
+        "accessibility_label": "Остановить запись"
+      },
+      "discard_recording": {
+        "label": "Отказаться",
+        "accessibility_label": "Кнопка отмены записи"
+      },
+      "submit_recording": {
+        "label": "Готово",
+        "accessibility_label": "Кнопка отправки записи"
+      }
+    },
+    "dialogs": {
+      "discard": {
+        "title": "Аудио сообщение",
+        "question": "Очистить черновик?"
+      }
+    }
+  },
+  "backup": {
+    "title": "Резервное копирование",
+    "introduction": {
+      "title": "Ваша учётная запись состоит из двух частей. Это помогает хранить ваши данные надёжным образом."
+    },
+    "data": {
+      "title": "Данные",
+      "description": {
+        "1_normal": "В них входят публичные записи, личные сообщения, картинки, лайки и другие ваши действия. Чтобы защитить их от внезапной потери, мы используем ",
+        "2_bold": "коллективную резервную копию",
+        "3_normal": ". Вам нужно лишь ",
+        "4_bold": "синхронизироваться с надежными друзьями",
+        "5_normal": " или с другими устройствами, которые вы владеете. Вам ",
+        "6_bold": "ничего больше не нужно делать",
+        "7_normal": ", просто используйте Manyverse чаще и ваши друзья поддержат вас!"
+      },
+      "call_to_action": {
+        "acknowledge": {
+          "label": "Я понимаю",
+          "accessibility_label": "Подтвердить"
+        }
+      }
+    },
+    "identity": {
+      "title": "Идентификатор",
+      "description": {
+        "1_normal": "Ваш идентификатор - это уникальное число. Для удобства оно представлено в виде ",
+        "2_bold": "фразы восстановления",
+        "3_normal": ". Это последовательность из 24 слов, которая даёт доступ к вашей учетной записи. ",
+        "4_bold": "Держите её в секрете",
+        "5_normal": ", потому что если кто-то другой получит к ней доступ, он сможет управлять вашей учетной записью. ",
+        "6_bold": "Это ваша ответственность",
+        "7_normal": " , чтобы вы и только вы могли восстанавливать доступ к вашей учётной записи!"
+      },
+      "call_to_action": {
+        "show_recovery_phrase": "Показать фразу восстановления"
+      }
+    }
+  },
+  "biography": {
+    "picture": {
+      "accessibility_label": "Биографическое изображение"
+    },
+    "description": {
+      "accessibility_label": "Биографическое описание"
+    }
+  },
+  "conversation": {
+    "title": "Беседы",
+    "placeholder": "Введите сообщение...",
+    "call_to_action": {
+      "show_recipients": {
+        "accessibility_label": "Показать получателей"
+      }
+    },
+    "notifications": {
+      "new_conversation": "Это новая личная беседа"
+    }
+  },
+  "dialog_about": {
+    "title": "О Manyverse",
+    "version": "Версия {{version}}",
+    "copyright": "Авторские права (C)",
+    "authors": "Авторы Manyverse",
+    "repository": "Репозиторий с открытым исходным кодом",
+    "licensed": "Лицензия {{license}}"
+  },
+  "dialog_thanks": {
+    "title": "Спасибо Вам!",
+    "description": "Разработка этого приложения поддерживалась грантами от {{sponsor1}} и {{sponsor2}}, и пожертвования от:\n\n**{{topBackers}}**, и [сто backers]({{donateLink}}). Спасибо!"
+  },
+  "drawer": {
+    "menu": {
+      "my_profile": {
+        "label": "Мой профиль",
+        "accessibility_label": "пункт меню \"Мой профиль\""
+      },
+      "raw_database": {
+        "label": "Сырая база данных",
+        "accessibility_label": "Показывать сырую базу данных"
+      },
+      "email_bug_report": {
+        "label": "Отправить отчёт об ошибке по e-mail",
+        "accessibility_label": "Отправить отчёт об ошибке по e-mail"
+      },
+      "translate": {
+        "label": "Помогите нам перевести",
+        "accessibility_label": "Открыть сайт перевода"
+      },
+      "more": {
+        "label": "Ещё",
+        "accessibility_label": "Показать больше пунктов меню"
+      },
+      "settings": {
+        "label": "Настройки",
+        "accessibility_label": "Перейти к настройкам"
+      },
+      "preparing_database": {
+        "label": "Подготовка базы данных..."
+      },
+      "ready_estimate": {
+        "label": "Готово:"
+      }
+    }
+  },
+  "invite_paste": {
+    "placeholder": "Вставить код приглашения",
+    "call_to_action": {
+      "accept": {
+        "accessibility_label": "Принять код приглашения"
+      }
+    },
+    "alert_unsupported_dht": {
+      "title": "Неподдерживаемый тип",
+      "description": "Manyverse больше не поддерживает P2P приглашения."
+    },
+    "text_field": {
+      "accessibility_label": "Ввод текста кода приглашения"
+    }
+  },
+  "libraries": {
+    "title": "Сторонние библиотеки",
+    "description": "В Manyverse используются следующие библиотеки и компоненты с открытым исходным кодом. Мы хотим поблагодарить авторов этих библиотек, а также ссылку на их веб-сайты для точного определения .",
+    "image": {
+      "name": "Изображение {{name}}",
+      "attribution": " создано {{author}}, лицензировано {{license}}"
+    }
+  },
+  "profile": {
+    "call_to_action": {
+      "copy_cypherlink": "Копировать шифро-ссылку",
+      "private_chat": "Открыть приватный чат",
+      "block": "Блокировка",
+      "block_secretly": "Закрытый блок",
+      "unblock": "Разблокировать",
+      "unblock_secretly": "Разблокировать секретно",
+      "follow": "Следить за",
+      "edit_profile": {
+        "label": "Редактировать профиль",
+        "accessibility_label": "Кнопка \"Редактировать профиль\""
+      },
+      "manage": {
+        "accessibility_label": "Управление контактами"
+      }
+    },
+    "dialog_ssb_id": {
+      "title": "SSB ID"
+    },
+    "dialog_manage_contact": {
+      "title": "Контакт"
+    },
+    "dialog_friend_request": {
+      "title": "Предложение дружить",
+      "description": "Эта учетная запись пытается связаться с вами, но Manyverse запретил ей это, потому что она находится за пределами вашего сообщества.\n\nЕсли вы узнаёте этот ID, вы можете нажать \"Подписаться\", чтобы позволить ему связаться с вами."
+    },
+    "toast": {
+      "copied_to_clipboard": "Скопировано в буфер обмена"
+    },
+    "details": {
+      "id": {
+        "accessibility_label": "SSB идентификатор"
+      },
+      "biography": {
+        "accessibility_label": "Показать биографию"
+      },
+      "counters": {
+        "following": "Подписка(ок)",
+        "followers": "Подписчики"
+      }
+    },
+    "info": {
+      "follows_you": "Подписаны на вас",
+      "blocks_you": "Блокируют вас",
+      "following": "Подписка(ок)"
+    },
+    "picture": {
+      "accessibility_label": "Изображение профиля"
+    },
+    "name": {
+      "accessibility_label": "Имя профиля"
+    },
+    "empty": {
+      "blocked": {
+        "title": "Заблокировал(а)",
+        "description": "Вы решили прекратить взаимодействие\nс этой учетной записью"
+      },
+      "no_self_messages": {
+        "title": "Нет сообщений",
+        "description": "Сделайте запись, которой вы можете\nподелиться с друзьями позже"
+      },
+      "no_messages": {
+        "title": "Нет сообщений",
+        "description": "У вас еще нет данных\nс этой учетной записи"
+      }
+    },
+    "floating_action_button": {
+      "compose": "Написать публичное сообщение"
+    }
+  },
+  "profile_edit": {
+    "title": "Редактировать профиль",
+    "call_to_action": {
+      "discard": "Отказаться",
+      "save": {
+        "label": "Сохранить",
+        "accessibility_label": "Сохранить профиль"
+      },
+      "edit_picture": {
+        "accessibility_label": "изменить изображение профиля"
+      },
+      "register_new_alias": {
+        "label": "Создать новый псевдоним",
+        "accessibility_label": "Зарегистрировать новый псевдоним комнаты"
+      }
+    },
+    "dialogs": {
+      "discard": {
+        "title": "Редактировать профиль",
+        "question": "Отклонить изменения?"
+      },
+      "remove_alias": {
+        "description": "Это действие удалит псевдоним \"{{alias}}\" с сервера комнат.\n\nДругие пользователи больше не смогут связаться с вами с помощью этого псевдонима."
+      }
+    },
+    "toasts": {
+      "alias_removed_success": "Псевдоним удален",
+      "alias_removed_failure": "Не удалось удалить псевдоним"
+    },
+    "fields": {
+      "name": {
+        "label": "Наименование",
+        "accessibility_label": "поле ввода \"Имя\""
+      },
+      "description": {
+        "label": "О себе",
+        "accessibility_label": "Поле для ввода биографии"
+      },
+      "aliases": {
+        "label": "Псевдонимы"
+      }
+    }
+  },
+  "manage_aliases": {
+    "title": "Управление псевдонимами"
+  },
+  "register_alias": {
+    "title": "Создать новый псевдоним",
+    "empty": {
+      "no_servers": {
+        "title": "Нет серверов",
+        "description": "Чтобы зарегистрировать псевдоним, вы должны быть участником какого-либо сервера комнат. Найдите сервер комнат в интернете с помощью хэштега #ssbroom и убедитесь, что он поддерживает псевдонимы."
+      }
+    },
+    "header": {
+      "description": "Выберите сервер комнат, где вы хотели бы зарегистрировать новый псевдоним.\n\nПсевдонимы - это веб-адреса, которые люди могут использовать для связи с вами."
+    },
+    "dialogs": {
+      "input_alias": {
+        "description": "Отправить ваш желаемый новый псевдоним на {{host}} в виде одного слова в нижнем регистре.\n\nНапример, если вы хотите псевдоним \"myname.{{host}}\", напишите \"myname\" ниже."
+      }
+    },
+    "submitting": {
+      "title": "Отправка..."
+    },
+    "failure": {
+      "title": "Не удалось",
+      "alias_taken": "Этот псевдоним уже используется другим пользователем.",
+      "call_to_action": {
+        "try_again": {
+          "label": "Попробовать еще раз",
+          "accessibility_label": "Кнопка Повторить попытку"
+        }
+      }
+    },
+    "success": {
+      "title": "Отлично!",
+      "description": "Псевдоним {{alias}} теперь ваш.",
+      "call_to_action": {
+        "go_back": {
+          "label": "Назад",
+          "accessibility_label": "Кнопка Назад"
+        }
+      }
+    }
+  },
+  "raw_db": {
+    "title": "Исходные данные",
+    "item": {
+      "type": {
+        "any": "тип: {{type}}",
+        "encrypted": "зашифровано"
+      }
+    }
+  },
+  "raw_msg": {
+    "title": "Исходное сообщение"
+  },
+  "recipients_input": {
+    "title": "Новое сообщение",
+    "call_to_action": {
+      "proceed": {
+        "label": "Далее",
+        "accessibility_label": "кнопка \"Далее\""
+      }
+    },
+    "fields": {
+      "mention_input": {
+        "placeholder": "Искать людей, чтобы добавить",
+        "accessibility_label": "Упоминание ввода текста учетной записи"
+      }
+    },
+    "empty": {
+      "instructions": {
+        "title": "Выберите участников",
+        "description": "Введите имена\nпользователей, чтобы они присоединились к новому чату"
+      },
+      "none_to_choose": {
+        "title": "Никого",
+        "description": "В вашем сообществе никого нет с таким именем"
+      }
+    },
+    "toasts": {
+      "limit_reached": "Нельзя выбрать больше чем {{limit}} получателей"
+    }
+  },
+  "search": {
+    "query_input": {
+      "placeholder": "Поиск среди публичных записей",
+      "accessibility_label": "Ввод текста поискового запроса"
+    },
+    "clear_query": {
+      "accessibility_label": "Сброс текста поискового запроса"
+    },
+    "empty": {
+      "initial": {
+        "title": "Поискать что-нибудь",
+        "description": "Подождите, пока приложение\nпытается подключиться к вашим пирам"
+      },
+      "zero_results": {
+        "title": "Нет результатов",
+        "description": "По запросу \"{{query}}\" ничего не найдено"
+      }
+    }
+  },
+  "secret_input": {
+    "practice": {
+      "title": "Проверка",
+      "header": "Повторите это, чтобы убедиться что всё верно:"
+    },
+    "restore": {
+      "title": "Восстановить учетную запись"
+    },
+    "header": "Внимательно введите вашу фразу восстановления",
+    "call_to_action": {
+      "confirm": {
+        "label": "Подтвердить",
+        "accessibility_label": "кнопка \"Подтвердить фразу восстановления\""
+      }
+    },
+    "fields": {
+      "words_input": {
+        "placeholder": "Ключевая фраза восстановления из 24 слов",
+        "accessibility_label": "текстовое поле \"Фраза восстановления\""
+      }
+    },
+    "dialogs": {
+      "practice": {
+        "correct": {
+          "title": "Правильно!",
+          "description": "Ваша учетная запись теперь защищена, потому что вы знаете фразу восстановления."
+        },
+        "incorrect": {
+          "title": "Неправильно",
+          "description": "Попробуйте еще раз: запишите ключевое словосочетание, состоящее из 24 слов, разделенных пробелами."
+        }
+      },
+      "restore": {
+        "correct": {
+          "title": "С возвращением!",
+          "description": "Личность вашего аккаунта восстанавливается.\n\nТеперь для восстановления данных подключайтесь к друзьям, с которыми вы общались раньше, для повторной загрузки данных из них."
+        },
+        "incorrect": {
+          "title": "Неправильно",
+          "description": {
+            "try_again": "Попробуйте еще раз: вставить фразу восстановления, состоящее из 24 слов, разделенных пробелами.",
+            "overwrite_risk": "В приложении уже есть учетная запись, перезапись невозможна. Если вы уверены, что хотите перезаписать, удалите и переустановите Manyverse для восстановления своей учетной записи из чистого состояния.",
+            "too_short": "Отсутствуют некоторые слова. Ваша фраза восстановления должна состоять из 24 слов.",
+            "too_long": "Слишком много слов. Ваша фраза восстановления должна состоять из 24 слов.",
+            "wrong_length": "Ваша фраза восстановления должна быть длиной в 24 слов.",
+            "generic": "Фраза восстановления, которую вы указали, не похожа на допустимые идентификационные данные, созданные Manyverse."
+          }
+        }
+      }
+    }
+  },
+  "secret_output": {
+    "title": "Фраза восстановления",
+    "header": {
+      "1_normal": "Внимательно запишите следующую фразу восстановления на ",
+      "2_bold": "листок бумаги",
+      "3_normal": ""
+    },
+    "footer": {
+      "1_normal": "Сохраните её ",
+      "2_bold": "в секрете",
+      "3_normal": " и получите полную ",
+      "4_bold": "ответственность",
+      "5_normal": " над этими"
+    },
+    "words": {
+      "accessibility_label": "Секретные слова"
+    },
+    "call_to_action": {
+      "confirm": {
+        "accessibility_label": "кнопка \"Подтвердить фразу восстановления\""
+      }
+    },
+    "loading": "Загрузка..."
+  },
+  "settings": {
+    "title": "Настройки",
+    "preferences": {
+      "title": "Предпочтения",
+      "show_follows": {
+        "title": "Показывать события подписки",
+        "subtitle": "Показывать слежение или отписки на публичной доске",
+        "accessibility_label": "Переключить отслеживание событий на публичной доске"
+      },
+      "hops": {
+        "title": "Репликационные прыжки",
+        "subtitle": "Как далеко в социальных графах должны скачать данные Manyverse; 1 - только друзья, 2 - друзья друзей, и т.д. Внимание: чем больше это, тем больше данных загружается!",
+        "unlimited": "Без ограничений",
+        "accessibility_label": "Слайдер репликационного прыжка"
+      }
+    },
+    "data_and_storage": {
+      "title": "Данные и хранилище",
+      "backup": {
+        "title": "Резервное копирование",
+        "subtitle": "Просмотр вашей 24-словной фразы восстановления",
+        "accessibility_label": "Резервная копия моей учетной записи"
+      },
+      "blobs_storage": {
+        "title": "Лимит хранилища блоков данных",
+        "subtitle": "Автоматически удалять старые изображения и блоки данных  до тех пор, пока они не займут меньше этого объёма памяти на вашем устройстве",
+        "unlimited": "Без ограничений",
+        "accessibility_label": "Слайдер лимита хранения"
+      }
+    },
+    "troubleshooting": {
+      "title": "Устранение ошибок",
+      "bug_report": {
+        "title": "Отправить отчёт об ошибке по e-mail",
+        "accessibility_label": "Отправить отчёт об ошибке по e-mail"
+      },
+      "detailed_logs": {
+        "title": "Включить подробные журналы",
+        "accessibility_label": "Переключить подробные журналы разработчиков"
+      }
+    },
+    "more_information": {
+      "title": "Больше информации",
+      "thanks": {
+        "title": "Спасибо",
+        "accessibility_label": "Показывать благодарность"
+      },
+      "third_party_libs": {
+        "title": "Сторонние библиотеки",
+        "accessibility_label": "Просмотр сторонних библиотек"
+      },
+      "about": {
+        "title": "Об этом",
+        "accessibility_label": "О приложении"
+      }
+    },
+    "dialogs": {
+      "restart_required": {
+        "title": "Требуется перезапуск",
+        "description": "Эта настройка вступит в силу только тогда, когда вы завершите приложение и перезапустите Manyverse."
+      }
+    }
+  },
+  "thread": {
+    "title": "Тема",
+    "call_to_action": {
+      "expand_reply": {
+        "accessibility_label": "Кнопка Развернуть ответ"
+      },
+      "publish_reply": {
+        "accessibility_label": "Кнопка \"Опубликовать ответ\""
+      }
+    },
+    "fields": {
+      "reply": {
+        "placeholder": "Комментировать",
+        "accessibility_label": "Поле для ввода текста ответа"
+      }
+    },
+    "loading_replies": "Загрузка ответов...",
+    "empty": {
+      "missing": {
+        "title": "Данные отсутствуют",
+        "description": "У вас еще нет данных\nдля сообщения с идентификатором\n"
+      },
+      "blocked": {
+        "title": "Заблокированная тема",
+        "description": "Вы решили заблокировать\nавтора этой темы"
+      },
+      "incompatible": {
+        "title": "Извините",
+        "description": "Это приложение не знает, как обрабатывать\nи правильно отображать эту тему"
+      }
+    }
+  },
+  "message": {
+    "call_to_action": {
+      "show_reactions": {
+        "accessibility_label": "Показать реакции"
+      },
+      "add_reaction": {
+        "accessibility_label": "Кнопка Отреагировать"
+      },
+      "reply": {
+        "accessibility_label": "Кнопка ответить"
+      },
+      "etc": {
+        "dialog_title": "Сообщение",
+        "accessibility_label": "Кнопка прочее"
+      },
+      "copy_blob_id": {
+        "accessibility_label": "Копировать идентификатор данных"
+      },
+      "copy_msg_id": "Копировать шифро-ссылку",
+      "view_raw": "Просмотр исходных сообщений"
+    },
+    "toast": {
+      "copied_to_clipboard": "Скопировано в буфер обмена"
+    },
+    "reactions": {
+      "categories": {
+        "smileys_and_emotion": "Смайлы и эмоции",
+        "people_and_body": "Человек и общество",
+        "animals_and_nature": "Животные и природа",
+        "food_and_drink": "Еда и напитки",
+        "activities": "Активность",
+        "travel_and_places": "Путешествия и места",
+        "objects": "Объекты",
+        "symbols": "Символы",
+        "flags": "Flags"
+      },
+      "show_more": {
+        "accessibility_label": "Показать больше вариантов реакции"
+      }
+    },
+    "image": {
+      "without_caption": {
+        "accessibility_label": "Фотография без подписи"
+      }
+    },
+    "audio": {
+      "play": {
+        "accessibility_label": "Воспроизвести аудио"
+      },
+      "pause": {
+        "accessibility_label": "Приостановить аудио"
+      },
+      "duration": {
+        "accessibility_label": "Продолжительность аудио"
+      },
+      "elapsed": {
+        "accessibility_label": "Текущее время аудио"
+      },
+      "slider": {
+        "accessibility_label": "Изменить время аудио"
+      }
+    },
+    "content_warning": {
+      "title": "Предупреждение о содержимом",
+      "call_to_action": {
+        "hide": "Скрыть",
+        "show": "Просмотр"
+      }
+    },
+    "fork_note": {
+      "1_normal": "Ответвление от ",
+      "2_bold": "{{cypherlink}}",
+      "3_normal": ""
+    },
+    "about": {
+      "new_picture": {
+        "1_normal": "",
+        "2_bold": "{{name}}",
+        "3_normal": " новое изображение профиля: "
+      },
+      "new_name_and_description": {
+        "1_normal": "",
+        "2_bold": "{{name}}",
+        "3_normal": " использует имя \"",
+        "4_bold": "{{name}}",
+        "5_normal": "\", и описание: "
+      },
+      "new_description": {
+        "1_normal": "",
+        "2_bold": "{{name}}",
+        "3_normal": " новая биография: "
+      },
+      "new_name": {
+        "1_normal": "",
+        "2_bold": "{{name}}",
+        "3_normal": " использует имя \"",
+        "4_bold": "{{name}}",
+        "5_normal": "\""
+      }
+    },
+    "contact": {
+      "follow_event": {
+        "1_normal": "",
+        "2_bold": "{{author}}",
+        "3_normal": " подписан ",
+        "4_bold": "{{target}}",
+        "5_normal": ""
+      },
+      "block_event": {
+        "1_normal": "",
+        "2_bold": "{{author}}",
+        "3_normal": " заблокирован ",
+        "4_bold": "{{target}}",
+        "5_normal": ""
+      },
+      "unfollow_event": {
+        "1_normal": "",
+        "2_bold": "{{author}}",
+        "3_normal": " отписан ",
+        "4_bold": "{{target}}",
+        "5_normal": ""
+      },
+      "unblock_event": {
+        "1_normal": "",
+        "2_bold": "{{author}}",
+        "3_normal": " разблокирован ",
+        "4_bold": "{{target}}",
+        "5_normal": ""
+      }
+    }
+  }
+}

@@ -1,0 +1,1192 @@
+{
+  "call_to_action": {
+    "ok": "OK",
+    "add": "Hozzáadás",
+    "done": "Kész",
+    "cancel": "Mégsem",
+    "continue": "Folytatás",
+    "delete": "Törlés",
+    "remove": "Eltávolít",
+    "save": "Mentés",
+    "yes": "Igen",
+    "no": "Nem",
+    "open_menu": {
+      "accessibility_label": "Menü gomb"
+    },
+    "go_back": {
+      "accessibility_label": "Vissza gomb"
+    },
+    "close": {
+      "accessibility_label": "Bezárás gomb"
+    },
+    "close_dialog": {
+      "accessibility_label": "Párbeszéd gomb bezárása"
+    },
+    "external_link_confirmation": {
+      "title": "Open link?",
+      "description": "Do you want to open {{link}} in your browser?"
+    }
+  },
+  "date": {
+    "relative": {
+      "past": {
+        "years": {
+          "one": "1 éve",
+          "other": "{{count}} éve"
+        },
+        "months": {
+          "one": "1 hónapja",
+          "other": "{{count}} hónapja"
+        },
+        "weeks": {
+          "one": "1 hete",
+          "other": "{{count}} hete"
+        },
+        "days": {
+          "one": "1 napja",
+          "other": "{{count}} napja"
+        },
+        "hours": {
+          "one": "1 órája",
+          "other": "{{count}} órája"
+        },
+        "minutes": {
+          "one": "1 perce",
+          "other": "{{count}} perce"
+        },
+        "now": "Épp most"
+      },
+      "future": {
+        "years": {
+          "one": "1 év múlva",
+          "other": "{{count}} év múlva"
+        },
+        "months": {
+          "one": "1 hónap múlva",
+          "other": "{{count}} hónap múlva"
+        },
+        "weeks": {
+          "one": "1 hét múlva",
+          "other": "{{count}} hét múlva"
+        },
+        "days": {
+          "one": "1 nap múlva",
+          "other": "{{count}} nap múlva"
+        },
+        "hours": {
+          "one": "1 óra múlva",
+          "other": "{{count}} óra múlva"
+        },
+        "minutes": {
+          "one": "1 perc múlva",
+          "other": "{{count}} perc múlva"
+        },
+        "now": "Hamarosan"
+      }
+    }
+  },
+  "welcome": {
+    "learn_more": "Tudj meg többet",
+    "overview": {
+      "title": "Üdv a Manyverse-ben!",
+      "description": "A közösségi háló lehet egyszerű, pártatlan, nem kereskedelmi jellegű, és épülhet a barátok közötti bizalomra. Ezt képviseli a Manyverse, és reméljük, hogy a Te is digitális otthod is lehet. Mindezt az új SSB protokoll teszi lehetővé."
+    },
+    "off_the_grid": {
+      "title": "A hálózaton kívül",
+      "description": {
+        "1_normal": "A Manyverse használhatja az Internetet, de valójában nem ",
+        "2_bold": "az Internetnen",
+        "3_normal": "létezik. Minden a készülékeden történik, így akár offline is használhatod. Az adataid",
+        "4_bold": "először az készülékeden kerülnek eltárolásra",
+        "5_normal": ", majd szinkronizálhatod őket a barátaiddal amint kapcsolatba léptek egymással."
+      }
+    },
+    "connections": {
+      "title": "Többféleképpen csatlakozhatsz",
+      "description": {
+        "ios": {
+          "1_normal": "Ha a barátaiddal szeretnél kapcsolódni és tartalmat megosztani csatlakozzatok ugyanarra a ",
+          "2_bold": "Wi-Fi hálózatra",
+          "3_normal": ". Ha új embereket szeretnél találni az Interneten, keress meghívó-kódokat ",
+          "4_bold": "pub szerverekhez",
+          "5_normal": " vagy ",
+          "6_bold": "szoba-szerverekhez",
+          "7_normal": ", vagy hozz létre saját szervert!"
+        },
+        "default": {
+          "1_normal": "Ha a barátaiddal szeretnél kapcsolódni és tartalmat megosztani: csatlakozzatok ugyanarra a ",
+          "2_bold": "Wi-Fi hálózatra",
+          "3_normal": ", vagy használjátok a ",
+          "4_bold": "Bluetooth szinkronizálást",
+          "5_normal": ". Ha új embereket szeretnél találni az Interneten, keress meghívó-kódokat ",
+          "6_bold": "pub szerverekhez",
+          "7_normal": " vagy ",
+          "8_bold": "szoba-szerverekhez",
+          "9_normal": ", vagy hozz létre saját szervert!"
+        }
+      }
+    },
+    "moderation": {
+      "title": "Közös moderáció",
+      "description": {
+        "1_normal": "Mivel az eszközöd tárolja a közösségi hálót, így senki más nem tilthatja le vagy törölheti a fiókodat, te szabályozod a a felület tartalmát ",
+        "2_bold": "fiókok elrejtésével",
+        "3_normal": " amelyet nem kívánsz az készülékeden látni. Ezek után a barátaid is elrejthetik ugyanezeket a fiókokat. Így terjedhet a természetes moderáció!"
+      }
+    },
+    "permanence": {
+      "title": "Állandó",
+      "description": {
+        "1_normal": "Miután a tartalmad szinkronizálásra kerül az ismerőseiddel, onnantól a saját eszközükön tárolják annak egy példányát. Mivel ezek után offline állapotba kerülhetnek, ",
+        "2_bold": "ezen tartalmakat nem lehet globálisan törölni minden eszközről!",
+        "3_normal": " Ezért döntöttünk úgy, hogy a tartalmakat állandóvá tesszük, így a közösségek is inkább odafigyelnek arra, miket tesznek közzé."
+      }
+    },
+    "in_construction": {
+      "title": "Építés alatt!",
+      "description": {
+        "1_normal": "Manyverse egy ",
+        "2_bold": "béta állapotban lévő szoftver",
+        "3_normal": "Még fejlesztjük ezt az alkalmazást, tehát még sok dolgot kell megjavítanunk. Egyidejűsítés során úgy tűnhet hogy le van fagyva. Kérünk légy türelemmel. Ha másféle hibákkal találkozol, kérlek jelentsd nekünk. Elegendő idő és adomány múlván, egy kitűnő alkalmazás lesz belőle."
+      }
+    },
+    "setup_account": {
+      "title": "Először jársz itt?",
+      "description": "Új fiókot szeretne létrehozni, vagy be óhajt jelentkezni a 24 szóval a régi fiókjába?",
+      "call_to_action": {
+        "create": {
+          "label": "Fiók létrehozása",
+          "accessibility_label": "Fiók létrehozása gomb"
+        },
+        "restore": {
+          "label": "Fiók visszaállítása",
+          "accessibility_label": "Fiók visszaállítása gomb"
+        }
+      }
+    }
+  },
+  "central": {
+    "app_name": "Manyverse",
+    "tab_headers": {
+      "public": "Nyilvános bejegyzések",
+      "private": "Privát üzenetek",
+      "activity": "Tevékenység",
+      "connections": "Connected peers"
+    },
+    "tab_footers": {
+      "public": "Nyilvános",
+      "private": "Személyes",
+      "activity": "Tevékenység",
+      "connections": "Kapcsolatok"
+    },
+    "loading": "Betöltés...",
+    "building_indexes": "Adatbázis indexek építése...\nEz több percig is tarthat",
+    "tabs": {
+      "public": {
+        "accessibility_label": "Nyilvános lap gomb"
+      },
+      "private": {
+        "accessibility_label": "Privát lap gomb"
+      },
+      "activity": {
+        "accessibility_label": "Aktivitás lap gomb"
+      },
+      "connections": {
+        "accessibility_label": "Csatlakozások lap gomb"
+      }
+    }
+  },
+  "public": {
+    "floating_action_button": {
+      "compose": "Írj egy nyilvános üzenetet"
+    },
+    "empty": {
+      "title": "Nincsenek üzenetek",
+      "description": "Írj egy naplót, hogy\nkésőbb megoszthasd barátaiddal"
+    },
+    "search": {
+      "accessibility_label": "Keresés gomb"
+    }
+  },
+  "private": {
+    "floating_action_button": {
+      "compose": "Indíts egy privát beszélgetést"
+    },
+    "empty": {
+      "title": "Nincsenek beszélgetések",
+      "description": "Kezdj egy privát beszélgetést\nakármelyik barátoddal"
+    },
+    "conversation": {
+      "accessibility_label": "Menjen a beszélgetéshez"
+    }
+  },
+  "accounts": {
+    "reactions": {
+      "title": "Reakciók"
+    },
+    "recipients": {
+      "title": "Címzettek"
+    },
+    "call_to_action": {
+      "open_account": {
+        "accessibility_label": "Menjen a fiókra"
+      }
+    }
+  },
+  "activity": {
+    "mention": {
+      "label": {
+        "1_normal": "",
+        "2_bold": "{{author}}",
+        "3_normal": " megemlített téged"
+      }
+    },
+    "follow": {
+      "label": {
+        "1_normal": "",
+        "2_bold": "{{author}}",
+        "3_normal": " követ téged"
+      }
+    },
+    "connection_attempt": {
+      "label": {
+        "1_normal": "",
+        "2_bold": "{{author}}",
+        "3_normal": " csatlakozni akar"
+      }
+    },
+    "empty": {
+      "title": "Nincs aktivitás",
+      "description": "Amikor megemlítenek vagy követnek téged,\nitt fog megjelenni"
+    }
+  },
+  "connections": {
+    "title": "Connections Panel",
+    "floating_action_button": {
+      "create_invite": "Meghívás létrehozása",
+      "paste_invite": "Meghívó beillesztése",
+      "bluetooth_seek": "Bluetooth keresés"
+    },
+    "open_connections_panel": "Open Connections Panel",
+    "empty": {
+      "offline": {
+        "title": "Offline",
+        "description": "Kapcsolj be néhány csatlakozási módot\nvagy élvezz néhány létező tartalom olvasását"
+      },
+      "connecting": {
+        "title": "Csatlakozás",
+        "description": "Várjon míg az alkalmazás\nmegpróbál csatlakozni a társaidhoz"
+      },
+      "no_peers": {
+        "title": "Nincsenek csatlakozások",
+        "description": "Próbálj szinkronizálni emberekkel a közeledben\nvagy használj egy szerver meghívó kódot"
+      }
+    },
+    "scenarios": {
+      "offline": "Offline",
+      "not_connected": "Not connected",
+      "few_connections": "Too few connections",
+      "many_connections": "Well connected"
+    },
+    "scenario_descriptions": {
+      "offline_with_content": "You cannot connect to peers at the moment, but you can enjoy some content that you already have.",
+      "offline_without_content": "You cannot connect to peers at the moment. Try to get some internet connectivity or turn on Wi-Fi to discover peers nearby.",
+      "knows_no_one": "Your Manyverse is at the moment isolated. You need to be invited by other peers to join room servers, or you can host a room server yourself.",
+      "nearby_strangers_available": "You are not yet connected to anyone, but there are some peers on the same Wi-Fi. Try to connect to them manually if you think they are willing to connect to you too.",
+      "empty_rooms": "You are a member of some rooms, but there is no one you know currently online. Try connecting manually to a stranger in the room, or get an invite code to other servers.",
+      "connected_poorly": "You are connected to one peer, that's good. But, to improve propagation of data, you should connect to more peers. Try waiting a bit longer, or getting an invite code to other servers.",
+      "connected_well": "You are connected to plenty of peers. All is good! They are propagating your data and you are propagating theirs."
+    },
+    "recommendations": {
+      "consume_invite": "How to get an invite",
+      "follow_staged_manually": "Follow someone new",
+      "host_ssb_room": "How to host a room server",
+      "others": "Other choices"
+    },
+    "recommendation_descriptions": {
+      "consume_invite": "This social network is based on invites, to keep it friendly and safe from spam. If you haven't yet received an invite from a friend, you can search the web for some server that gives invites to anyone.\n\nLook for the key words \"SSB room server\" or \"SSB pub server\". The hashtag #ssbroom may also be useful.",
+      "follow_staged_manually": {
+        "part1": {
+          "not_connected": "Your friends are not online right now, but if you want to get more content, there are some unknown peers currently online in the same room(s) as you are. You can try to become friends with them.",
+          "connected": "If you want to get more content beyond what you already have, you can follow more people. There are some unknown peers currently online in the same room(s) as you are. You can try to become friends with them."
+        },
+        "part2": "On the next screen, you will see unknown peers displayed like this. Press one of them and choose \"Open Profile\", then \"Follow\"."
+      }
+    },
+    "toasts": {
+      "invite_accepted": "Meghívó elfogadva",
+      "invite_rejected": "Meghívó elutasítva. Biztos vagy benne, hogy helyes?",
+      "connecting_to_alias": "Csatlakozás hozzá: {{alias}}",
+      "connected_to_alias": "Csatlakozva ide: {{alias}}",
+      "not_connected_to_alias": "{{alias}} éppen offline"
+    },
+    "dialogs": {
+      "sign_in_with_ssb": {
+        "client_initiated": {
+          "title": "Engedélyezed a bejelentkezést?",
+          "description": "Látogasd meg {{room}} oldalát, hogy meghívókat hozz létre, vagy kezeld a tagokat. Megakarod nyitni Manyverset a bejelentkezéshez?\n\nA szoba ID-je: {{roomid}}"
+        },
+        "server_initiated": {
+          "title": "Engedélyezed a bejelentkezést?",
+          "description": "Egy böngésző jogosultságot kérelmez tőled, hogy azonosítson téged. Be akarsz jelentkezni {{room}} szerverre?\n\nAz ID-je: {{roomid}}"
+        }
+      }
+    },
+    "peers": {
+      "types": {
+        "bluetooth": "Bluetooth",
+        "lan": "Wi-Fi hálózatra",
+        "dht": {
+          "connected": "Internet P2P"
+        },
+        "room": {
+          "server": "Szoba szerver",
+          "endpoint": "Szoba tag",
+          "alone_online": "(csak te vagy online)",
+          "others_online": {
+            "one": "({{count}} online)",
+            "other": "({{count}} online)"
+          }
+        },
+        "pub": "Pub szerver",
+        "server": "Kiszolgáló",
+        "unknown": "Ismeretlen"
+      }
+    },
+    "modes": {
+      "generic": {
+        "enabled": "(ENGEDÉLYEZVE)"
+      },
+      "bluetooth": {
+        "title": "Bluetooth",
+        "accessibility_label": "Bluetooth mód",
+        "disabled": "(Kapcsold be a Bluetooth-t a használatához)",
+        "description": "Fedezz fel felhasználókat közeledben és csatlakozz hozzájuk Bluetooth-tal.",
+        "permission_request": {
+          "title": "Engedélyezi a helymeghatározást Bluetooth-tal?",
+          "message": "Manyversenek szüksége van Bluetoothra, hogy felfedezze hol van (nem-pontos helymeghatározás) és milyen tagok vannak a környékeden."
+        }
+      },
+      "wifi": {
+        "title": "Wi-Fi hálózatra",
+        "accessibility_label": "Wi-Fi mód",
+        "disabled": "(Kapcsold be a wifit a használatához)",
+        "description": "Csatlakozz barátokkal ugyanazon a LAN-on, más szavakkal barátokkal ugyanazon a wifin."
+      },
+      "servers": {
+        "title": "Internet szerverekkel",
+        "accessibility_label": "Internet Servers Mode",
+        "disabled": "(Go online to use this)",
+        "description": "Connect to a so-called 'Pub server' owned by some friend, containing the latest data from multiple accounts."
+      }
+    },
+    "menu": {
+      "dialog_title": "Connection",
+      "open_profile": {
+        "label": "Open profile",
+        "accessibility_label": {
+          "connected": "Open profile screen for this connected peer",
+          "staged": "Open profile screen for this suggested connection"
+        }
+      },
+      "connect": {
+        "label": "Kapcsolódás",
+        "accessibility_label": {
+          "staged_peer": "Connect to this suggested peer",
+          "staged_room": "Connect to this suggested room"
+        }
+      },
+      "follow_connect": {
+        "label": "Connect and follow",
+        "accessibility_label": "Connect to this suggested peer then follow them"
+      },
+      "disconnect": {
+        "label": "Disconnect",
+        "accessibility_label": {
+          "peer": "Disconnect from this peer",
+          "room": "Disconnect from this room"
+        }
+      },
+      "disconnect_forget": {
+        "label": "Disconnect and forget",
+        "accessibility_label": {
+          "peer": "Disconnect from this peer and remove it from our database",
+          "room": "Kilépés a szobából, és a szoba törlése az adatbázisból"
+        }
+      },
+      "forget": {
+        "label": "Forget",
+        "accessibility_label": {
+          "room": "Remove this room from our database"
+        }
+      },
+      "manage_aliases": {
+        "label": "Manage my aliases",
+        "accessibility_label": "Manage my aliases in Room servers"
+      },
+      "room_sign_in": {
+        "label": "Sign into website",
+        "accessibility_label": "Open this room's website and sign into its dashboard, Button"
+      },
+      "room_share_invite": {
+        "label": "Share invite code",
+        "accessibility_label": "Share the invite code for this room"
+      },
+      "invite_info": {
+        "label": "About",
+        "accessibility_label": "About this Invite Code"
+      },
+      "invite_note": {
+        "label": "Add note",
+        "accessibility_label": "Add Reminder Note To Self"
+      },
+      "invite_share": {
+        "label": "Share",
+        "accessibility_label": "Share Invite Code"
+      },
+      "invite_delete": {
+        "label": "Törlés",
+        "accessibility_label": "Delete Invite Code"
+      }
+    },
+    "notes": {
+      "add": {
+        "title": "Add note",
+        "description": "Write a private (just for yourself) note about this invite code. For example: \"This is for Alice\""
+      }
+    },
+    "share_code": {
+      "room": {
+        "title": "Invite code to an SSB Room",
+        "message": "Join me in the SSB Room {{name}} by pasting this invite code in Manyverse:",
+        "dialog_note": "Küldd el ezt a meghívó kódot egy barátodnak"
+      }
+    }
+  },
+  "compose": {
+    "call_to_action": {
+      "publish_new_thread": {
+        "label": "Publish",
+        "accessibility_label": "Publish Message Button"
+      },
+      "reply_to_thread": {
+        "label": "Válasz",
+        "accessibility_label": "Publish Reply Button"
+      },
+      "preview": {
+        "label": "Preview",
+        "accessibility_label": "Preview Button"
+      },
+      "close": {
+        "accessibility_label": "Bezárás gomb"
+      },
+      "record_audio": {
+        "accessibility_label": "Record Audio Button",
+        "permission_request": {
+          "title": "Allow Manyverse to record audio?",
+          "message": "Manyverse needs access to your microphone so you can compose audio messages",
+          "neutral": "Ask me later",
+          "positive": "OK",
+          "negative": "Mégsem"
+        }
+      },
+      "open_camera": {
+        "accessibility_label": "Open Camera Button"
+      },
+      "add_picture": {
+        "accessibility_label": "Add Picture Button"
+      }
+    },
+    "dialogs": {
+      "content_warning": {
+        "title": "Content warning",
+        "description": "If your post contains sensitive topics, please add a short note to alert people of them."
+      },
+      "image_caption": {
+        "title": "Caption",
+        "description": "Add some description of this picture, particularly for the visually impaired."
+      }
+    },
+    "content_warning_initials": {
+      "label": "CW",
+      "accessibility_label": "Content Warning Button"
+    },
+    "mention_field": {
+      "accessibility_label": "Fiók megemlítés szöveges bevitel"
+    },
+    "text_field": {
+      "placeholder": "Írj egy nyilvános üzenetet",
+      "accessibility_label": "Üzenetírás szöveges bevitel"
+    }
+  },
+  "compose_audio": {
+    "title": "Hangklip üzenet",
+    "call_to_action": {
+      "start_recording": {
+        "accessibility_label": "Felvétel indítása"
+      },
+      "stop_recording": {
+        "accessibility_label": "Felvétel leállítása"
+      },
+      "discard_recording": {
+        "label": "Eldobás",
+        "accessibility_label": "Felvétel eldobása gomb"
+      },
+      "submit_recording": {
+        "label": "Kész",
+        "accessibility_label": "Felvétel elküldése gomb"
+      }
+    },
+    "dialogs": {
+      "discard": {
+        "title": "Hangklip üzenet",
+        "question": "Vázlat eldobása?"
+      }
+    }
+  },
+  "backup": {
+    "title": "Biztonsági mentés",
+    "introduction": {
+      "title": "A fiókodnak\nkét része van amit biztonságban kell tartani"
+    },
+    "data": {
+      "title": "Adat",
+      "description": {
+        "1_normal": "Ez a fiókod posztjai, üzenetei, képei, lájkolásai és hasonló aktivitások. A biztonságában tartásához ",
+        "2_bold": "tömeges biztonsági másolat",
+        "3_normal": "ot használunk. Neked csak ",
+        "4_bold": "szinkronizálni kell megbízható barátokkal",
+        "5_normal": " vagy egyéb eszközeiddel. ",
+        "6_bold": "Nincsen más teendőd",
+        "7_normal": ", csak használd Manyverset gyakran és barátaid biztonságban tartják az adataidat!"
+      },
+      "call_to_action": {
+        "acknowledge": {
+          "label": "Megértettem",
+          "accessibility_label": "Elfogadás"
+        }
+      }
+    },
+    "identity": {
+      "title": "Személyazonosság",
+      "description": {
+        "1_normal": "A fiókod \"ujjlenyomata\" feláll több nagyon egyedi ",
+        "2_bold": "visszaállítási mondatból",
+        "3_normal": ". Ez a 24 szóból álló sorozat feloldja a fiókodat. ",
+        "4_bold": "Tartsa bizalmasan",
+        "5_normal": ", ugyanis ha más hozzájut, akkor el tudják venni a fiókod irányítását. ",
+        "6_bold": "Legyen felelősségteljes",
+        "7_normal": " ugyanis csak és csak Ön tudja visszaállítani a fiókját!"
+      },
+      "call_to_action": {
+        "show_recovery_phrase": "Mutassa a Visszaállító mondatot"
+      }
+    }
+  },
+  "biography": {
+    "picture": {
+      "accessibility_label": "Életrajzi kép"
+    },
+    "description": {
+      "accessibility_label": "Életrajzi leírás"
+    }
+  },
+  "conversation": {
+    "title": "Beszélgetés",
+    "placeholder": "Írj egy üzenetet...",
+    "call_to_action": {
+      "show_recipients": {
+        "accessibility_label": "Mutassa a címzetteket"
+      }
+    },
+    "notifications": {
+      "new_conversation": "Ez egy új privát beszélgetés"
+    }
+  },
+  "dialog_about": {
+    "title": "A Manyverse-ről",
+    "version": "Verzió {{version}}",
+    "copyright": "Szerzői jog (C)",
+    "authors": "A Manyverse szerzői",
+    "repository": "Open source repository",
+    "licensed": "Licensed {{license}}"
+  },
+  "dialog_thanks": {
+    "title": "Thank you!",
+    "description": "Development of this app was supported by grants from {{sponsor1}} and {{sponsor2}}, and donations from:\n\n**{{topBackers}}**, and [a hundred more backers]({{donateLink}}). Thanks!"
+  },
+  "drawer": {
+    "menu": {
+      "my_profile": {
+        "label": "My profile",
+        "accessibility_label": "My Profile Menu Item"
+      },
+      "raw_database": {
+        "label": "Raw database",
+        "accessibility_label": "Show Raw Database"
+      },
+      "email_bug_report": {
+        "label": "Email bug report",
+        "accessibility_label": "Send Bug Report as Email"
+      },
+      "translate": {
+        "label": "Help us translate",
+        "accessibility_label": "Open translation website"
+      },
+      "more": {
+        "label": "More",
+        "accessibility_label": "Show more Menu items"
+      },
+      "settings": {
+        "label": "Beállítások",
+        "accessibility_label": "Go To Settings"
+      },
+      "preparing_database": {
+        "label": "Preparing database..."
+      },
+      "ready_estimate": {
+        "label": "Ready:"
+      }
+    }
+  },
+  "invite_paste": {
+    "placeholder": "Paste an invite code",
+    "call_to_action": {
+      "accept": {
+        "accessibility_label": "Accept Invite Code"
+      }
+    },
+    "alert_unsupported_dht": {
+      "title": "Unsupported type",
+      "description": "P2P Invites are no longer supported in Manyverse."
+    },
+    "text_field": {
+      "accessibility_label": "Invite Code Text Input"
+    }
+  },
+  "libraries": {
+    "title": "Third party libraries",
+    "description": "Manyverse makes use of the following open source libraries and components. We want to thank the authors of these libraries and link to their websites for proper attribution.",
+    "image": {
+      "name": "Image {{name}}",
+      "attribution": " is created by {{author}}, licensed {{license}}"
+    }
+  },
+  "profile": {
+    "call_to_action": {
+      "copy_cypherlink": "Copy cypherlink",
+      "private_chat": "Open private conversation",
+      "block": "Block",
+      "block_secretly": "Block secretly",
+      "unblock": "Unblock",
+      "unblock_secretly": "Unblock secretly",
+      "follow": "Follow",
+      "edit_profile": {
+        "label": "Edit profile",
+        "accessibility_label": "Edit Profile Button"
+      },
+      "manage": {
+        "accessibility_label": "Manage Contact"
+      }
+    },
+    "dialog_ssb_id": {
+      "title": "SSB ID"
+    },
+    "dialog_manage_contact": {
+      "title": "Contact"
+    },
+    "dialog_friend_request": {
+      "title": "Friend request",
+      "description": "This account is trying to connect with you, but Manyverse prevented it because they are outside your community.\n\nIf you recognize this ID, you can press \"Follow\" to allow them to connect with you."
+    },
+    "toast": {
+      "copied_to_clipboard": "Vágólapra másolva"
+    },
+    "details": {
+      "id": {
+        "accessibility_label": "SSB Identifier"
+      },
+      "biography": {
+        "accessibility_label": "Read Biography"
+      },
+      "counters": {
+        "following": "Following",
+        "followers": "Followers"
+      }
+    },
+    "info": {
+      "follows_you": "Follows you",
+      "blocks_you": "Blocks you",
+      "following": "Following"
+    },
+    "picture": {
+      "accessibility_label": "Profile Picture"
+    },
+    "name": {
+      "accessibility_label": "Profile Name"
+    },
+    "empty": {
+      "blocked": {
+        "title": "Blocked",
+        "description": "You have chosen to stop\ninteracting with this account"
+      },
+      "no_self_messages": {
+        "title": "No messages",
+        "description": "Write a diary which you can\nshare with friends later"
+      },
+      "no_messages": {
+        "title": "No messages",
+        "description": "You don't yet have any data\nfrom this account"
+      }
+    },
+    "floating_action_button": {
+      "compose": "Write a public message"
+    }
+  },
+  "profile_edit": {
+    "title": "Edit profile",
+    "call_to_action": {
+      "discard": "Discard",
+      "save": {
+        "label": "Mentés",
+        "accessibility_label": "Save Profile"
+      },
+      "edit_picture": {
+        "accessibility_label": "Edit Profile Picture"
+      },
+      "register_new_alias": {
+        "label": "Register new alias",
+        "accessibility_label": "Register New Room Server Alias"
+      }
+    },
+    "dialogs": {
+      "discard": {
+        "title": "Edit profile",
+        "question": "Discard changes?"
+      },
+      "remove_alias": {
+        "description": "This action will remove the alias \"{{alias}}\" from the room server.\n\nPeople won't be able to reach you any more using this alias."
+      }
+    },
+    "toasts": {
+      "alias_removed_success": "Alias removed",
+      "alias_removed_failure": "Failed to remove alias"
+    },
+    "fields": {
+      "name": {
+        "label": "Név",
+        "accessibility_label": "Name Text Input"
+      },
+      "description": {
+        "label": "Bio",
+        "accessibility_label": "Biography Text Input"
+      },
+      "aliases": {
+        "label": "Aliases"
+      }
+    }
+  },
+  "manage_aliases": {
+    "title": "Manage aliases"
+  },
+  "register_alias": {
+    "title": "Register alias",
+    "empty": {
+      "no_servers": {
+        "title": "No servers",
+        "description": "To register an alias, you need to be a member of some SSB room server. Find one on the internet with the hashtag #ssbroom and make sure it supports aliases."
+      }
+    },
+    "header": {
+      "description": "Choose a room server where you would like to register a new alias link for yourself.\n\nAliases are web addresses that people can use to connect with you."
+    },
+    "dialogs": {
+      "input_alias": {
+        "description": "Submit your desired new alias to {{host}} as a single word in lowercase.\n\nFor example, if you want the alias \"myname.{{host}}\", write \"myname\" below."
+      }
+    },
+    "submitting": {
+      "title": "Submitting..."
+    },
+    "failure": {
+      "title": "It didn't work",
+      "alias_taken": "The alias you submitted is already taken by some user.",
+      "call_to_action": {
+        "try_again": {
+          "label": "Try again",
+          "accessibility_label": "Try Again Button"
+        }
+      }
+    },
+    "success": {
+      "title": "Great!",
+      "description": "The alias {{alias}} is now yours.",
+      "call_to_action": {
+        "go_back": {
+          "label": "Go back",
+          "accessibility_label": "Go Back Button"
+        }
+      }
+    }
+  },
+  "raw_db": {
+    "title": "Raw database",
+    "item": {
+      "type": {
+        "any": "type: {{type}}",
+        "encrypted": "encrypted"
+      }
+    }
+  },
+  "raw_msg": {
+    "title": "Raw message"
+  },
+  "recipients_input": {
+    "title": "New message",
+    "call_to_action": {
+      "proceed": {
+        "label": "Next",
+        "accessibility_label": "Next Button"
+      }
+    },
+    "fields": {
+      "mention_input": {
+        "placeholder": "Search for people to add",
+        "accessibility_label": "Mention Account Text Input"
+      }
+    },
+    "empty": {
+      "instructions": {
+        "title": "Choose members",
+        "description": "Type in the names\nof people to join the new chat"
+      },
+      "none_to_choose": {
+        "title": "No one",
+        "description": "There is nobody in your\ncommunity with that name"
+      }
+    },
+    "toasts": {
+      "limit_reached": "Cannot choose more than {{limit}} recipients"
+    }
+  },
+  "search": {
+    "query_input": {
+      "placeholder": "Search public posts",
+      "accessibility_label": "Search Query Text Input"
+    },
+    "clear_query": {
+      "accessibility_label": "Reset the Search Query Text Input"
+    },
+    "empty": {
+      "initial": {
+        "title": "Search something",
+        "description": "Wait while the app is\nattempting to connect to your peers"
+      },
+      "zero_results": {
+        "title": "Zero results",
+        "description": "Nothing found for \"{{query}}\""
+      }
+    }
+  },
+  "secret_input": {
+    "practice": {
+      "title": "Practice",
+      "header": "Repeat it to confirm it is correct:"
+    },
+    "restore": {
+      "title": "Fiók visszaállítása"
+    },
+    "header": "Carefully input your recovery phrase",
+    "call_to_action": {
+      "confirm": {
+        "label": "Confirm",
+        "accessibility_label": "Confirm Recovery Phrase Button"
+      }
+    },
+    "fields": {
+      "words_input": {
+        "placeholder": "24-word (or 48-word) recovery phrase",
+        "accessibility_label": "Recovery Phrase Text Input"
+      }
+    },
+    "dialogs": {
+      "practice": {
+        "correct": {
+          "title": "Correct!",
+          "description": "Your account's identity is now secure because you know the recovery phrase."
+        },
+        "incorrect": {
+          "title": "Incorrect",
+          "description": "Try again: write down your recovery phrase consisting of 24 words separated by whitespace."
+        }
+      },
+      "restore": {
+        "correct": {
+          "title": "Welcome back!",
+          "description": "Your account's identity is now restored.\n\nNow, to restore your data, connect with friends that have interacted with you before, to redownload your data from them."
+        },
+        "incorrect": {
+          "title": "Incorrect",
+          "description": {
+            "try_again": "Try again by inserting your recovery phrase consisting of 24 words separated by whitespace.",
+            "overwrite_risk": "There is already an account in the app, we cannot overwrite it. If you are sure you want to override, uninstall and re-install Manyverse to recover your account from a clean state.",
+            "too_short": "There are some words missing. Your recovery phrase should be 24 words long.",
+            "too_long": "There are too many words. Your recovery phrase should be exactly 24 words long.",
+            "wrong_length": "A visszaállító mondatodnak pontosan 24 szóból kell állnia.",
+            "generic": "A visszaállító mondat amit megadtál nem Manyverse által előállított azonosítónak tűnik."
+          }
+        }
+      }
+    }
+  },
+  "secret_output": {
+    "title": "Visszaállító Mondat",
+    "header": {
+      "1_normal": "Carefully write down the following recovery phrase on a ",
+      "2_bold": "piece of paper",
+      "3_normal": ""
+    },
+    "footer": {
+      "1_normal": "Keep it ",
+      "2_bold": "confidential",
+      "3_normal": ", and\ntake sole ",
+      "4_bold": "responsibility",
+      "5_normal": " over it"
+    },
+    "words": {
+      "accessibility_label": "Titkos szavak"
+    },
+    "call_to_action": {
+      "confirm": {
+        "accessibility_label": "Confirm Recovery Phrase Button"
+      }
+    },
+    "loading": "Betöltés..."
+  },
+  "settings": {
+    "title": "Beállítások",
+    "preferences": {
+      "title": "Preferences",
+      "show_follows": {
+        "title": "Show follow events",
+        "subtitle": "Show follow or block or unfollow cases on the public board",
+        "accessibility_label": "Toggle follow events on the public board"
+      },
+      "hops": {
+        "title": "Replication hops",
+        "subtitle": "How far out in the social graph should Manyverse download data; 1 is friends-only, 2 is friends-of-friends, etc. Caution: the higher this is, the more data is downloaded!",
+        "unlimited": "Korlátlan",
+        "accessibility_label": "Replication hops slider"
+      }
+    },
+    "data_and_storage": {
+      "title": "Adatok & Tárhely",
+      "backup": {
+        "title": "Biztonsági mentés",
+        "subtitle": "View your 24-word recovery phrase",
+        "accessibility_label": "Back Up My Account"
+      },
+      "blobs_storage": {
+        "title": "Blobs storage limit",
+        "subtitle": "Automatically delete old images and blobs until they occupy at most this amount of storage on your device",
+        "unlimited": "Korlátlan",
+        "accessibility_label": "Storage limit slider"
+      }
+    },
+    "troubleshooting": {
+      "title": "Troubleshooting",
+      "bug_report": {
+        "title": "Email bug report",
+        "accessibility_label": "Send Bug Report as Email"
+      },
+      "detailed_logs": {
+        "title": "Enable detailed logs",
+        "accessibility_label": "Toggle detailed developer logs"
+      }
+    },
+    "more_information": {
+      "title": "További információk",
+      "thanks": {
+        "title": "Thanks",
+        "accessibility_label": "Show Thanks"
+      },
+      "third_party_libs": {
+        "title": "Third party libraries",
+        "accessibility_label": "View third party libraries"
+      },
+      "about": {
+        "title": "About",
+        "accessibility_label": "Az alkalmazásról"
+      }
+    },
+    "dialogs": {
+      "restart_required": {
+        "title": "Újraindítás szükséges",
+        "description": "This setting will only enter into effect when you kill the app and restart Manyverse."
+      }
+    }
+  },
+  "thread": {
+    "title": "Thread",
+    "call_to_action": {
+      "expand_reply": {
+        "accessibility_label": "Expand Reply Button"
+      },
+      "publish_reply": {
+        "accessibility_label": "Reply Publish Button"
+      }
+    },
+    "fields": {
+      "reply": {
+        "placeholder": "Comment",
+        "accessibility_label": "Reply Text Input"
+      }
+    },
+    "loading_replies": "Loading replies...",
+    "empty": {
+      "missing": {
+        "title": "Missing data",
+        "description": "You don't yet have data\nfor the message known by the ID\n"
+      },
+      "blocked": {
+        "title": "Blocked thread",
+        "description": "You have chosen to block\nthe author of this thread"
+      },
+      "incompatible": {
+        "title": "Sorry",
+        "description": "This app doesn't know how to process\nand display this thread correctly"
+      }
+    }
+  },
+  "message": {
+    "call_to_action": {
+      "show_reactions": {
+        "accessibility_label": "Show Reactions"
+      },
+      "add_reaction": {
+        "accessibility_label": "Add Reaction Button"
+      },
+      "reply": {
+        "accessibility_label": "Reply Button"
+      },
+      "etc": {
+        "dialog_title": "Message",
+        "accessibility_label": "Etc Button"
+      },
+      "copy_blob_id": {
+        "accessibility_label": "Copy Blob ID"
+      },
+      "copy_msg_id": "Copy cypherlink",
+      "view_raw": "View raw message"
+    },
+    "toast": {
+      "copied_to_clipboard": "Vágólapra másolva"
+    },
+    "reactions": {
+      "categories": {
+        "smileys_and_emotion": "Smileys and emotion",
+        "people_and_body": "People and body",
+        "animals_and_nature": "Állatok és természet",
+        "food_and_drink": "Ételek és italok",
+        "activities": "Activities",
+        "travel_and_places": "Utazás és helyek",
+        "objects": "Tárgyak",
+        "symbols": "Szimbólumok",
+        "flags": "Flags"
+      },
+      "show_more": {
+        "accessibility_label": "Show More Reaction Options"
+      }
+    },
+    "image": {
+      "without_caption": {
+        "accessibility_label": "Kép leírás nélkül"
+      }
+    },
+    "audio": {
+      "play": {
+        "accessibility_label": "Play audio"
+      },
+      "pause": {
+        "accessibility_label": "Pause audio"
+      },
+      "duration": {
+        "accessibility_label": "Audio duration"
+      },
+      "elapsed": {
+        "accessibility_label": "Audio current time"
+      },
+      "slider": {
+        "accessibility_label": "Change audio time"
+      }
+    },
+    "content_warning": {
+      "title": "Content Warning",
+      "call_to_action": {
+        "hide": "Elrejt",
+        "show": "Mutat"
+      }
+    },
+    "fork_note": {
+      "1_normal": "Forked from ",
+      "2_bold": "{{cypherlink}}",
+      "3_normal": ""
+    },
+    "about": {
+      "new_picture": {
+        "1_normal": "",
+        "2_bold": "{{name}}",
+        "3_normal": " új profilképet állított be: "
+      },
+      "new_name_and_description": {
+        "1_normal": "",
+        "2_bold": "{{name}}",
+        "3_normal": " új neve \"",
+        "4_bold": "{{name}}",
+        "5_normal": "\" leírása pedig: "
+      },
+      "new_description": {
+        "1_normal": "",
+        "2_bold": "{{name}}",
+        "3_normal": " has a new biography: "
+      },
+      "new_name": {
+        "1_normal": "",
+        "2_bold": "{{name}}",
+        "3_normal": " új neve \"",
+        "4_bold": "{{name}}",
+        "5_normal": "\""
+      }
+    },
+    "contact": {
+      "follow_event": {
+        "1_normal": "",
+        "2_bold": "{{author}}",
+        "3_normal": " followed ",
+        "4_bold": "{{target}}",
+        "5_normal": ""
+      },
+      "block_event": {
+        "1_normal": "",
+        "2_bold": "{{author}}",
+        "3_normal": " blocked ",
+        "4_bold": "{{target}}",
+        "5_normal": ""
+      },
+      "unfollow_event": {
+        "1_normal": "",
+        "2_bold": "{{author}}",
+        "3_normal": " unfollowed ",
+        "4_bold": "{{target}}",
+        "5_normal": ""
+      },
+      "unblock_event": {
+        "1_normal": "",
+        "2_bold": "{{author}}",
+        "3_normal": " unblocked ",
+        "4_bold": "{{target}}",
+        "5_normal": ""
+      }
+    }
+  }
+}
