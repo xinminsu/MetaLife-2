@@ -33,6 +33,15 @@ export interface DrawerToggleOnCentralScreen {
   open: boolean;
 }
 
+export interface HardwareBackOnContentScreen {
+  type: 'hardwareBackOnContentScreen';
+}
+
+export interface DrawerToggleOnContentScreen {
+  type: 'drawerToggleOnContentScreen';
+  open: boolean;
+}
+
 export interface AudioBlobComposed {
   type: 'audioBlobComposed';
   blobId: string;
@@ -68,6 +77,41 @@ export interface CentralUpdateConnections {
   substate: any;
 }
 
+export interface ContentChangeTab {
+  subtype: 'changeTab';
+  tab: 'home' | 'messages' | 'contacts' | 'discover' | 'profiles';
+}
+
+export interface ContentScrollToTop {
+  subtype: 'scrollToTop';
+  tab: 'home' | 'messages' | 'contacts' | 'discover' | 'profiles';
+}
+
+export interface ContentUpdateHome {
+  subtype: 'homeUpdates';
+  counter: number;
+}
+
+export interface ContentUpdateMessages {
+  subtype: 'messagesUpdates';
+  counter: number;
+}
+
+export interface ContentUpdateContacts {
+  subtype: 'contactsUpdates';
+  counter: number;
+}
+
+export interface ContentUpdateDiscover {
+  subtype: 'discoverUpdate';
+  substate: number;
+}
+
+export interface ContentUpdateProfiles {
+  subtype: 'profilesUpdates';
+  counter: number;
+}
+
 export type CentralScreenUpdate = {
   type: 'centralScreenUpdate';
 } & (
@@ -79,6 +123,18 @@ export type CentralScreenUpdate = {
   | CentralUpdateConnections
 );
 
+export type ContentScreenUpdate = {
+  type: 'contentScreenUpdate';
+} & (
+  | ContentChangeTab
+  | ContentScrollToTop
+  | ContentUpdateHome
+  | ContentUpdateMessages
+  | ContentUpdateContacts
+  | ContentUpdateDiscover
+  | ContentUpdateProfiles
+);
+
 export type GlobalEvent =
   | LocalizationLoaded
   | TriggerFeedCypherlink
@@ -86,8 +142,11 @@ export type GlobalEvent =
   | TriggerHashtagLink
   | HardwareBackOnCentralScreen
   | DrawerToggleOnCentralScreen
+  | HardwareBackOnContentScreen
+  | DrawerToggleOnContentScreen
   | AudioBlobComposed
-  | CentralScreenUpdate;
+  | CentralScreenUpdate
+  | ContentScreenUpdate;
 
 export class EventBus {
   public _stream?: Stream<GlobalEvent>;

@@ -29,6 +29,7 @@ import {GlobalScreen} from './symbols';
 import {Screens} from './screens/enums';
 import {global} from './screens/global';
 import {welcome} from './screens/welcome';
+import {content} from './screens/content';
 import {central} from './screens/central';
 import {drawer} from './screens/drawer';
 import {dialogAbout} from './screens/dialog-about';
@@ -55,6 +56,8 @@ import {instructions} from './screens/instructions';
 import {secretOutput} from './screens/secret-output';
 import {secretInput} from './screens/secret-input';
 import {settings} from './screens/settings';
+import {newMnemonic} from './screens/mnemonic-new';
+//import {checkMnemonic} from './screens/mnemonic-check';
 
 export const drivers = {
   appstate: makeAppStateDriver(),
@@ -92,6 +95,7 @@ type ScreensMapping = {
 export const screens: ScreensMapping = {
   [GlobalScreen]: withState(global),
   [Screens.Welcome]: withState(welcome),
+  [Screens.Content]: withState(content),
   [Screens.Central]: withState(central),
   [Screens.Drawer]: withState(drawer),
   [Screens.DialogAbout]: dialogAbout,
@@ -118,4 +122,6 @@ export const screens: ScreensMapping = {
   [Screens.RawDatabase]: rawDatabase,
   [Screens.RawMessage]: rawMessage,
   [Screens.Settings]: withState(settings),
+  [Screens.NewMnemonic]: withState(newMnemonic),
+  //  [Screens.CheckMnemonic]: withState(checkMnemonic),
 };

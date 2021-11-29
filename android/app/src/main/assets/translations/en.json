@@ -1188,5 +1188,67 @@
         "5_normal": ""
       }
     }
+  },
+  "wallet": {
+    "title": "Wallet",
+    "mnemonic": {
+      "title": "Mnemonic",
+      "create": {
+        "label": "create",
+        "accessibility_label": "create new mnemonic"
+      },
+      "process":{
+        "label": "process",
+        "accessibility_label": "process to next step"
+      }
+    }
+  },
+  "content": {
+    "app_name": "MetaLife",
+    "tab_headers": {
+      "home": "Home",
+      "messages": "Messages",
+      "contacts": "Contacts",
+      "discover": "Discover",
+      "profiles": "Profiles"
+    },
+    "tab_footers": {
+      "home": "Home",
+      "messages": "Messages",
+      "contacts": "Contacts",
+      "discover": "Discover",
+      "profiles": "Profiles"
+    },
+    "loading": "Loading...",
+    "building_indexes": "Building database indexes...\nThis may take up to several minutes",
+    "tabs": {
+      "home": {
+        "accessibility_label": "Home Tab Button"
+      },
+      "messages": {
+        "accessibility_label": "Messages Tab Button"
+      },
+      "contacts": {
+        "accessibility_label": "Contacts Tab Button"
+      },
+      "discover": {
+        "accessibility_label": "discover Tab Button"
+      },
+      "profiles": {
+        "accessibility_label": "Profiles Tab Button"
+      }
+    }
+  },
+  "home": {
+    "floating_action_button": {
+      "compose": "Write a public message"
+    },
+    "empty": {
+      "title": "No messages",
+      "description": "Write a diary to be\nshared with friends later"
+    },
+    "search": {
+      "accessibility_label": "Search Button"
+    }
   }
 }

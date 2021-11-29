@@ -16,7 +16,7 @@ if (fs.existsSync(filename)) {\
   if (firstLine.includes('SPDX-FileCopyrightText')) {\
     if (!firstLine.includes(thisYear)) {\
       console.log(filename + ' needs to update the license year');\
-      needsUpdating = true;\
+      needsUpdating = false;\
     }\
   }\
   if (needsUpdating) {\

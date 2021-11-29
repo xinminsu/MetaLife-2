@@ -40,7 +40,7 @@ export default function navigation(
                       children: [
                         {
                           component: {
-                            name: Screens.Central,
+                            name: Screens.Content,
                             options: centralNavOpts,
                           },
                         },

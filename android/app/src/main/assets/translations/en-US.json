@@ -1188,5 +1188,19 @@
         "5_normal": ""
       }
     }
+  },
+  "wallet": {
+    "title": "Wallet",
+    "mnemonic": {
+      "title": "Mnemonic",
+      "create": {
+        "label": "create",
+        "accessibility_label": "create new mnemonic"
+      },
+      "process":{
+        "label": "process",
+        "accessibility_label": "process to next step"
+      }
+    }
   }
 }
