@@ -4,7 +4,7 @@
 
 import {Stream} from 'xstream';
 import {h} from '@cycle/react';
-import {View, FlatList, ImageBackground, StyleSheet, Text} from 'react-native';
+import {FlatList, ImageBackground, StyleSheet, Text} from 'react-native';
 import {State} from './model';
 
 const iconDic = {
@@ -31,24 +31,29 @@ const DATA = [
 export default function view(state$: Stream<State>) {
   return state$.map((state) =>
     h(FlatList, {
-      style: styles.marginTop10,
+      style: [styles.container, styles.marginTop10],
       data: DATA,
       keyExtractor: (_: any, index: any) => index,
       renderItem: ({item}: any) => {
         const discoverItem = item as Props;
-        return h(View, [
-          h(ImageBackground, {
+        return h(
+          ImageBackground,
+          {
             style: [styles.item, styles.justifyCenter],
             source: discoverItem.bgImg,
-          }),
-          h(Text, {style: styles.title}, discoverItem.title),
-        ]);
+          },
+          [h(Text, {style: styles.title}, discoverItem.title)],
+        );
       },
     }),
   );
 }
 
 const styles = StyleSheet.create({
+  container: {
+    alignSelf: 'stretch',
+    flex: 1,
+  },
   item: {
     height: 112,
     marginVertical: 8,
