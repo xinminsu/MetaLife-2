@@ -4,8 +4,19 @@
 
 import {StyleSheet} from 'react-native';
 import {Palette} from '../../../global-styles/palette';
+import {Dimensions} from '../../../global-styles/dimens';
 
 export const styles = StyleSheet.create({
+  container: {
+    alignSelf: 'stretch',
+    flex: 1,
+    top: Dimensions.toolbarHeight,
+    marginBottom: Dimensions.toolbarHeight,
+  },
+  headercontainer: {
+    height: 290,
+  },
+
   FG: {
     backgroundColor: Palette.colors.comet9,
   },
@@ -16,5 +27,25 @@ export const styles = StyleSheet.create({
 
   marginTop10: {
     marginTop: 10,
+  },
+
+  alignItemsCenter: {
+    alignItems: 'center',
+  },
+
+  photo: {
+    marginTop: 47,
+  },
+
+  name: {
+    fontSize: 23,
+    color: 'white',
+    fontWeight: 'bold',
+  },
+
+  setting: {
+    position: 'absolute',
+    right: 15,
+    top: 56,
   },
 });
