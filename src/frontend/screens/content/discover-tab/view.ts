@@ -55,6 +55,7 @@ const styles = StyleSheet.create({
     alignSelf: 'stretch',
     flex: 1,
     top: Dimensions.toolbarHeight,
+    marginBottom: Dimensions.toolbarHeight,
   },
   item: {
     height: 112,
