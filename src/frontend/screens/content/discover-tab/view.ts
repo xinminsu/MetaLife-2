@@ -6,6 +6,7 @@ import {Stream} from 'xstream';
 import {h} from '@cycle/react';
 import {FlatList, ImageBackground, StyleSheet, Text} from 'react-native';
 import {State} from './model';
+import {Dimensions} from '../../../global-styles/dimens';
 
 const iconDic = {
   DAO: require('../../../../../images/discover/Discover_backgroud_DAO.png'),
@@ -53,6 +54,7 @@ const styles = StyleSheet.create({
   container: {
     alignSelf: 'stretch',
     flex: 1,
+    top: Dimensions.toolbarHeight,
   },
   item: {
     height: 112,
