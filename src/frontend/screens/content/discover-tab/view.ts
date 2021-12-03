@@ -16,11 +16,6 @@ const iconDic = {
   vis: require('../../../../../images/discover/Discover_backgroud_VISwap.png'),
 };
 
-type Props = {
-  title: string;
-  bgImg: any;
-};
-
 const DATA = [
   {title: 'DAO', bgImg: iconDic.DAO},
   {title: 'NFT', bgImg: iconDic.NFT},
@@ -36,14 +31,13 @@ export default function view(state$: Stream<State>) {
       data: DATA,
       keyExtractor: (_: any, index: any) => index,
       renderItem: ({item}: any) => {
-        const discoverItem = item as Props;
         return h(
           ImageBackground,
           {
             style: [styles.item, styles.justifyCenter],
-            source: discoverItem.bgImg,
+            source: item.bgImg,
           },
-          [h(Text, {style: styles.title}, discoverItem.title)],
+          [h(Text, {style: styles.title}, item.title)],
         );
       },
     }),
