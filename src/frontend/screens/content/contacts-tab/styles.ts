@@ -18,6 +18,13 @@ export const styles = StyleSheet.create({
     marginHorizontal: 16,
     marginBottom: 22,
   },
+
+  item: {
+    height: 112,
+    marginVertical: 8,
+    marginHorizontal: 16,
+  },
+
   searchBar: {marginVertical: 10},
   textView: {
     marginTop: 12,

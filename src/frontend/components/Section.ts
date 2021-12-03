@@ -30,7 +30,7 @@ export type Props = {
     | null;
 };
 
-export default class EmptySection extends PureComponent<Props> {
+export default class Section extends PureComponent<Props> {
   public render() {
     const {title, children} = this.props;
 
@@ -38,7 +38,7 @@ export default class EmptySection extends PureComponent<Props> {
       h(View, {style: styles.titleContainer}, [
         h(Text, {style: [stylesDefault.text, styles.ti]}, title),
       ]),
-      children,
+      children ?? null,
     ]);
   }
 }

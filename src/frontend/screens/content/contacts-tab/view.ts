@@ -4,7 +4,7 @@
 
 import {Stream} from 'xstream';
 import {h} from '@cycle/react';
-import {ScrollView, FlatList, View, Image, Text} from 'react-native';
+import {FlatList, View, Image, Text} from 'react-native';
 import {State} from './model';
 import {styles} from './styles';
 import {
@@ -75,16 +75,30 @@ const DATA_contact = [
   },
 ];
 
-type Props = {
-  id: string;
-  name: string;
-  desc: string;
-  icon: any;
+const contactItem = (x: any, index: any) => {
+  return h(
+    View,
+    {
+      key: index,
+      style: [stylesBasics.row, styles.contactItemContainer],
+    },
+    [
+      h(Image, {source: x.icon}),
+      h(View, {style: styles.textView}, [
+        h(Text, {style: [styles.nameTF, stylesDefault.text]}, x.name),
+        h(
+          Text,
+          {style: [styles.descTF, {color: colorsSchema.textHolder}]},
+          x.desc,
+        ),
+      ]),
+    ],
+  );
 };
 
 export default function view(state$: Stream<State>) {
   return state$.map((state) =>
-    h(ScrollView, {style: [stylesDefault.BG, styles.container]}, [
+    h(View, {style: [stylesDefault.BG, styles.container]}, [
       h(SearchBar, {style: styles.searchBar}),
 
       h(Section, {
@@ -93,43 +107,14 @@ export default function view(state$: Stream<State>) {
           data: DATA_sn,
           keyExtractor: (item: any, index: any) => index,
           renderItem: (item: any) => {
-            return h(View, {}, [h(Image, {source: item})]);
+            return h(View, {style: styles.item}, [h(Image, {source: item})]);
           },
           horizontal: true,
           ItemSeparatorComponent: null,
           showsHorizontalScrollIndicator: false,
         }),
       }),
-      h(Section, {
-        title: 'List',
-        children: h(FlatList, {
-          data: DATA_contact,
-          keyExtractor: (item: any, index: any) => index,
-          renderItem: (item: any) => {
-            const contactItem = item as Props;
-            return h(
-              View,
-              {style: [stylesBasics.row, styles.contactItemContainer]},
-              [
-                h(Image, {source: contactItem.icon}),
-                h(View, {style: styles.textView}),
-                [
-                  h(
-                    Text,
-                    {style: [styles.nameTF, stylesDefault.text]},
-                    contactItem.name,
-                  ),
-                  h(
-                    Text,
-                    {style: [styles.descTF, {color: colorsSchema.textHolder}]},
-                    contactItem.desc,
-                  ),
-                ],
-              ],
-            );
-          },
-        }),
-      }),
+      h(Section, {title: 'List'}, DATA_contact.map(contactItem)),
     ]),
   );
 }
