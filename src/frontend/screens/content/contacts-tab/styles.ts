@@ -2,83 +2,32 @@
 //
 // SPDX-License-Identifier: MPL-2.0
 
-import {Platform, StyleSheet} from 'react-native';
-import {Dimensions as Dimens} from '../../../global-styles/dimens';
-import {Typography} from '../../../global-styles/typography';
-import {Palette} from '../../../global-styles/palette';
+import {StyleSheet} from 'react-native';
+import {Dimensions} from '../../../global-styles/dimens';
 
 export const styles = StyleSheet.create({
-  emptySection: {
-    marginTop: Dimens.verticalSpaceLarger,
-  },
-
-  profilesList: {
-    // for the topBar
-    marginTop: Platform.select({
-      default: Dimens.toolbarHeight,
-
-      // dirty hack because `styles.feed` is used twice in react-native-web
-      web: Dimens.toolbarHeight * 0.5,
-    }),
-
+  container: {
     alignSelf: 'stretch',
     flex: 1,
+    top: Dimensions.toolbarHeight,
+    marginBottom: Dimensions.toolbarHeight,
   },
 
-  profilesListInner: {
-    paddingBottom: Dimens.verticalSpaceNormal,
-  },
-
-  profilesRow: {
+  contactItemContainer: {
     flex: 1,
-    backgroundColor: Palette.backgroundText,
-    paddingHorizontal: Dimens.horizontalSpaceBig,
-    paddingVertical: Dimens.verticalSpaceBig,
-    marginBottom: 1,
-    flexDirection: 'row',
-    alignItems: 'center',
-    ...Platform.select({
-      web: {
-        maxWidth: Dimens.desktopMiddleWidth.vw,
-      },
-    }),
+    marginHorizontal: 16,
+    marginBottom: 22,
   },
-
-  profilesBody: {
-    flex: 1,
-    flexDirection: 'column',
-    alignItems: 'flex-start',
-    justifyContent: 'flex-start',
+  searchBar: {marginVertical: 10},
+  textView: {
+    marginTop: 12,
+    marginLeft: 15,
   },
-
-  profilesText: {
-    fontSize: Typography.fontSizeNormal,
-    lineHeight: Typography.lineHeightNormal,
-    fontFamily: Typography.fontFamilyReadableText,
-    color: Palette.text,
+  nameTF: {
+    fontSize: 18,
+    marginBottom: 10,
   },
-
-  profilesMetatext: {
-    flexDirection: 'row',
-    justifyContent: 'flex-start',
-    alignItems: 'center',
-  },
-
-  account: {
-    fontSize: Typography.fontSizeNormal,
-    fontWeight: 'bold',
-    fontFamily: Typography.fontFamilyReadableText,
-    color: Palette.text,
-  },
-
-  avatar: {
-    marginRight: Dimens.horizontalSpaceSmall,
-  },
-
-  timestamp: {
-    fontSize: Typography.fontSizeSmall,
-    fontFamily: Typography.fontFamilyReadableText,
-    marginLeft: Dimens.horizontalSpaceSmall,
-    color: Palette.textWeak,
+  descTF: {
+    fontSize: 15,
   },
 });

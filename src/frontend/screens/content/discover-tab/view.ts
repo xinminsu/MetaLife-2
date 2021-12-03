@@ -4,9 +4,9 @@
 
 import {Stream} from 'xstream';
 import {h} from '@cycle/react';
-import {FlatList, ImageBackground, StyleSheet, Text} from 'react-native';
+import {FlatList, ImageBackground, Text} from 'react-native';
 import {State} from './model';
-import {Dimensions} from '../../../global-styles/dimens';
+import {styles} from './styles';
 
 const iconDic = {
   DAO: require('../../../../../images/discover/Discover_backgroud_DAO.png'),
@@ -49,29 +49,3 @@ export default function view(state$: Stream<State>) {
     }),
   );
 }
-
-const styles = StyleSheet.create({
-  container: {
-    alignSelf: 'stretch',
-    flex: 1,
-    top: Dimensions.toolbarHeight,
-    marginBottom: Dimensions.toolbarHeight,
-  },
-  item: {
-    height: 112,
-    marginVertical: 8,
-    marginHorizontal: 16,
-  },
-  title: {
-    color: 'white',
-    fontSize: 22,
-    marginLeft: 64,
-  },
-  justifyCenter: {
-    justifyContent: 'center',
-  },
-
-  marginTop10: {
-    marginTop: 10,
-  },
-});
