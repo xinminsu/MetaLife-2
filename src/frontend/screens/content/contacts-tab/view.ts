@@ -104,17 +104,16 @@ export default function view(state$: Stream<State>) {
     h(ScrollView, {style: [stylesDefault.BG, styles.container]}, [
       h(SearchBar, {style: styles.searchBar}),
 
-      h(Section, {
-        title: 'Connect to find more friends',
-        children: h(FlatList, {
+      h(Section, {title: 'Connect to find more friends'}, [
+        h(FlatList, {
           data: DATA_sn,
-          keyExtractor: (item: any, index: any) => index,
+          keyExtractor: (_: any, index: any) => index,
           renderItem: snItem,
           horizontal: true,
           ItemSeparatorComponent: null,
           showsHorizontalScrollIndicator: false,
         }),
-      }),
+      ]),
       h(Section, {title: 'List'}, DATA_contact.map(contactItem)),
     ]),
   );
