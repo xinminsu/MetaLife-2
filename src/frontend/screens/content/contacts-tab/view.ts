@@ -4,7 +4,7 @@
 
 import {Stream} from 'xstream';
 import {h} from '@cycle/react';
-import {FlatList, View, Image, Text} from 'react-native';
+import {ScrollView, FlatList, View, Image, Text} from 'react-native';
 import {State} from './model';
 import {styles} from './styles';
 import {
@@ -75,6 +75,9 @@ const DATA_contact = [
   },
 ];
 
+const snItem = (x: any) =>
+  h(View, {style: styles.item}, [h(Image, {source: x.icon})]);
+
 const contactItem = (x: any, index: any) => {
   return h(
     View,
@@ -98,7 +101,7 @@ const contactItem = (x: any, index: any) => {
 
 export default function view(state$: Stream<State>) {
   return state$.map((state) =>
-    h(View, {style: [stylesDefault.BG, styles.container]}, [
+    h(ScrollView, {style: [stylesDefault.BG, styles.container]}, [
       h(SearchBar, {style: styles.searchBar}),
 
       h(Section, {
@@ -106,9 +109,7 @@ export default function view(state$: Stream<State>) {
         children: h(FlatList, {
           data: DATA_sn,
           keyExtractor: (item: any, index: any) => index,
-          renderItem: (item: any) => {
-            return h(View, {style: styles.item}, [h(Image, {source: item})]);
-          },
+          renderItem: snItem,
           horizontal: true,
           ItemSeparatorComponent: null,
           showsHorizontalScrollIndicator: false,
