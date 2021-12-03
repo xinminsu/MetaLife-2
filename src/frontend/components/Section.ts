@@ -6,6 +6,7 @@ import {PureComponent} from 'react';
 import {View, Text, StyleSheet} from 'react-native';
 import {h} from '@cycle/react';
 import {stylesDefault} from '../global-styles/SchemaStyles';
+import * as React from 'react';
 
 export const styles = StyleSheet.create({
   container: {

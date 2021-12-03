@@ -75,8 +75,8 @@ const DATA_contact = [
   },
 ];
 
-const snItem = (x: any) =>
-  h(View, {style: styles.item}, [h(Image, {source: x.icon})]);
+const snItem = ({item}: any) =>
+  h(View, {style: styles.item}, [h(Image, {source: item.icon})]);
 
 const contactItem = (x: any, index: any) => {
   return h(
@@ -107,7 +107,7 @@ export default function view(state$: Stream<State>) {
       h(Section, {title: 'Connect to find more friends'}, [
         h(FlatList, {
           data: DATA_sn,
-          keyExtractor: (_: any, index: any) => index,
+          keyExtractor: (item: any, index: any) => index,
           renderItem: snItem,
           horizontal: true,
           ItemSeparatorComponent: null,
