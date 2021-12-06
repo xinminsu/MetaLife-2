@@ -4,7 +4,7 @@
 
 import xs, {Stream} from 'xstream';
 import {Reducer} from '@cycle/state';
-//import {WalletSource} from '../../drivers/wallet';
+//  import {WalletSource} from '../../drivers/wallet';
 
 export interface State {
   mnemonic?: string;

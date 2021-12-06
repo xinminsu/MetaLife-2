@@ -31,6 +31,7 @@ const styles = StyleSheet.create({
   MainContainer: {
     flex: 1,
     backgroundColor: '#fff',
+    paddingTop: 16,
     paddingLeft: 16,
     paddingRight: 16,
   },
@@ -43,6 +44,10 @@ const styles = StyleSheet.create({
 
   clear: {
     marginRight: 20,
+  },
+
+  btnBottom: {
+    paddingBottom: 50,
   },
 });
 
@@ -57,6 +62,7 @@ export default function view(state$: Stream<State>) {
             stylesDefault.FG,
             stylesBasics.flex1,
             stylesBasics.marginTop10,
+            styles.btnBottom,
           ],
         },
         [
@@ -112,9 +118,6 @@ export default function view(state$: Stream<State>) {
           ]),
           h(RoundBtn, {
             sel: 'create-account-button',
-            style: {
-              marginBottom: 50,
-            },
             title: 'Create Account',
             disabled: false,
           }),
