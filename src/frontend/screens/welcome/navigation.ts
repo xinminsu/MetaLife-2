@@ -30,7 +30,7 @@ export default function navigation(actions: Actions): Stream<Command> {
             children: [
               {
                 component: {
-                  name: Screens.Content,
+                  name: Screens.CreateWalletAccount,
                   options: centralNavOpts,
                 },
               },

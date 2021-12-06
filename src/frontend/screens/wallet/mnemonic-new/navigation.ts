@@ -4,8 +4,8 @@
 
 import xs, {Stream} from 'xstream';
 import {Command} from 'cycle-native-navigation';
-import {Screens} from '../enums';
-import {navOptions as centralNavOpts} from '../central';
+import {Screens} from '../../enums';
+import {navOptions as centralNavOpts} from '../../central';
 
 export type Actions = {
   checkMnemonic$: Stream<any>;

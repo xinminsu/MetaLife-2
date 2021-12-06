@@ -32,5 +32,6 @@ export enum Screens {
   RawMessage = 'Manyverse.RawMessage',
   Settings = 'Manyverse.Settings',
   NewMnemonic = 'Manyverse.NewMnemonic',
+  CreateWalletAccount = 'Manyverse.CreateAccount',
   //  CheckMnemonic = 'Manyverse.CheckMnemonic',
 }

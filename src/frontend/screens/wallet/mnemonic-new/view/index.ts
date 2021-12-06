@@ -5,9 +5,9 @@
 import {Stream} from 'xstream';
 import {h} from '@cycle/react';
 import {Text, View} from 'react-native';
-import {t} from '../../../drivers/localization';
-import Button from '../../../components/Button';
-import TopBar from '../../../components/TopBar';
+import {t} from '../../../../drivers/localization';
+import Button from '../../../../components/Button';
+import TopBar from '../../../../components/TopBar';
 import {State} from '../model';
 import {styles} from './styles';
 

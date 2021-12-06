@@ -147,6 +147,9 @@ export const stylesBasics = StyleSheet.create({
     height: 54,
     fontSize: 16,
     marginLeft: 16,
+    marginRight: 16,
+    borderBottomColor: '#000',
+    borderBottomWidth: 1,
   },
   // --section
   sectionTitle: {

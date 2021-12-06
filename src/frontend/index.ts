@@ -56,8 +56,9 @@ import {instructions} from './screens/instructions';
 import {secretOutput} from './screens/secret-output';
 import {secretInput} from './screens/secret-input';
 import {settings} from './screens/settings';
-import {newMnemonic} from './screens/mnemonic-new';
-//import {checkMnemonic} from './screens/mnemonic-check';
+import {newMnemonic} from './screens/wallet/mnemonic-new';
+import {createWalletAccount} from './screens/wallet/create-account';
+//  import {checkMnemonic} from './screens/mnemonic-check';
 
 export const drivers = {
   appstate: makeAppStateDriver(),
@@ -123,5 +124,6 @@ export const screens: ScreensMapping = {
   [Screens.RawMessage]: rawMessage,
   [Screens.Settings]: withState(settings),
   [Screens.NewMnemonic]: withState(newMnemonic),
+  [Screens.CreateWalletAccount]: withState(createWalletAccount),
   //  [Screens.CheckMnemonic]: withState(checkMnemonic),
 };

@@ -10,7 +10,7 @@ const dialogAboutNavOptions =
   Platform.OS === 'web' ? {} : require('../../dialog-about').navOptions;*/
 
 interface Actions {
-  //goToAbout$: Stream<any>;
+  // goToAbout$: Stream<any>;
 }
 
 export default function navigation(actions: Actions): Stream<Command> {

@@ -1,7 +1,7 @@
 import {Platform, StyleSheet} from 'react-native';
-import {Dimensions} from '../../../global-styles/dimens';
-import {Palette} from '../../../global-styles/palette';
-import {Typography} from '../../../global-styles/typography';
+import {Dimensions} from '../../../../global-styles/dimens';
+import {Palette} from '../../../../global-styles/palette';
+import {Typography} from '../../../../global-styles/typography';
 
 export const styles = StyleSheet.create({
   screen: {

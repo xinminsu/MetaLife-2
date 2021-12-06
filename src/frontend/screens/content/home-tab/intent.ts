@@ -5,9 +5,9 @@
 import {ReactSource} from '@cycle/react';
 
 export default function intent(reactSource: ReactSource) {
-  //const goToAbout$ = reactSource.select('discover-dialog').events('press');
+  // const goToAbout$ = reactSource.select('discover-dialog').events('press');
 
   return {
-    //goToAbout$,
+    // goToAbout$,
   };
 }
