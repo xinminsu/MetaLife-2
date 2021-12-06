@@ -42,7 +42,7 @@ const styles = StyleSheet.create({
   },
 
   clear: {
-    marginRight: 10,
+    marginRight: 20,
   },
 });
 
@@ -61,18 +61,26 @@ export default function view(state$: Stream<State>) {
         },
         [
           h(View, {}, [
-            h(View, {style: stylesBasics.row}, [
-              h(TextInput, {
-                sel: 'account-name',
-                style: [stylesBasics.input, stylesDefault.text],
-                placeholder: 'Account Name',
-                placeholderTextColor: colorsSchema.textHolder,
-                // onChangeText: setNick
-              }),
-              h(Pressable, {}, [
-                h(Image, {style: styles.clear, source: iconDic.iconClear}),
-              ]),
-            ]),
+            h(
+              View,
+              {style: [stylesBasics.row, stylesBasics.alignItemsCenter]},
+              [
+                h(TextInput, {
+                  sel: 'account-name',
+                  style: [
+                    stylesBasics.flex1,
+                    stylesBasics.input,
+                    stylesDefault.text,
+                  ],
+                  placeholder: 'Account Name',
+                  placeholderTextColor: colorsSchema.textHolder,
+                  // onChangeText: setNick
+                }),
+                h(Pressable, {}, [
+                  h(Image, {style: styles.clear, source: iconDic.iconClear}),
+                ]),
+              ],
+            ),
             h(TextInput, {
               sel: 'set-password',
               style: [stylesBasics.input, stylesDefault.text],
