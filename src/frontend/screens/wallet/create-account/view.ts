@@ -80,9 +80,9 @@ export default function view(state$: Stream<State>) {
                   ],
                   placeholder: 'Account Name',
                   placeholderTextColor: colorsSchema.textHolder,
-                  // onChangeText: setNick
+                  value: state.accountName,
                 }),
-                h(Pressable, {}, [
+                h(Pressable, {sel: 'account-name-clear'}, [
                   h(Image, {style: styles.clear, source: iconDic.iconClear}),
                 ]),
               ],
@@ -92,21 +92,18 @@ export default function view(state$: Stream<State>) {
               style: [stylesBasics.input, stylesDefault.text],
               placeholder: 'Set password',
               placeholderTextColor: colorsSchema.textHolder,
-              // onChangeText: setPwd
             }),
             h(TextInput, {
               sel: 'confirm-password',
               style: [stylesBasics.input, stylesDefault.text],
               placeholder: 'Confirm password',
               placeholderTextColor: colorsSchema.textHolder,
-              // onChangeText: cfmPwd
             }),
             h(TextInput, {
               sel: 'password-prompt',
               style: [stylesBasics.input, stylesDefault.text],
               placeholder: 'Password prompt (optional)',
               placeholderTextColor: colorsSchema.textHolder,
-              // onChangeText: pwdPrompt
             }),
           ]),
           h(View, {style: styles.MainContainer}, [
