@@ -4,21 +4,9 @@
 
 import {Stream} from 'xstream';
 import {h} from '@cycle/react';
-import {
-  View,
-  StatusBar,
-  TextInput,
-  Text,
-  StyleSheet,
-  Pressable,
-  Image,
-} from 'react-native';
+import {View, StatusBar, TextInput, Text, StyleSheet} from 'react-native';
 
 import {State} from './model';
-
-const iconDic = {
-  iconClear: require('../../../../../images/icons/text_cancel.png'),
-};
 
 import {
   stylesDefault,
@@ -26,6 +14,7 @@ import {
   colorsSchema,
 } from '../../../global-styles/SchemaStyles';
 import RoundBtn from '../../../components/RoundBtn';
+import InputClear from '../../../components/InputClear';
 
 const styles = StyleSheet.create({
   MainContainer: {
@@ -51,6 +40,10 @@ const styles = StyleSheet.create({
   },
 });
 
+export type Props = {
+  onPress?: () => void;
+};
+
 export default function view(state$: Stream<State>) {
   return state$.map((state) =>
     h(View, {style: [stylesDefault.BG, stylesBasics.flex1]}, [
@@ -67,26 +60,7 @@ export default function view(state$: Stream<State>) {
         },
         [
           h(View, {}, [
-            h(
-              View,
-              {style: [stylesBasics.row, stylesBasics.alignItemsCenter]},
-              [
-                h(TextInput, {
-                  sel: 'account-name',
-                  style: [
-                    stylesBasics.flex1,
-                    stylesBasics.input,
-                    stylesDefault.text,
-                  ],
-                  placeholder: 'Account Name',
-                  placeholderTextColor: colorsSchema.textHolder,
-                  // onChangeText: setNick
-                }),
-                h(Pressable, {}, [
-                  h(Image, {style: styles.clear, source: iconDic.iconClear}),
-                ]),
-              ],
-            ),
+            h(InputClear, {}),
             h(TextInput, {
               sel: 'set-password',
               style: [stylesBasics.input, stylesDefault.text],
