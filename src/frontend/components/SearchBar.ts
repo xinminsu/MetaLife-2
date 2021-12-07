@@ -41,9 +41,21 @@ const iconDic = {
 
 export type Props = {
   style?: StyleProp<ViewStyle>;
+  onPress?: () => void;
 };
 
 export default class SearchBar extends PureComponent<Props> {
+  constructor(props: Props) {
+    super(props);
+  }
+
+  private _onPress = () => {
+    const onPress = this.props.onPress;
+    if (onPress) {
+      onPress();
+    }
+  };
+
   public render() {
     const {style} = this.props;
     return h(View, {style: stylesDefault.FG}, [
@@ -65,7 +77,7 @@ export default class SearchBar extends PureComponent<Props> {
             placeholder: 'Search',
             placeholderTextColor: stylesDefault.placeholderTextColor.color,
           }),
-          h(Pressable, {}, [
+          h(Pressable, {onPress: this._onPress}, [
             h(Image, {style: styles.clear, source: iconDic.iconClear}),
           ]),
         ],
