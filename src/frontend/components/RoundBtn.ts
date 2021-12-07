@@ -48,7 +48,7 @@ export default class RoundBtn extends PureComponent<Props, State> {
   public render() {
     const {title, disabled, style} = this.props;
 
-    return h(TouchableNativeFeedback, {style}, [
+    return h(TouchableNativeFeedback, {sel: 'round-button', style}, [
       h(
         View,
         {

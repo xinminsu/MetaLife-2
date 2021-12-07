@@ -114,7 +114,6 @@ export default function view(state$: Stream<State>) {
             ),
           ]),
           h(RoundBtn, {
-            sel: 'create-account-button',
             title: 'Create Account',
             disabled: false,
           }),

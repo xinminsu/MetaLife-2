@@ -30,5 +30,7 @@ export default function intent(
     clearAccountName$: screenSource
       .select('account-name-clear')
       .events('press'),
+
+    confirm$: screenSource.select('round-button').events('press'),
   };
 }

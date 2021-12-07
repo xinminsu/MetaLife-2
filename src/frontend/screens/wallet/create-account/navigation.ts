@@ -4,21 +4,18 @@
 
 import xs, {Stream} from 'xstream';
 import {Command} from 'cycle-native-navigation';
-// import {Screens} from '../../enums';
-// import {navOptions as centralNavOpts} from '../../central';
+import {Screens} from '../../enums';
+import {navOptions as centralNavOpts} from '../../content';
 
 export type Actions = {
-  // checkMnemonic$: Stream<any>;
+  confirm$: Stream<any>;
 };
 
 export default function navigation(actions: Actions): Stream<Command> {
-  /*const goToCentral$ = xs.merge(actions.checkMnemonic$).mapTo({
+  const goToContent$ = xs.merge(actions.confirm$).mapTo({
     type: 'setStackRoot',
     layout: {
       sideMenu: {
-        left: {
-          component: {name: Screens.Drawer},
-        },
         center: {
           stack: {
             id: 'mainstack',
@@ -34,8 +31,7 @@ export default function navigation(actions: Actions): Stream<Command> {
         },
       },
     },
-  } as Command);*/
+  } as Command);
 
-  // return xs.merge(goToCentral$);
-  return xs.merge();
+  return xs.merge(goToContent$);
 }
