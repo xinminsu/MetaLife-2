@@ -7,26 +7,35 @@ import {Reducer} from '@cycle/state';
 // import {WalletSource} from '../../drivers/wallet';
 
 export interface State {
-  accountName?: string;
-  password?: string;
+  nick?: string;
+  pwd?: string;
 }
 
 export interface Actions {
-  clearAccountName$: Stream<any>;
+  // newNick$: Stream<string>;
+  // newPwd$: Stream<string>;
 }
 
 export default function model(actions: Actions): Stream<Reducer<State>> {
   const initReducer$ = xs.of(function initReducer(prev?: State): State {
     if (prev) return prev;
-    return {accountName: '', password: ''};
+    return {nick: '', pwd: ''};
   });
 
-  const clearAccountNameReducer$ = actions.clearAccountName$.map(
-    (accountName) =>
-      function changeNameReducer(prev: State): State {
-        return {...prev, accountName: ''};
-      },
+  /*  const newNickReducer$ = actions.newNick$.map(
+      (nick) =>
+          function changeNameReducer(prev: State): State {
+              return {...prev, nick};
+          }
   );
 
-  return xs.merge(initReducer$, clearAccountNameReducer$);
+  const newPwdReducer$ = actions.newPwd$.map(
+      (pwd) =>
+          function changeNameReducer(prev: State): State {
+              return {...prev, pwd};
+          }
+  );*/
+
+  // return xs.merge(initReducer$, newNickReducer$, newPwdReducer$);
+  return xs.merge(initReducer$);
 }

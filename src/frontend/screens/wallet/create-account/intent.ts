@@ -10,8 +10,7 @@ export default function intent(
   navSource: NavSource,
 ) {
   return {
-    clearAccountName$: screenSource
-      .select('account-name-clear')
-      .events('press'),
+    // createAccount$: screenSource.select('account-name').events('press'),
+    // setPassword$: screenSource.select('set-password').events('press'),
   };
 }
