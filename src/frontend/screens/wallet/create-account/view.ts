@@ -51,6 +51,10 @@ const styles = StyleSheet.create({
   btnBottom: {
     paddingBottom: 50,
   },
+
+  eye: {
+    backgroundColor: '#000000c0',
+  },
 });
 
 export default function view(state$: Stream<State>) {
@@ -95,13 +99,22 @@ export default function view(state$: Stream<State>) {
               [
                 h(TextInput, {
                   sel: 'set-password',
-                  style: [stylesBasics.input, stylesDefault.text],
+                  style: [
+                    stylesBasics.flex1,
+                    stylesBasics.input,
+                    stylesDefault.text,
+                  ],
                   placeholder: 'Set password',
                   placeholderTextColor: colorsSchema.textHolder,
                   secureTextEntry: state.passwordSecurity,
                 }),
                 h(Pressable, {sel: 'pass-word-eye'}, [
-                  h(Image, {style: styles.clear, source: iconDic.iconClose}),
+                  h(Image, {
+                    style: [styles.clear, styles.eye],
+                    source: state.passwordSecurity
+                      ? iconDic.iconClose
+                      : iconDic.iconOpen,
+                  }),
                 ]),
               ],
             ),
@@ -111,13 +124,22 @@ export default function view(state$: Stream<State>) {
               [
                 h(TextInput, {
                   sel: 'confirm-password',
-                  style: [stylesBasics.input, stylesDefault.text],
+                  style: [
+                    stylesBasics.flex1,
+                    stylesBasics.input,
+                    stylesDefault.text,
+                  ],
                   placeholder: 'Confirm password',
                   placeholderTextColor: colorsSchema.textHolder,
                   secureTextEntry: state.confirmPasswordSecurity,
                 }),
                 h(Pressable, {sel: 'confirm-password-eye'}, [
-                  h(Image, {style: styles.clear, source: iconDic.iconClose}),
+                  h(Image, {
+                    style: [styles.clear, styles.eye],
+                    source: state.confirmPasswordSecurity
+                      ? iconDic.iconClose
+                      : iconDic.iconOpen,
+                  }),
                 ]),
               ],
             ),
