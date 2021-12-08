@@ -11,24 +11,29 @@ import model, {State} from './model';
 import view from './view';
 import intent from './intent';
 import navigation from './navigation';
+import dialog from './dialog';
+import {DialogSource} from '../../../drivers/dialogs';
 
-export interface Sources {
+export type Sources = {
   screen: ReactSource;
   navigation: NavSource;
   state: StateSource<State>;
-}
+  dialog: DialogSource;
+};
 
-export interface Sinks {
+export type Sinks = {
   screen: Stream<ReactElement<any>>;
   navigation: Stream<Command>;
   state: Stream<Reducer<State>>;
-}
+};
 
 export function createWalletAccount(sources: Sources): Sinks {
+  const state$ = sources.state.stream;
   const actions = intent(sources.screen, sources.navigation);
+  const confirmation$ = dialog(actions, state$, sources.dialog);
   const reducer$ = model(actions);
   const vdom$ = view(sources.state.stream);
-  const command$ = navigation(actions);
+  const command$ = navigation(state$, actions, confirmation$);
 
   return {
     screen: vdom$,

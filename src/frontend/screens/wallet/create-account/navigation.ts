@@ -3,35 +3,50 @@
 // SPDX-License-Identifier: MPL-2.0
 
 import xs, {Stream} from 'xstream';
+import sample from 'xstream-sample';
 import {Command} from 'cycle-native-navigation';
 import {Screens} from '../../enums';
 import {navOptions as centralNavOpts} from '../../content';
+import {State} from './model';
 
 export type Actions = {
   confirm$: Stream<any>;
 };
 
-export default function navigation(actions: Actions): Stream<Command> {
-  const goToContent$ = xs.merge(actions.confirm$).mapTo({
-    type: 'setStackRoot',
-    layout: {
-      sideMenu: {
-        center: {
-          stack: {
-            id: 'mainstack',
-            children: [
-              {
-                component: {
-                  name: Screens.Content,
-                  options: centralNavOpts,
+export default function navigation(
+  state$: Stream<State>,
+  actions: Actions,
+  confirmation$: Stream<boolean>,
+) {
+  return xs.merge(
+    confirmation$
+      .filter((x) => x === true)
+      .compose(sample(state$))
+      .map(
+        (state) =>
+          ({
+            type: 'setStackRoot',
+            layout: {
+              sideMenu: {
+                left: {
+                  component: {name: Screens.Drawer},
+                },
+                center: {
+                  stack: {
+                    id: 'mainstack',
+                    children: [
+                      {
+                        component: {
+                          name: Screens.Content,
+                          options: centralNavOpts,
+                        },
+                      },
+                    ],
+                  },
                 },
               },
-            ],
-          },
-        },
-      },
-    },
-  } as Command);
-
-  return xs.merge(goToContent$);
+            },
+          } as Command),
+      ),
+  );
 }
