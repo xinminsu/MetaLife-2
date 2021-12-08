@@ -57,7 +57,7 @@ export default function dialog(
       const passed = response === 'OK';
       return dialogSource
         .alert(
-          passed ? 'inputs is ok' : 'inputs not ok',
+          passed ? 'inputs is ok' : 'inputs not correct',
           renderContent(response),
           {
             ...Palette.dialogColors,
