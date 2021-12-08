@@ -10,6 +10,8 @@ export interface State {
   password?: string;
   confirmPassword?: string;
   pwdPrompt?: string;
+  passwordSecurity?: boolean;
+  confirmPasswordSecurity?: boolean;
 }
 
 export interface Actions {
@@ -18,12 +20,20 @@ export interface Actions {
   updateConfirmPassword$: Stream<string>;
   updatePwdPrompt$: Stream<string>;
   clearAccountName$: Stream<void>;
+  updatePasswordSecurity$: Stream<void>;
+  updateConfirmPasswordSecurity$: Stream<void>;
 }
 
 export default function model(actions: Actions): Stream<Reducer<State>> {
   const initReducer$ = xs.of(function initReducer(prev?: State): State {
     if (prev) return prev;
-    return {accountName: '', password: ''};
+    return {
+      accountName: '',
+      password: '',
+      confirmPassword: '',
+      passwordSecurity: true,
+      confirmPasswordSecurity: true,
+    };
   });
 
   const updateAccountNameReducer$ = actions.updateAccountName$.map(
@@ -76,6 +86,27 @@ export default function model(actions: Actions): Stream<Reducer<State>> {
       },
   );
 
+  const updatePasswordSecurityReducer$ = actions.updatePasswordSecurity$.map(
+    (text) =>
+      function updateWordsReducer(prev: State): State {
+        return {
+          ...prev,
+          passwordSecurity: !prev.passwordSecurity,
+        };
+      },
+  );
+
+  const updateConfirmPasswordSecurityReducer$ =
+    actions.updateConfirmPasswordSecurity$.map(
+      (text) =>
+        function updateWordsReducer(prev: State): State {
+          return {
+            ...prev,
+            confirmPasswordSecurity: !prev.confirmPasswordSecurity,
+          };
+        },
+    );
+
   return xs.merge(
     initReducer$,
     updateAccountNameReducer$,
@@ -83,5 +114,7 @@ export default function model(actions: Actions): Stream<Reducer<State>> {
     updateConfirmPasswordReducer$,
     updatePwdPromptReducer$,
     clearAccountNameReducer$,
+    updatePasswordSecurityReducer$,
+    updateConfirmPasswordSecurityReducer$,
   );
 }

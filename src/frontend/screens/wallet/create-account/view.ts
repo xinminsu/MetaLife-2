@@ -17,7 +17,9 @@ import {
 import {State} from './model';
 
 const iconDic = {
-  iconClear: require('../../../../../images/icons/text_cancel.png'),
+  iconClear: require('../../../../../images/icons/Login_icon_delete.png'),
+  iconClose: require('../../../../../images/icons/Login_icon_biyanjing.png'),
+  iconOpen: require('../../../../../images/icons/Login_icon_zhengyan.png'),
 };
 
 import {
@@ -87,18 +89,38 @@ export default function view(state$: Stream<State>) {
                 ]),
               ],
             ),
-            h(TextInput, {
-              sel: 'set-password',
-              style: [stylesBasics.input, stylesDefault.text],
-              placeholder: 'Set password',
-              placeholderTextColor: colorsSchema.textHolder,
-            }),
-            h(TextInput, {
-              sel: 'confirm-password',
-              style: [stylesBasics.input, stylesDefault.text],
-              placeholder: 'Confirm password',
-              placeholderTextColor: colorsSchema.textHolder,
-            }),
+            h(
+              View,
+              {style: [stylesBasics.row, stylesBasics.alignItemsCenter]},
+              [
+                h(TextInput, {
+                  sel: 'set-password',
+                  style: [stylesBasics.input, stylesDefault.text],
+                  placeholder: 'Set password',
+                  placeholderTextColor: colorsSchema.textHolder,
+                  secureTextEntry: state.passwordSecurity,
+                }),
+                h(Pressable, {sel: 'pass-word-eye'}, [
+                  h(Image, {style: styles.clear, source: iconDic.iconClose}),
+                ]),
+              ],
+            ),
+            h(
+              View,
+              {style: [stylesBasics.row, stylesBasics.alignItemsCenter]},
+              [
+                h(TextInput, {
+                  sel: 'confirm-password',
+                  style: [stylesBasics.input, stylesDefault.text],
+                  placeholder: 'Confirm password',
+                  placeholderTextColor: colorsSchema.textHolder,
+                  secureTextEntry: state.confirmPasswordSecurity,
+                }),
+                h(Pressable, {sel: 'confirm-password-eye'}, [
+                  h(Image, {style: styles.clear, source: iconDic.iconClose}),
+                ]),
+              ],
+            ),
             h(TextInput, {
               sel: 'password-prompt',
               style: [stylesBasics.input, stylesDefault.text],

@@ -31,6 +31,14 @@ export default function intent(
       .select('account-name-clear')
       .events('press'),
 
+    updatePasswordSecurity$: screenSource
+      .select('pass-word-eye')
+      .events('press'),
+
+    updateConfirmPasswordSecurity$: screenSource
+      .select('confirm-password-eye')
+      .events('press'),
+
     confirm$: screenSource.select('round-button').events('press'),
   };
 }
