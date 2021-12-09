@@ -10,8 +10,10 @@ export default function intent(
   navSource: NavSource,
 ) {
   return {
-    newMnemonic$: screenSource.select('mnemonic-create').events('press'),
+    generateMnemonics$: screenSource
+      .select('generate-mnemonics')
+      .events('press'),
 
-    checkMnemonic$: screenSource.select('mnemonic-process').events('press'),
+    process$: screenSource.select('process-button').events('press'),
   };
 }

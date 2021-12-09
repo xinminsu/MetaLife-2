@@ -8,11 +8,11 @@ import {Screens} from '../../enums';
 import {navOptions as centralNavOpts} from '../../central';
 
 export type Actions = {
-  checkMnemonic$: Stream<any>;
+  process$: Stream<any>;
 };
 
 export default function navigation(actions: Actions): Stream<Command> {
-  const goToCentral$ = xs.merge(actions.checkMnemonic$).mapTo({
+  const goToCentral$ = xs.merge(actions.process$).mapTo({
     type: 'setStackRoot',
     layout: {
       sideMenu: {

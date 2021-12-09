@@ -9,6 +9,7 @@ const isDarkTheme = Appearance.getColorScheme() === 'dark';
 
 const white = '#ffffff';
 const black = '#000000';
+const darkGray = '#1E1E1E';
 
 const comet0 = '#f3f4f6';
 const comet1 = '#ecedf0';
@@ -290,6 +291,7 @@ export const Palette = {
   colors: {
     white,
     black,
+    darkGray,
 
     comet0,
     comet1,

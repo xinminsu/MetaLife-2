@@ -28,16 +28,13 @@ export default function navigation(
             type: 'setStackRoot',
             layout: {
               sideMenu: {
-                left: {
-                  component: {name: Screens.Drawer},
-                },
                 center: {
                   stack: {
                     id: 'mainstack',
                     children: [
                       {
                         component: {
-                          name: Screens.Content,
+                          name: Screens.NewMnemonic,
                           options: centralNavOpts,
                         },
                       },

@@ -62,4 +62,7 @@ export const Dimensions = {
       (100 * desktopMiddleWidthFlex) / desktopWidthFlexTotal,
     )}vw`,
   },
+
+  defaultPadding: 8,
+  defaultMargin: 8,
 };

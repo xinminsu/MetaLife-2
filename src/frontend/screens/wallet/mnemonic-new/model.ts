@@ -11,7 +11,7 @@ export interface State {
 }
 
 export interface Actions {
-  newMnemonic$: Stream<string>;
+  generateMnemonics$: Stream<string>;
 }
 
 /*function generateMnemonic(){
@@ -33,19 +33,13 @@ export default function model(actions: Actions): Stream<Reducer<State>> {
     return {mnemonic: ''};
   });
 
-  const updatePostMnemonicReducer$ = actions.newMnemonic$.map(
+  const updatePostMnemonicReducer$ = actions.generateMnemonics$.map(
     (text) =>
-      function updatePostTextReducer(prev?: State): State {
+      function updateWordsReducer(prev: State): State {
         return {
-          mnemonic:
-            'earth rescue illegal accident swing unit weapon adapt body kitchen family clarify',
+          ...prev,
+          mnemonic: text,
         };
-        /*const words = await runAsync(bip39.generateMnemonic)(128);
-          return {mnemonic: words}*/
-        /*let walletSource = new WalletSource();
-          walletSource.generateMnemonic().map(text => {
-              return {mnemonic: text};}
-          );*/
       },
   );
 

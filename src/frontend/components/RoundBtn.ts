@@ -33,6 +33,8 @@ export const styles = StyleSheet.create({
 export type Props = {
   title: string;
   disabled: boolean;
+  seltag?: string;
+  onPress?: () => void;
   style?: StyleProp<ViewStyle>;
 };
 
@@ -46,40 +48,44 @@ export default class RoundBtn extends PureComponent<Props, State> {
     this.state = {active: false};
   }
   public render() {
-    const {title, disabled, style} = this.props;
+    const {title, disabled, seltag, onPress, style} = this.props;
 
-    return h(TouchableNativeFeedback, {sel: 'round-button', style}, [
-      h(
-        View,
-        {
-          style: [
-            styles.border,
-            disabled
-              ? stylesBasics.btnDisabledBG
-              : this.state.active
-              ? stylesBasics.btnActiveBG
-              : stylesBasics.btnInactiveBG,
+    return h(
+      TouchableNativeFeedback,
+      {sel: seltag, style, onPress: () => (disabled ? null : onPress)},
+      [
+        h(
+          View,
+          {
+            style: [
+              styles.border,
+              disabled
+                ? stylesBasics.btnDisabledBG
+                : this.state.active
+                ? stylesBasics.btnActiveBG
+                : stylesBasics.btnInactiveBG,
+            ],
+            onTouchStart: () => this.setState(() => ({active: true})),
+            onTouchEnd: () => this.setState(() => ({active: false})),
+          },
+          [
+            h(
+              Text,
+              {
+                style: [
+                  styles.title,
+                  disabled
+                    ? stylesBasics.btnDisabledFG
+                    : this.state.active
+                    ? stylesBasics.btnActiveFG
+                    : stylesBasics.btnInactiveFG,
+                ],
+              },
+              title,
+            ),
           ],
-          onTouchStart: () => this.setState(() => ({active: true})),
-          onTouchEnd: () => this.setState(() => ({active: false})),
-        },
-        [
-          h(
-            Text,
-            {
-              style: [
-                styles.title,
-                disabled
-                  ? stylesBasics.btnDisabledFG
-                  : this.state.active
-                  ? stylesBasics.btnActiveFG
-                  : stylesBasics.btnInactiveFG,
-              ],
-            },
-            title,
-          ),
-        ],
-      ),
-    ]);
+        ),
+      ],
+    );
   }
 }
