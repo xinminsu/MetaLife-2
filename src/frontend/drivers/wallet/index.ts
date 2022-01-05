@@ -1,8 +1,10 @@
-export type CheckResponse =
-  | 'NOT_SAME'
-  | 'ACCOUNT_NAME_EMPTY'
-  | 'PASSWORD_EMPTY'
-  | 'CONFIRM_PASSWORD_EMPTY'
-  | 'OK';
+import Impl from './impl';
+import ImplType from './impl.android';
 
-export class WalletSource {}
+export type WalletSource = ImplType;
+
+export function makeWalletDriver() {
+  return function walletDriver(): Impl {
+    return new Impl();
+  };
+}

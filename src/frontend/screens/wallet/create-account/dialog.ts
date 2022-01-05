@@ -7,7 +7,7 @@ import sample from 'xstream-sample';
 import {DialogSource} from '../../../drivers/dialogs';
 import {Palette} from '../../../global-styles/palette';
 import {State} from './model';
-import {CheckResponse} from '../../../drivers/wallet';
+import {CheckResponse} from '../../../drivers/wallet/types';
 
 type Actions = {
   confirm$: Stream<any>;

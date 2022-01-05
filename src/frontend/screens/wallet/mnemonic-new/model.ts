@@ -4,7 +4,8 @@
 
 import xs, {Stream} from 'xstream';
 import {Reducer} from '@cycle/state';
-//  import {WalletSource} from '../../drivers/wallet';
+
+// const bip39 = require('bip39')
 
 export interface State {
   mnemonic?: string;
@@ -14,34 +15,21 @@ export interface Actions {
   generateMnemonics$: Stream<string>;
 }
 
-/*function generateMnemonic(){
-  var promise = new Promise(async function (resolve, reject) {
-    try {
-      let words;
-      words = await bip39.generateMnemonic(128) // default to 128
-      resolve(words)
-    } catch (e) {
-      reject('generate mnemonic false')
-    }
-  });
-  return promise;
-}*/
-
 export default function model(actions: Actions): Stream<Reducer<State>> {
   const initReducer$ = xs.of(function initReducer(prev?: State): State {
     if (prev) return prev;
     return {mnemonic: ''};
   });
 
-  const updatePostMnemonicReducer$ = actions.generateMnemonics$.map(
+  const generateMnemonicsReducer$ = actions.generateMnemonics$.map(
     (text) =>
       function updateWordsReducer(prev: State): State {
         return {
           ...prev,
-          mnemonic: text,
+          mnemonic: '',
         };
       },
   );
 
-  return xs.merge(initReducer$, updatePostMnemonicReducer$);
+  return xs.merge(initReducer$, generateMnemonicsReducer$);
 }
